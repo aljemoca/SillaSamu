@@ -1,0 +1,108 @@
+#include <Arduino.h>
+#include <Hall.hpp>
+#include "esp_task_wdt.h"
+
+// Mirar los puertos para cada uno de los sensores Hall
+#define HallA_0 10
+#define HallB_0 11
+#define HallC_0 12    
+#define Timer_0  0
+
+
+#define HallA_1 13
+#define HallB_1 14
+#define HallC_1 15    
+#define Timer_1 1
+
+Hall hall_motor[2];
+
+// https://deepbluembedded.com/stm32-timers-tutorial-hardware-timers-explained/?utm_content=cmp-true
+
+/* Below are the interrupts assigned to change at Hall inputs. Interrupt0 is called
+as any change on inputs associated to Hall sensors of motor driver 0. The same applies
+for the motor driver 1.  */
+void Interrupt0()
+{
+  /*En la STM32 se tiene configurado un filtro digital, pero para poder implementarlo aquí, habría que 
+  leer las entradas. No parece evidente  */
+    hall_motor[0].updateCCR1(); 
+    timerAlarmWrite(hall_motor[0]._timer, 65536,true); 
+    timerAlarmEnable(hall_motor[0]._timer);
+    timerWrite(hall_motor[0]._timer,0);  //In case the timerAlarmWrite does not reset the counter register
+}
+void Interrupt1()
+{
+    hall_motor[1].updateCCR1(); 
+    timerAlarmWrite(hall_motor[1]._timer, 65536,true); 
+    timerAlarmEnable(hall_motor[1]._timer);
+    timerWrite(hall_motor[1]._timer,0);  //In case the timerAlarmWrite does not reset the counter register
+}
+void IRAM_ATTR timerInterrupcion0() {
+  hall_motor[0].writeCCR1(65536); 
+}
+
+void IRAM_ATTR timerInterrupcion1() {
+  hall_motor[1].writeCCR1(65536); 
+
+}
+
+
+void setup() {
+  // put your setup code here, to run once:
+  /*unsigned char hall_0[3]={HallA_0,HallB_0,HallC_0};
+  unsigned char i;
+  hall_motor[0].setPin(hall_0);  //Set the pins associated to left motor driver
+  for(i=0;i<3;i++)
+    attachInterrupt(hall_0[i],Interrupt0,CHANGE);   //Assign the interrupt to pin change
+  hall_motor[0].setHwTimer(Timer_0);   //Timer attached to left motor driver
+  timerAttachInterrupt(hall_motor[0]._timer, &timerInterrupcion0,true ); // Adjuntar la función de manejo de interrupción
+            //Posiblemente hay que cambiar true por false. True admite disparo de la interrupción por flanco, mientras
+            //que false por nivel
+  timerStart(hall_motor[0]._timer);
+
+  unsigned char hall_1[3]={HallA_1,HallB_1,HallC_1};
+  hall_motor[1].setPin(hall_1);
+  for(i=0;i<3;i++)
+    attachInterrupt(hall_1[i],Interrupt1,CHANGE);
+  hall_motor[1].setHwTimer(Timer_1);  //Timer attached to right motor driver
+  timerAttachInterrupt(hall_motor[1]._timer, &timerInterrupcion1,true ); // Adjuntar la función de manejo de interrupción
+  timerStart(hall_motor[1]._timer);
+  */
+
+
+  Serial.begin(115200);   //Set communication to Raspberry trough the Serial Port.
+  //pinMode(HallA,GPIO_MODE_INPUT);
+  //pinMode(HallB,GPIO_MODE_INPUT);
+  //pinMode(HallC,GPIO_MODE_INPUT);
+
+  //attachInterrupt(HallA, HallInterrupt,CHANGE);
+  //attachInterrupt(HallB, HallInterrupt,CHANGE);
+  //attachInterrupt(HallC, HallInterrupt,CHANGE);
+
+ // timer = timerBegin(0, 800, true); // Timer 0, divisor de reloj 800
+ // timerAlarmWrite(timer, 65536, true); // Interrupción cada 1 segundo
+ // timerAlarmEnable(timer); // Habilitar la alarma
+
+ //esp_task_wdt_init(10, true); 
+ //esp_task_wdt_add(NULL);
+}
+
+void loop() {
+
+  uint8_t i;
+  //for(i=0;i<2;i++)
+   // hall_motor[i].run();    //Execute hall motor objects 
+
+  /*Falta añadir el protocolo de comunicaciones con la RASPBERRY PI. Se sigue el modelo 
+  que se usó en AgroSmart por compatibilidad */  
+
+  Serial.println("Hola");   //To test communications
+  digitalWrite(10,0);  //Delete this line
+  // put your main code here, to run repeatedly:
+
+//  esp_task_wdt_reset();
+}
+
+
+
+
