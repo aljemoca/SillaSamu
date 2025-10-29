@@ -1,3 +1,0 @@
-[console_scripts]
-listener = prueba.listener:main
-talker = prueba.prueba:main
