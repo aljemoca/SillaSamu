@@ -1,0 +1,8 @@
+[console_scripts]
+arduinoNode = samuchair.arduinoNode:main
+esp32Node = samuchair.esp32Node:main
+movilNode = samuchair.movilNode:main
+secondarytaskNode = samuchair.secondarytaskNode:main
+tactilesNode = samuchair.tactilesNode:main
+testArduinoNode = samuchair.testArduinoNode:main
+webcamNode = samuchair.webcamNode:main

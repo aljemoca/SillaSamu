@@ -1,0 +1,304 @@
+[1.308s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.309s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7e918552c8b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e91859eff40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e91859eff40>>)
+[1.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.393s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/labserver/ros2_ws'
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.420s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.420s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.420s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.420s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.420s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.420s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extension 'ignore'
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extension 'ignore_ament_install'
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extensions ['colcon_pkg']
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extension 'colcon_pkg'
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extensions ['colcon_meta']
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extension 'colcon_meta'
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extensions ['ros']
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extension 'ros'
+[1.425s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_controller' with type 'ros.ament_python' and name 'my_robot_controller'
+[1.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/prueba) by extensions ['ignore', 'ignore_ament_install']
+[1.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/prueba) by extension 'ignore'
+[1.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/prueba) by extension 'ignore_ament_install'
+[1.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/prueba) by extensions ['colcon_pkg']
+[1.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/prueba) by extension 'colcon_pkg'
+[1.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/prueba) by extensions ['colcon_meta']
+[1.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/prueba) by extension 'colcon_meta'
+[1.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/prueba) by extensions ['ros']
+[1.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/prueba) by extension 'ros'
+[1.426s] DEBUG:colcon.colcon_core.package_identification:Package 'src/prueba' with type 'ros.ament_python' and name 'prueba'
+[1.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/samuchair) by extensions ['ignore', 'ignore_ament_install']
+[1.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/samuchair) by extension 'ignore'
+[1.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/samuchair) by extension 'ignore_ament_install'
+[1.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/samuchair) by extensions ['colcon_pkg']
+[1.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/samuchair) by extension 'colcon_pkg'
+[1.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/samuchair) by extensions ['colcon_meta']
+[1.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/samuchair) by extension 'colcon_meta'
+[1.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/samuchair) by extensions ['ros']
+[1.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/samuchair) by extension 'ros'
+[1.428s] DEBUG:colcon.colcon_core.package_identification:Package 'src/samuchair' with type 'ros.ament_python' and name 'samuchair'
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/samuchair_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/samuchair_interfaces) by extension 'ignore'
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/samuchair_interfaces) by extension 'ignore_ament_install'
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/samuchair_interfaces) by extensions ['colcon_pkg']
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/samuchair_interfaces) by extension 'colcon_pkg'
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/samuchair_interfaces) by extensions ['colcon_meta']
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/samuchair_interfaces) by extension 'colcon_meta'
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/samuchair_interfaces) by extensions ['ros']
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/samuchair_interfaces) by extension 'ros'
+[1.429s] DEBUG:colcon.colcon_core.package_identification:Package 'src/samuchair_interfaces' with type 'ros.catkin' and name 'samuchair_interfaces'
+[1.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.583s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.584s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.625s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/labserver/ros2_ws/install
+[1.656s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/labserver/ros2_ws/src/install
+[1.685s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[1.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.786s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_args' from command line to 'None'
+[1.786s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_target' from command line to 'None'
+[1.786s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.786s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.786s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.786s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.786s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.786s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.786s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.786s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labserver/ros2_ws/build/my_robot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labserver/ros2_ws/install/my_robot_controller', 'merge_install': False, 'path': '/home/labserver/ros2_ws/src/my_robot_controller', 'symlink_install': False, 'test_result_base': None}
+[1.826s] Level 5:colcon.colcon_core.verb:set package 'prueba' build argument 'cmake_args' from command line to 'None'
+[1.826s] Level 5:colcon.colcon_core.verb:set package 'prueba' build argument 'cmake_target' from command line to 'None'
+[1.826s] Level 5:colcon.colcon_core.verb:set package 'prueba' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.826s] Level 5:colcon.colcon_core.verb:set package 'prueba' build argument 'cmake_clean_cache' from command line to 'False'
+[1.826s] Level 5:colcon.colcon_core.verb:set package 'prueba' build argument 'cmake_clean_first' from command line to 'False'
+[1.826s] Level 5:colcon.colcon_core.verb:set package 'prueba' build argument 'cmake_force_configure' from command line to 'False'
+[1.826s] Level 5:colcon.colcon_core.verb:set package 'prueba' build argument 'ament_cmake_args' from command line to 'None'
+[1.826s] Level 5:colcon.colcon_core.verb:set package 'prueba' build argument 'catkin_cmake_args' from command line to 'None'
+[1.826s] Level 5:colcon.colcon_core.verb:set package 'prueba' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.826s] DEBUG:colcon.colcon_core.verb:Building package 'prueba' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labserver/ros2_ws/build/prueba', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labserver/ros2_ws/install/prueba', 'merge_install': False, 'path': '/home/labserver/ros2_ws/src/prueba', 'symlink_install': False, 'test_result_base': None}
+[1.856s] Level 5:colcon.colcon_core.verb:set package 'samuchair' build argument 'cmake_args' from command line to 'None'
+[1.856s] Level 5:colcon.colcon_core.verb:set package 'samuchair' build argument 'cmake_target' from command line to 'None'
+[1.856s] Level 5:colcon.colcon_core.verb:set package 'samuchair' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.856s] Level 5:colcon.colcon_core.verb:set package 'samuchair' build argument 'cmake_clean_cache' from command line to 'False'
+[1.856s] Level 5:colcon.colcon_core.verb:set package 'samuchair' build argument 'cmake_clean_first' from command line to 'False'
+[1.856s] Level 5:colcon.colcon_core.verb:set package 'samuchair' build argument 'cmake_force_configure' from command line to 'False'
+[1.856s] Level 5:colcon.colcon_core.verb:set package 'samuchair' build argument 'ament_cmake_args' from command line to 'None'
+[1.856s] Level 5:colcon.colcon_core.verb:set package 'samuchair' build argument 'catkin_cmake_args' from command line to 'None'
+[1.856s] Level 5:colcon.colcon_core.verb:set package 'samuchair' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.856s] DEBUG:colcon.colcon_core.verb:Building package 'samuchair' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labserver/ros2_ws/build/samuchair', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labserver/ros2_ws/install/samuchair', 'merge_install': False, 'path': '/home/labserver/ros2_ws/src/samuchair', 'symlink_install': False, 'test_result_base': None}
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'samuchair_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'samuchair_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'samuchair_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'samuchair_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'samuchair_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'samuchair_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'samuchair_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'samuchair_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'samuchair_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.876s] DEBUG:colcon.colcon_core.verb:Building package 'samuchair_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labserver/ros2_ws/build/samuchair_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labserver/ros2_ws/install/samuchair_interfaces', 'merge_install': False, 'path': '/home/labserver/ros2_ws/src/samuchair_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.899s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.928s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.929s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/labserver/ros2_ws/src/my_robot_controller' with build type 'ament_python'
+[1.929s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_controller', 'ament_prefix_path')
+[1.952s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/labserver/ros2_ws/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.ps1'
+[1.955s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/labserver/ros2_ws/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.dsv'
+[1.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/labserver/ros2_ws/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.sh'
+[1.975s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.975s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.071s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/labserver/ros2_ws/src/prueba' with build type 'ament_python'
+[2.071s] Level 1:colcon.colcon_core.shell:create_environment_hook('prueba', 'ament_prefix_path')
+[2.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/labserver/ros2_ws/install/prueba/share/prueba/hook/ament_prefix_path.ps1'
+[2.100s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/labserver/ros2_ws/install/prueba/share/prueba/hook/ament_prefix_path.dsv'
+[2.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/labserver/ros2_ws/install/prueba/share/prueba/hook/ament_prefix_path.sh'
+[2.123s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.123s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.613s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/labserver/ros2_ws/src/my_robot_controller'
+[2.631s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.631s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.930s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/labserver/ros2_ws/src/prueba'
+[2.950s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.950s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.240s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/labserver/ros2_ws/src/my_robot_controller': PYTHONPATH=/home/labserver/ros2_ws/build/my_robot_controller/prefix_override:/home/labserver/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/labserver/ros2_ws/build/my_robot_controller/build install --record /home/labserver/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed
+[4.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/labserver/ros2_ws/src/prueba': PYTHONPATH=/home/labserver/ros2_ws/build/prueba/prefix_override:/home/labserver/ros2_ws/install/prueba/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/prueba build --build-base /home/labserver/ros2_ws/build/prueba/build install --record /home/labserver/ros2_ws/build/prueba/install.log --single-version-externally-managed
+[4.998s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/labserver/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/labserver/ros2_ws/build/my_robot_controller/prefix_override:/home/labserver/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/labserver/ros2_ws/build/my_robot_controller/build install --record /home/labserver/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed
+[5.024s] Level 1:colcon.colcon_core.environment:checking '/home/labserver/ros2_ws/install/my_robot_controller' for CMake module files
+[5.024s] Level 1:colcon.colcon_core.environment:checking '/home/labserver/ros2_ws/install/my_robot_controller' for CMake config files
+[5.025s] Level 1:colcon.colcon_core.environment:checking '/home/labserver/ros2_ws/install/my_robot_controller/lib'
+[5.025s] Level 1:colcon.colcon_core.environment:checking '/home/labserver/ros2_ws/install/my_robot_controller/bin'
+[5.025s] Level 1:colcon.colcon_core.environment:checking '/home/labserver/ros2_ws/install/my_robot_controller/lib/pkgconfig/my_robot_controller.pc'
+[5.025s] Level 1:colcon.colcon_core.environment:checking '/home/labserver/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages'
+[5.025s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_controller', 'pythonpath')
+[5.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/labserver/ros2_ws/install/my_robot_controller/share/my_robot_controller/hook/pythonpath.ps1'
+[5.045s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/labserver/ros2_ws/install/my_robot_controller/share/my_robot_controller/hook/pythonpath.dsv'
+[5.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/labserver/ros2_ws/install/my_robot_controller/share/my_robot_controller/hook/pythonpath.sh'
+[5.046s] Level 1:colcon.colcon_core.environment:checking '/home/labserver/ros2_ws/install/my_robot_controller/bin'
+[5.046s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_controller)
+[5.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/labserver/ros2_ws/install/my_robot_controller/share/my_robot_controller/package.ps1'
+[5.064s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/labserver/ros2_ws/install/my_robot_controller/share/my_robot_controller/package.dsv'
+[5.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/labserver/ros2_ws/install/my_robot_controller/share/my_robot_controller/package.sh'
+[5.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/labserver/ros2_ws/install/my_robot_controller/share/my_robot_controller/package.bash'
+[5.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/labserver/ros2_ws/install/my_robot_controller/share/my_robot_controller/package.zsh'
+[5.068s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/labserver/ros2_ws/install/my_robot_controller/share/colcon-core/packages/my_robot_controller)
+[5.068s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/labserver/ros2_ws/src/samuchair' with build type 'ament_python'
+[5.068s] Level 1:colcon.colcon_core.shell:create_environment_hook('samuchair', 'ament_prefix_path')
+[5.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/labserver/ros2_ws/install/samuchair/share/samuchair/hook/ament_prefix_path.ps1'
+[5.090s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/labserver/ros2_ws/install/samuchair/share/samuchair/hook/ament_prefix_path.dsv'
+[5.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/labserver/ros2_ws/install/samuchair/share/samuchair/hook/ament_prefix_path.sh'
+[5.111s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.111s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.188s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/labserver/ros2_ws/src/prueba' returned '0': PYTHONPATH=/home/labserver/ros2_ws/build/prueba/prefix_override:/home/labserver/ros2_ws/install/prueba/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/prueba build --build-base /home/labserver/ros2_ws/build/prueba/build install --record /home/labserver/ros2_ws/build/prueba/install.log --single-version-externally-managed
+[5.210s] Level 1:colcon.colcon_core.environment:checking '/home/labserver/ros2_ws/install/prueba' for CMake module files
+[5.211s] Level 1:colcon.colcon_core.environment:checking '/home/labserver/ros2_ws/install/prueba' for CMake config files
+[5.211s] Level 1:colcon.colcon_core.environment:checking '/home/labserver/ros2_ws/install/prueba/lib'
+[5.211s] Level 1:colcon.colcon_core.environment:checking '/home/labserver/ros2_ws/install/prueba/bin'
+[5.211s] Level 1:colcon.colcon_core.environment:checking '/home/labserver/ros2_ws/install/prueba/lib/pkgconfig/prueba.pc'
+[5.212s] Level 1:colcon.colcon_core.environment:checking '/home/labserver/ros2_ws/install/prueba/lib/python3.10/site-packages'
+[5.212s] Level 1:colcon.colcon_core.shell:create_environment_hook('prueba', 'pythonpath')
+[5.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/labserver/ros2_ws/install/prueba/share/prueba/hook/pythonpath.ps1'
+[5.230s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/labserver/ros2_ws/install/prueba/share/prueba/hook/pythonpath.dsv'
+[5.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/labserver/ros2_ws/install/prueba/share/prueba/hook/pythonpath.sh'
+[5.231s] Level 1:colcon.colcon_core.environment:checking '/home/labserver/ros2_ws/install/prueba/bin'
+[5.232s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(prueba)
+[5.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/labserver/ros2_ws/install/prueba/share/prueba/package.ps1'
+[5.250s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/labserver/ros2_ws/install/prueba/share/prueba/package.dsv'
+[5.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/labserver/ros2_ws/install/prueba/share/prueba/package.sh'
+[5.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/labserver/ros2_ws/install/prueba/share/prueba/package.bash'
+[5.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/labserver/ros2_ws/install/prueba/share/prueba/package.zsh'
+[5.253s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/labserver/ros2_ws/install/prueba/share/colcon-core/packages/prueba)
+[5.255s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/labserver/ros2_ws/src/samuchair_interfaces' with build type 'catkin'
+[5.255s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/labserver/ros2_ws/src/samuchair_interfaces'
+[5.274s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.274s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.687s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/labserver/ros2_ws/src/samuchair'
+[5.714s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.714s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.807s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/labserver/ros2_ws/build/samuchair_interfaces': /usr/bin/cmake --build /home/labserver/ros2_ws/build/samuchair_interfaces -- -j2 -l2
+[6.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/labserver/ros2_ws/build/samuchair_interfaces' returned '0': /usr/bin/cmake --build /home/labserver/ros2_ws/build/samuchair_interfaces -- -j2 -l2
+[6.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/labserver/ros2_ws/src/samuchair': PYTHONPATH=/home/labserver/ros2_ws/build/samuchair/prefix_override:/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/samuchair build --build-base /home/labserver/ros2_ws/build/samuchair/build install --record /home/labserver/ros2_ws/build/samuchair/install.log --single-version-externally-managed
+[7.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/labserver/ros2_ws/build/samuchair_interfaces': /usr/bin/cmake --install /home/labserver/ros2_ws/build/samuchair_interfaces
+[7.114s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/labserver/ros2_ws/build/samuchair_interfaces' returned '0': /usr/bin/cmake --install /home/labserver/ros2_ws/build/samuchair_interfaces
+[7.226s] Level 1:colcon.colcon_core.shell:create_environment_hook('samuchair_interfaces', 'ros_package_path')
+[7.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/labserver/ros2_ws/install/samuchair_interfaces/share/samuchair_interfaces/hook/ros_package_path.ps1'
+[7.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/labserver/ros2_ws/install/samuchair_interfaces/share/samuchair_interfaces/hook/ros_package_path.dsv'
+[7.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/labserver/ros2_ws/install/samuchair_interfaces/share/samuchair_interfaces/hook/ros_package_path.sh'
+[7.258s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/labserver/ros2_ws/install/samuchair_interfaces/local/lib/python3.10/dist-packages'
+[7.258s] Level 1:colcon.colcon_core.shell:create_environment_hook('samuchair_interfaces', 'catkin_pythonpath')
+[7.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/labserver/ros2_ws/install/samuchair_interfaces/share/samuchair_interfaces/hook/catkin_pythonpath.ps1'
+[7.278s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/labserver/ros2_ws/install/samuchair_interfaces/share/samuchair_interfaces/hook/catkin_pythonpath.dsv'
+[7.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/labserver/ros2_ws/install/samuchair_interfaces/share/samuchair_interfaces/hook/catkin_pythonpath.sh'
+[7.280s] Level 1:colcon.colcon_core.shell:create_environment_hook('samuchair_interfaces', 'pkg_config_path')
+[7.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/labserver/ros2_ws/install/samuchair_interfaces/share/samuchair_interfaces/hook/pkg_config_path.ps1'
+[7.309s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/labserver/ros2_ws/install/samuchair_interfaces/share/samuchair_interfaces/hook/pkg_config_path.dsv'
+[7.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/labserver/ros2_ws/install/samuchair_interfaces/share/samuchair_interfaces/hook/pkg_config_path.sh'
+[7.313s] Level 1:colcon.colcon_core.shell:create_environment_hook('samuchair_interfaces', 'pkg_config_path_multiarch')
+[7.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/labserver/ros2_ws/install/samuchair_interfaces/share/samuchair_interfaces/hook/pkg_config_path_multiarch.ps1'
+[7.334s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/labserver/ros2_ws/install/samuchair_interfaces/share/samuchair_interfaces/hook/pkg_config_path_multiarch.dsv'
+[7.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/labserver/ros2_ws/install/samuchair_interfaces/share/samuchair_interfaces/hook/pkg_config_path_multiarch.sh'
+[7.366s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(samuchair_interfaces)
+[7.386s] Level 1:colcon.colcon_core.environment:checking '/home/labserver/ros2_ws/install/samuchair_interfaces' for CMake module files
+[7.387s] Level 1:colcon.colcon_core.environment:checking '/home/labserver/ros2_ws/install/samuchair_interfaces' for CMake config files
+[7.388s] Level 1:colcon.colcon_core.shell:create_environment_hook('samuchair_interfaces', 'cmake_prefix_path')
+[7.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/labserver/ros2_ws/install/samuchair_interfaces/share/samuchair_interfaces/hook/cmake_prefix_path.ps1'
+[7.425s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/labserver/ros2_ws/install/samuchair_interfaces/share/samuchair_interfaces/hook/cmake_prefix_path.dsv'
+[7.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/labserver/ros2_ws/install/samuchair_interfaces/share/samuchair_interfaces/hook/cmake_prefix_path.sh'
+[7.427s] Level 1:colcon.colcon_core.environment:checking '/home/labserver/ros2_ws/install/samuchair_interfaces/lib'
+[7.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('samuchair_interfaces', 'ld_library_path_lib')
+[7.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/labserver/ros2_ws/install/samuchair_interfaces/share/samuchair_interfaces/hook/ld_library_path_lib.ps1'
+[7.463s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/labserver/ros2_ws/install/samuchair_interfaces/share/samuchair_interfaces/hook/ld_library_path_lib.dsv'
+[7.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/labserver/ros2_ws/install/samuchair_interfaces/share/samuchair_interfaces/hook/ld_library_path_lib.sh'
+[7.465s] Level 1:colcon.colcon_core.environment:checking '/home/labserver/ros2_ws/install/samuchair_interfaces/bin'
+[7.465s] Level 1:colcon.colcon_core.environment:checking '/home/labserver/ros2_ws/install/samuchair_interfaces/lib/pkgconfig/samuchair_interfaces.pc'
+[7.465s] Level 1:colcon.colcon_core.environment:checking '/home/labserver/ros2_ws/install/samuchair_interfaces/lib/python3.10/site-packages'
+[7.466s] Level 1:colcon.colcon_core.environment:checking '/home/labserver/ros2_ws/install/samuchair_interfaces/bin'
+[7.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/labserver/ros2_ws/install/samuchair_interfaces/share/samuchair_interfaces/package.ps1'
+[7.494s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/labserver/ros2_ws/install/samuchair_interfaces/share/samuchair_interfaces/package.dsv'
+[7.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/labserver/ros2_ws/install/samuchair_interfaces/share/samuchair_interfaces/package.sh'
+[7.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/labserver/ros2_ws/install/samuchair_interfaces/share/samuchair_interfaces/package.bash'
+[7.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/labserver/ros2_ws/install/samuchair_interfaces/share/samuchair_interfaces/package.zsh'
+[7.496s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/labserver/ros2_ws/install/samuchair_interfaces/share/colcon-core/packages/samuchair_interfaces)
+[7.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/labserver/ros2_ws/src/samuchair' returned '0': PYTHONPATH=/home/labserver/ros2_ws/build/samuchair/prefix_override:/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/samuchair build --build-base /home/labserver/ros2_ws/build/samuchair/build install --record /home/labserver/ros2_ws/build/samuchair/install.log --single-version-externally-managed
+[7.656s] Level 1:colcon.colcon_core.environment:checking '/home/labserver/ros2_ws/install/samuchair' for CMake module files
+[7.657s] Level 1:colcon.colcon_core.environment:checking '/home/labserver/ros2_ws/install/samuchair' for CMake config files
+[7.658s] Level 1:colcon.colcon_core.environment:checking '/home/labserver/ros2_ws/install/samuchair/lib'
+[7.658s] Level 1:colcon.colcon_core.environment:checking '/home/labserver/ros2_ws/install/samuchair/bin'
+[7.658s] Level 1:colcon.colcon_core.environment:checking '/home/labserver/ros2_ws/install/samuchair/lib/pkgconfig/samuchair.pc'
+[7.658s] Level 1:colcon.colcon_core.environment:checking '/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages'
+[7.658s] Level 1:colcon.colcon_core.shell:create_environment_hook('samuchair', 'pythonpath')
+[7.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/labserver/ros2_ws/install/samuchair/share/samuchair/hook/pythonpath.ps1'
+[7.682s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/labserver/ros2_ws/install/samuchair/share/samuchair/hook/pythonpath.dsv'
+[7.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/labserver/ros2_ws/install/samuchair/share/samuchair/hook/pythonpath.sh'
+[7.684s] Level 1:colcon.colcon_core.environment:checking '/home/labserver/ros2_ws/install/samuchair/bin'
+[7.684s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(samuchair)
+[7.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/labserver/ros2_ws/install/samuchair/share/samuchair/package.ps1'
+[7.705s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/labserver/ros2_ws/install/samuchair/share/samuchair/package.dsv'
+[7.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/labserver/ros2_ws/install/samuchair/share/samuchair/package.sh'
+[7.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/labserver/ros2_ws/install/samuchair/share/samuchair/package.bash'
+[7.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/labserver/ros2_ws/install/samuchair/share/samuchair/package.zsh'
+[7.708s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/labserver/ros2_ws/install/samuchair/share/colcon-core/packages/samuchair)
+[7.708s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.709s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.709s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.709s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.741s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.742s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.742s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.772s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.800s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/labserver/ros2_ws/install/local_setup.ps1'
+[7.802s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/labserver/ros2_ws/install/_local_setup_util_ps1.py'
+[7.804s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/labserver/ros2_ws/install/setup.ps1'
+[7.860s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/labserver/ros2_ws/install/local_setup.sh'
+[7.861s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/labserver/ros2_ws/install/_local_setup_util_sh.py'
+[7.862s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/labserver/ros2_ws/install/setup.sh'
+[7.888s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/labserver/ros2_ws/install/local_setup.bash'
+[7.889s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/labserver/ros2_ws/install/setup.bash'
+[7.914s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/labserver/ros2_ws/install/local_setup.zsh'
+[7.915s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/labserver/ros2_ws/install/setup.zsh'

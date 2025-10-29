@@ -1,0 +1,49 @@
+timestamp_s,stamp.sec,stamp.nanosec,level,name,msg,file,function,line
+1761131639.7631629,1761131639,186496491,20,movil_node,Dato publicado Fase Ejecucion: 4,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,166
+1761131639.821588,1761131639,744131504,20,rosbag2_recorder,Press SPACE for pausing/resuming,./src/rosbag2_transport/recorder.cpp,Recorder,104
+1761131639.8216379,1761131639,749081927,20,rosbag2_recorder,Listening for topics...,./src/rosbag2_transport/recorder.cpp,record,192
+1761131639.8216476,1761131639,750099241,20,rosbag2_recorder,Event publisher thread: Starting,./src/rosbag2_transport/recorder.cpp,event_publisher_thread_main,205
+1761131639.8216558,1761131639,751013918,20,rosbag2_recorder,Subscribed to topic '/rosout',./src/rosbag2_transport/recorder.cpp,subscribe_topic,358
+1761131639.821664,1761131639,752678801,20,rosbag2_recorder,Subscribed to topic '/name_movil',./src/rosbag2_transport/recorder.cpp,subscribe_topic,358
+1761131639.8216724,1761131639,753929755,20,rosbag2_recorder,Subscribed to topic '/tipo_exp',./src/rosbag2_transport/recorder.cpp,subscribe_topic,358
+1761131639.8216803,1761131639,754924219,20,rosbag2_recorder,Subscribed to topic '/events/write_split',./src/rosbag2_transport/recorder.cpp,subscribe_topic,358
+1761131639.8216994,1761131639,758998962,20,rosbag2_recorder,Subscribed to topic '/parameter_events',./src/rosbag2_transport/recorder.cpp,subscribe_topic,358
+1761131639.821708,1761131639,761937597,20,rosbag2_recorder,Subscribed to topic '/Ejecucion',./src/rosbag2_transport/recorder.cpp,subscribe_topic,358
+1761131639.8217173,1761131639,762174433,20,rosbag2_recorder,Recording...,./src/rosbag2_transport/recorder.cpp,record,200
+1761131640.687755,1761131640,686739234,20,movil_node,Dato publicado Fase Ejecucion: 4,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,166
+1761131642.6879928,1761131642,686982112,20,movil_node,Dato publicado Fase Ejecucion: 4,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,166
+1761131644.687681,1761131644,687286960,20,movil_node,Dato publicado Fase Ejecucion: 4,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,166
+1761131646.687192,1761131646,686191772,20,movil_node,Dato publicado Fase Ejecucion: 4,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,166
+1761131648.6869197,1761131648,686439915,20,movil_node,Dato publicado Fase Ejecucion: 4,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,166
+1761131650.6880722,1761131650,686704988,20,movil_node,Dato publicado Fase Ejecucion: 4,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,166
+1761131652.7511036,1761131652,749838972,20,movil_node,Dato publicado Fase Ejecucion: 4,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,166
+1761131654.6900296,1761131654,688382055,20,movil_node,Dato publicado Fase Ejecucion: 4,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,166
+1761131656.727405,1761131656,726540949,20,movil_node,Dato publicado Fase Ejecucion: 4,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,166
+1761131663.6869676,1761131663,686309501,20,movil_node,Dato publicado Fase Ejecucion: 3,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,166
+1761131673.6884644,1761131673,688107760,20,movil_node,Dato publicado Nombre_Sujeto: Alejandro,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,156
+1761131678.6874578,1761131678,687014291,20,movil_node,Dato publicado Tipo Experimento: Experimento 0,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,161
+1761131683.6870446,1761131683,686748588,20,movil_node,Dato publicado Tipo Experimento: Experimento 1,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,161
+1761131688.6864002,1761131688,686097937,20,movil_node,Dato publicado Fase Ejecucion: 2,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,166
+1761131689.1877215,1761131689,187127500,20,movil_node,Dato publicado Fase Ejecucion: 4,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,166
+1761131690.6878855,1761131690,687575276,20,movil_node,Dato publicado Fase Ejecucion: 4,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,166
+1761131692.688369,1761131692,687946656,20,movil_node,Dato publicado Fase Ejecucion: 4,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,166
+1761131694.6866064,1761131694,686345548,20,movil_node,Dato publicado Fase Ejecucion: 4,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,166
+1761131696.6872864,1761131696,686692946,20,movil_node,Dato publicado Fase Ejecucion: 4,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,166
+1761131698.7292173,1761131698,727699006,20,movil_node,Dato publicado Fase Ejecucion: 4,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,166
+1761131700.686966,1761131700,686576742,20,movil_node,Dato publicado Fase Ejecucion: 4,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,166
+1761131702.7224905,1761131702,721054478,20,movil_node,Dato publicado Fase Ejecucion: 4,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,166
+1761131704.6865358,1761131704,686109047,20,movil_node,Dato publicado Fase Ejecucion: 4,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,166
+1761131706.6871657,1761131706,686709714,20,movil_node,Dato publicado Fase Ejecucion: 4,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,166
+1761131713.688802,1761131713,687905576,20,movil_node,Dato publicado Fase Ejecucion: 3,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,166
+1761131723.6871655,1761131723,686680355,20,movil_node,Dato publicado Nombre_Sujeto: Alejandro,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,156
+1761131728.686198,1761131728,685734575,20,movil_node,Dato publicado Tipo Experimento: Experimento 0,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,161
+1761131733.686838,1761131733,685948785,20,movil_node,Dato publicado Tipo Experimento: Experimento 1,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,161
+1761131738.687259,1761131738,686862777,20,movil_node,Dato publicado Fase Ejecucion: 2,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,166
+1761131739.1875253,1761131739,186880895,20,movil_node,Dato publicado Fase Ejecucion: 4,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,166
+1761131740.6874592,1761131740,686498820,20,movil_node,Dato publicado Fase Ejecucion: 4,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,166
+1761131742.686386,1761131742,686008907,20,movil_node,Dato publicado Fase Ejecucion: 4,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,166
+1761131744.7157347,1761131744,685313137,20,movil_node,Dato publicado Fase Ejecucion: 4,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,166
+1761131746.6865199,1761131746,686130032,20,movil_node,Dato publicado Fase Ejecucion: 4,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,166
+1761131748.711829,1761131748,711419116,20,movil_node,Dato publicado Fase Ejecucion: 4,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,166
+1761131750.6866245,1761131750,686402858,20,movil_node,Dato publicado Fase Ejecucion: 4,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,166
+1761131752.685494,1761131752,685051839,20,movil_node,Dato publicado Fase Ejecucion: 4,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/movilNode.py,timer_callback,166

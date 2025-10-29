@@ -1,0 +1,6 @@
+{
+  "package_name": "samuchair_interfaces",
+  "non_idl_tuples": [
+    "/home/labserver/ros2_ws/src/samuchair_interfaces:srv/ArduinoMotor.srv"
+  ]
+}

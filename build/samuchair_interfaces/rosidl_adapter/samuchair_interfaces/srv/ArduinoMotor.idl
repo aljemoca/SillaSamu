@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from samuchair_interfaces/srv/ArduinoMotor.srv
+// generated code does not contain a copyright notice
+
+
+module samuchair_interfaces {
+  module srv {
+    struct ArduinoMotor_Request {
+      string command;
+
+      uint8 x;
+
+      uint8 y;
+    };
+    struct ArduinoMotor_Response {
+      boolean status;
+
+      string out;
+
+      uint8 x;
+
+      uint8 y;
+    };
+  };
+};

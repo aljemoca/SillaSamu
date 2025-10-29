@@ -1,0 +1,89 @@
+#!/usr/bin/env python3
+import os
+import sys
+import pandas as pd
+from rosidl_runtime_py.utilities import get_message
+from rosidl_runtime_py.convert import message_to_ordereddict
+from rclpy.serialization import deserialize_message
+import rosbag2_py
+
+
+def flatten_dict(d, parent_key='', sep='.'):
+    """Aplana un diccionario anidado (por ejemplo, para msgs con campos internos)."""
+    items = []
+    for k, v in d.items():
+        new_key = f"{parent_key}{sep}{k}" if parent_key else k
+        if isinstance(v, dict):
+            items.extend(flatten_dict(v, new_key, sep=sep).items())
+        elif isinstance(v, list):
+            items.append((new_key, str(v)))
+        else:
+            items.append((new_key, v))
+    return dict(items)
+
+
+def ros2bag_to_csv(db3_path, output_dir=None):
+    if not os.path.exists(db3_path):
+        raise FileNotFoundError(f"No se encontró el archivo: {db3_path}")
+
+    if output_dir is None:
+        output_dir = os.path.splitext(db3_path)[0] + "_csv"
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Configurar el lector de la ROS2 bag
+    storage_options = rosbag2_py.StorageOptions(uri=db3_path, storage_id='sqlite3')
+    converter_options = rosbag2_py.ConverterOptions(
+        input_serialization_format='cdr',
+        output_serialization_format='cdr'
+    )
+    reader = rosbag2_py.SequentialReader()
+    reader.open(storage_options, converter_options)
+
+    # Obtener info de los tópicos
+    topic_types = reader.get_all_topics_and_types()
+    topic_type_map = {t.name: t.type for t in topic_types}
+
+    print(f"Se encontraron {len(topic_types)} tópicos:")
+    for t in topic_types:
+        print(f"  - {t.name} ({t.type})")
+
+    # Crear estructuras para guardar los mensajes
+    connections = {t.name: {"type": t.type, "records": []} for t in topic_types}
+
+    # Leer mensajes
+    while reader.has_next():
+        topic, data, t = reader.read_next()
+        msg_type = topic_type_map[topic]
+        msg_class = get_message(msg_type)
+        msg = deserialize_message(data, msg_class)
+        msg_dict = message_to_ordereddict(msg)
+
+        record = {
+            "timestamp_ns": t,
+            "timestamp_s": t / 1e9,
+            **flatten_dict(msg_dict)
+        }
+        connections[topic]["records"].append(record)
+
+    # Guardar CSV por tópico
+    for topic_name, info in connections.items():
+        if not info["records"]:
+            continue
+
+        df = pd.DataFrame(info["records"])
+        csv_name = topic_name.strip("/").replace("/", "_") + ".csv"
+        csv_path = os.path.join(output_dir, csv_name)
+        df.to_csv(csv_path, index=False)
+        print(f"✅ Guardado: {csv_path}")
+
+    print(f"\nConversión completada. Archivos guardados en: {output_dir}")
+
+
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("Uso: python ros2bag_to_csv_fixed.py archivo.db3 [carpeta_salida]")
+        sys.exit(1)
+
+    db3_path = sys.argv[1]
+    output_dir = sys.argv[2] if len(sys.argv) > 2 else None
+    ros2bag_to_csv(db3_path, output_dir)

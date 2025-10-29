@@ -1,0 +1,46 @@
+[1.288s] Invoking command in '/home/labserver/ros2_ws/src/samuchair': PYTHONPATH=/home/labserver/ros2_ws/build/samuchair/prefix_override:/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/samuchair build --build-base /home/labserver/ros2_ws/build/samuchair/build install --record /home/labserver/ros2_ws/build/samuchair/install.log --single-version-externally-managed
+[1.533s] running egg_info
+[1.551s] writing ../../build/samuchair/samuchair.egg-info/PKG-INFO
+[1.552s] writing dependency_links to ../../build/samuchair/samuchair.egg-info/dependency_links.txt
+[1.553s] writing entry points to ../../build/samuchair/samuchair.egg-info/entry_points.txt
+[1.553s] writing requirements to ../../build/samuchair/samuchair.egg-info/requires.txt
+[1.554s] writing top-level names to ../../build/samuchair/samuchair.egg-info/top_level.txt
+[1.708s] reading manifest file '../../build/samuchair/samuchair.egg-info/SOURCES.txt'
+[1.709s] writing manifest file '../../build/samuchair/samuchair.egg-info/SOURCES.txt'
+[1.709s] running build
+[1.710s] running build_py
+[1.710s] copying samuchair/webcamNode.py -> /home/labserver/ros2_ws/build/samuchair/build/lib/samuchair
+[1.710s] copying samuchair/Webcam.py -> /home/labserver/ros2_ws/build/samuchair/build/lib/samuchair
+[1.711s] copying samuchair/esp32Node.py -> /home/labserver/ros2_ws/build/samuchair/build/lib/samuchair
+[1.711s] copying samuchair/esp32Node_old.py -> /home/labserver/ros2_ws/build/samuchair/build/lib/samuchair
+[1.712s] copying samuchair/secondarytasktNode.py -> /home/labserver/ros2_ws/build/samuchair/build/lib/samuchair
+[1.712s] copying samuchair/__init__.py -> /home/labserver/ros2_ws/build/samuchair/build/lib/samuchair
+[1.712s] copying samuchair/SecondaryTask.py -> /home/labserver/ros2_ws/build/samuchair/build/lib/samuchair
+[1.712s] copying samuchair/ComESP32.py -> /home/labserver/ros2_ws/build/samuchair/build/lib/samuchair
+[1.713s] running install
+[1.713s] /home/labserver/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.713s] !!
+[1.713s] 
+[1.713s]         ********************************************************************************
+[1.713s]         Please avoid running ``setup.py`` directly.
+[1.713s]         Instead, use pypa/build, pypa/installer or other
+[1.714s]         standards-based tools.
+[1.714s] 
+[1.714s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.714s]         ********************************************************************************
+[1.714s] 
+[1.714s] !!
+[1.714s]   self.initialize_options()
+[1.720s] running install_lib
+[1.738s] running install_data
+[1.761s] copying resource/samuchair -> /home/labserver/ros2_ws/install/samuchair/share/ament_index/resource_index/packages
+[1.761s] copying package.xml -> /home/labserver/ros2_ws/install/samuchair/share/samuchair
+[1.762s] running install_egg_info
+[1.780s] removing '/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair-0.0.0-py3.10.egg-info' (and everything under it)
+[1.781s] Copying ../../build/samuchair/samuchair.egg-info to /home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair-0.0.0-py3.10.egg-info
+[1.782s] running install_scripts
+[1.833s] Installing esp32Node script to /home/labserver/ros2_ws/install/samuchair/lib/samuchair
+[1.834s] Installing secondarytaskNode script to /home/labserver/ros2_ws/install/samuchair/lib/samuchair
+[1.834s] Installing webcamNode script to /home/labserver/ros2_ws/install/samuchair/lib/samuchair
+[1.835s] writing list of installed files to '/home/labserver/ros2_ws/build/samuchair/install.log'
+[1.878s] Invoked command in '/home/labserver/ros2_ws/src/samuchair' returned '0': PYTHONPATH=/home/labserver/ros2_ws/build/samuchair/prefix_override:/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/samuchair build --build-base /home/labserver/ros2_ws/build/samuchair/build install --record /home/labserver/ros2_ws/build/samuchair/install.log --single-version-externally-managed

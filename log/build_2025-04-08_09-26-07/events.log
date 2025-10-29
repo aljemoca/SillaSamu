@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000997] (-) JobUnselected: {'identifier': 'my_robot_controller'}
+[0.001045] (-) JobUnselected: {'identifier': 'prueba'}
+[0.001061] (-) EventReactorShutdown: {}
