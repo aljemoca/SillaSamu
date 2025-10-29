@@ -1,0 +1,114 @@
+
+
+Wed Oct 22 10:22:48 2025
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 6.8.0-85-generic (#85~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep 19 16:18:59 UTC 2) x86_64
+Compiler: GCC 11.2
+ext2fs lib: 1.46.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.3
+User is not root!
+Hard disk list
+
+
+TestDisk exited normally.
+Using locale 'en_US.UTF-8'.
+
+
+Wed Oct 22 10:22:48 2025
+Command line: TestDisk /debug
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 6.8.0-85-generic (#85~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep 19 16:18:59 UTC 2) x86_64
+Compiler: GCC 11.2
+ext2fs lib: 1.46.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.3
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop20 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop7 - 0 B - 0 sectors (RO), sector size=512
+Hard disk list
+Disk /dev/sda - 42 GB / 40 GiB - CHS 5221 255 63, sector size=512 - VMware, VMware Virtual S, FW:1.0
+Disk /dev/loop0 - 4096 B - 8 sectors (RO), sector size=512
+Disk /dev/loop1 - 333 MB / 318 MiB - 651704 sectors (RO), sector size=512
+Disk /dev/loop10 - 521 MB / 496 MiB - 1017816 sectors (RO), sector size=512
+Disk /dev/loop11 - 541 MB / 516 MiB - 1056784 sectors (RO), sector size=512
+Disk /dev/loop12 - 12 MB / 12 MiB - 24984 sectors (RO), sector size=512
+Disk /dev/loop13 - 96 MB / 91 MiB - 187776 sectors (RO), sector size=512
+Disk /dev/loop14 - 77 MB / 73 MiB - 151368 sectors (RO), sector size=512
+Disk /dev/loop15 - 12 MB / 12 MiB - 25240 sectors (RO), sector size=512
+Disk /dev/loop16 - 53 MB / 50 MiB - 103976 sectors (RO), sector size=512
+Disk /dev/loop17 - 589 KB / 576 KiB - 1152 sectors (RO), sector size=512
+Disk /dev/loop18 - 581 KB / 568 KiB - 1136 sectors (RO), sector size=512
+Disk /dev/loop19 - 53 MB / 50 MiB - 104296 sectors (RO), sector size=512
+Disk /dev/loop2 - 345 MB / 329 MiB - 674920 sectors (RO), sector size=512
+Disk /dev/loop3 - 66 MB / 63 MiB - 130592 sectors (RO), sector size=512
+Disk /dev/loop4 - 66 MB / 63 MiB - 130608 sectors (RO), sector size=512
+Disk /dev/loop5 - 261 MB / 249 MiB - 510400 sectors (RO), sector size=512
+Disk /dev/loop6 - 77 MB / 73 MiB - 151392 sectors (RO), sector size=512
+Disk /dev/loop8 - 259 MB / 247 MiB - 507008 sectors (RO), sector size=512
+Disk /dev/loop9 - 366 MB / 349 MiB - 716176 sectors (RO), sector size=512
+
+Partition table type (auto): EFI GPT
+Disk /dev/sda - 42 GB / 40 GiB - VMware, VMware Virtual S
+Partition table type: EFI GPT
+
+Interface Advanced
+hdr_size=92
+hdr_lba_self=1
+hdr_lba_alt=83886079 (expected 83886079)
+hdr_lba_start=34
+hdr_lba_end=83886046
+hdr_lba_table=2
+hdr_entries=128
+hdr_entsz=128
+21686148 6449 6e6f 74 4e 65 65 64 45 46 49
+21686148 6449 6e6f 74 4e 65 65 64 45 46 49
+ 1 P Unknown                     2048       4095       2048
+ 2 P EFI System                  4096    1054719    1050624 [EFI System Partition]
+ 3 P Linux filesys. data      1054720   83884031   82829312
+21686148 6449 6e6f 74 4e 65 65 64 45 46 49
+21686148 6449 6e6f 74 4e 65 65 64 45 46 49
+21686148 6449 6e6f 74 4e 65 65 64 45 46 49
+Incomplete image created.
+21686148 6449 6e6f 74 4e 65 65 64 45 46 49
+
+
+dir_partition inode=2
+ 3 P Linux filesys. data      1054720   83884031   82829312
+Directory /
+       2 drwxr-xr-x     0      0      4096 22-Apr-2025 10:47 .
+       2 drwxr-xr-x     0      0      4096 22-Apr-2025 10:47 ..
+      11 drwx------     0      0     16384 24-Jan-2024 14:23 lost+found
+  131073 drwxr-xr-x     0      0      4096  3-Oct-2025 09:03 boot
+      12 -rw-------     0      0 2243952640 24-Jan-2024 14:23 swapfile
+  262145 drwxr-xr-x     0      0     12288 22-Oct-2025 09:11 etc
+ 1048577 drwxr-xr-x     0      0      4096 24-Jan-2024 14:33 media
+      13 lrwxrwxrwx     0      0         7 24-Jan-2024 14:24 bin
+  524289 drwxr-xr-x     0      0      4096  8-Aug-2023 00:52 dev
+  393217 drwxr-xr-x     0      0      4096 24-Jan-2024 14:28 home
+  655361 drwxr-xr-x     0      0      4096  8-Aug-2023 00:58 var
+      14 lrwxrwxrwx     0      0         7 24-Jan-2024 14:24 lib
+      15 lrwxrwxrwx     0      0         9 24-Jan-2024 14:24 lib32
+      16 lrwxrwxrwx     0      0         9 24-Jan-2024 14:24 lib64
+      17 lrwxrwxrwx     0      0        10 24-Jan-2024 14:24 libx32
+  786433 drwxr-xr-x     0      0      4096  8-Aug-2023 00:52 mnt
+  917505 drwxr-xr-x     0      0      4096 24-Jan-2024 15:01 opt
+  262147 drwxr-xr-x     0      0      4096 18-Apr-2022 12:28 proc
+  524290 drwx------     0      0      4096  4-Apr-2025 09:38 root
+  393218 drwxr-xr-x     0      0      4096 24-Jan-2024 14:28 run
+      18 lrwxrwxrwx     0      0         8 24-Jan-2024 14:24 sbin
+  786434 drwxr-xr-x     0      0      4096 26-Jan-2024 12:10 snap
+  917506 drwxr-xr-x     0      0      4096  8-Aug-2023 00:52 srv
+  786435 drwxr-xr-x     0      0      4096 18-Apr-2022 12:28 sys
+  917507 drwxrwxrwt     0      0      4096 22-Oct-2025 10:05 tmp
+  131075 drwxr-xr-x     0      0      4096  8-Aug-2023 00:52 usr
+  917508 drwxrwxr-x     0      0      4096 24-Jan-2024 14:28 cdrom
+21686148 6449 6e6f 74 4e 65 65 64 45 46 49
+21686148 6449 6e6f 74 4e 65 65 64 45 46 49
+21686148 6449 6e6f 74 4e 65 65 64 45 46 49
+21686148 6449 6e6f 74 4e 65 65 64 45 46 49
+21686148 6449 6e6f 74 4e 65 65 64 45 46 49
+SIGINT detected! TestDisk has been killed.

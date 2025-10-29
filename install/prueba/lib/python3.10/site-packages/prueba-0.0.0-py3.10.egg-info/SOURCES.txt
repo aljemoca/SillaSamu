@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/prueba/prueba.egg-info/PKG-INFO
+../../build/prueba/prueba.egg-info/SOURCES.txt
+../../build/prueba/prueba.egg-info/dependency_links.txt
+../../build/prueba/prueba.egg-info/entry_points.txt
+../../build/prueba/prueba.egg-info/requires.txt
+../../build/prueba/prueba.egg-info/top_level.txt
+../../build/prueba/prueba.egg-info/zip-safe
+prueba/__init__.py
+prueba/listener.py
+prueba/prueba.py
+resource/prueba
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

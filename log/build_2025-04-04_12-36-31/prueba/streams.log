@@ -1,0 +1,40 @@
+[1.071s] Invoking command in '/home/labserver/ros2_ws/src/prueba': PYTHONPATH=/home/labserver/ros2_ws/build/prueba/prefix_override:/home/labserver/ros2_ws/install/prueba/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/prueba build --build-base /home/labserver/ros2_ws/build/prueba/build install --record /home/labserver/ros2_ws/build/prueba/install.log --single-version-externally-managed
+[1.315s] running egg_info
+[1.331s] writing ../../build/prueba/prueba.egg-info/PKG-INFO
+[1.333s] writing dependency_links to ../../build/prueba/prueba.egg-info/dependency_links.txt
+[1.335s] writing entry points to ../../build/prueba/prueba.egg-info/entry_points.txt
+[1.336s] writing requirements to ../../build/prueba/prueba.egg-info/requires.txt
+[1.337s] writing top-level names to ../../build/prueba/prueba.egg-info/top_level.txt
+[1.372s] reading manifest file '../../build/prueba/prueba.egg-info/SOURCES.txt'
+[1.374s] writing manifest file '../../build/prueba/prueba.egg-info/SOURCES.txt'
+[1.374s] running build
+[1.375s] running build_py
+[1.375s] copying prueba/prueba.py -> /home/labserver/ros2_ws/build/prueba/build/lib/prueba
+[1.376s] copying prueba/__init__.py -> /home/labserver/ros2_ws/build/prueba/build/lib/prueba
+[1.376s] running install
+[1.377s] /home/labserver/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.377s] !!
+[1.377s] 
+[1.377s]         ********************************************************************************
+[1.377s]         Please avoid running ``setup.py`` directly.
+[1.377s]         Instead, use pypa/build, pypa/installer or other
+[1.377s]         standards-based tools.
+[1.377s] 
+[1.377s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.378s]         ********************************************************************************
+[1.378s] 
+[1.378s] !!
+[1.378s]   self.initialize_options()
+[1.384s] running install_lib
+[1.399s] copying /home/labserver/ros2_ws/build/prueba/build/lib/prueba/prueba.py -> /home/labserver/ros2_ws/install/prueba/lib/python3.10/site-packages/prueba
+[1.401s] byte-compiling /home/labserver/ros2_ws/install/prueba/lib/python3.10/site-packages/prueba/prueba.py to prueba.cpython-310.pyc
+[1.403s] running install_data
+[1.418s] copying resource/prueba -> /home/labserver/ros2_ws/install/prueba/share/ament_index/resource_index/packages
+[1.419s] copying package.xml -> /home/labserver/ros2_ws/install/prueba/share/prueba
+[1.420s] running install_egg_info
+[1.436s] removing '/home/labserver/ros2_ws/install/prueba/lib/python3.10/site-packages/prueba-0.0.0-py3.10.egg-info' (and everything under it)
+[1.437s] Copying ../../build/prueba/prueba.egg-info to /home/labserver/ros2_ws/install/prueba/lib/python3.10/site-packages/prueba-0.0.0-py3.10.egg-info
+[1.438s] running install_scripts
+[1.595s] Installing talker script to /home/labserver/ros2_ws/install/prueba/lib/prueba
+[1.596s] writing list of installed files to '/home/labserver/ros2_ws/build/prueba/install.log'
+[1.661s] Invoked command in '/home/labserver/ros2_ws/src/prueba' returned '0': PYTHONPATH=/home/labserver/ros2_ws/build/prueba/prefix_override:/home/labserver/ros2_ws/install/prueba/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/prueba build --build-base /home/labserver/ros2_ws/build/prueba/build install --record /home/labserver/ros2_ws/build/prueba/install.log --single-version-externally-managed

@@ -1,0 +1,2 @@
+Invoking command in '/home/labserver/ros2_ws/build/samuchair_interfaces': /usr/bin/cmake /home/labserver/ros2_ws/src/samuchair_interfaces -DCMAKE_INSTALL_PREFIX=/home/labserver/ros2_ws/install/samuchair_interfaces
+Invoked command in '/home/labserver/ros2_ws/build/samuchair_interfaces' returned '1': /usr/bin/cmake /home/labserver/ros2_ws/src/samuchair_interfaces -DCMAKE_INSTALL_PREFIX=/home/labserver/ros2_ws/install/samuchair_interfaces

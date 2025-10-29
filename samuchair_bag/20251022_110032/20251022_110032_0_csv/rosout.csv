@@ -1,0 +1,18 @@
+timestamp_s,stamp.sec,stamp.nanosec,level,name,msg,file,function,line
+1761123637.7660904,1761123637,749424521,20,rosbag2_recorder,Press SPACE for pausing/resuming,./src/rosbag2_transport/recorder.cpp,Recorder,104
+1761123637.7661371,1761123637,756033576,20,rosbag2_recorder,Listening for topics...,./src/rosbag2_transport/recorder.cpp,record,192
+1761123637.766147,1761123637,756529913,20,rosbag2_recorder,Event publisher thread: Starting,./src/rosbag2_transport/recorder.cpp,event_publisher_thread_main,205
+1761123637.766156,1761123637,758142717,20,rosbag2_recorder,Subscribed to topic '/rosout',./src/rosbag2_transport/recorder.cpp,subscribe_topic,358
+1761123637.766165,1761123637,760945577,20,rosbag2_recorder,Subscribed to topic '/random_time',./src/rosbag2_transport/recorder.cpp,subscribe_topic,358
+1761123637.7661738,1761123637,762448665,20,rosbag2_recorder,Subscribed to topic '/parameter_events',./src/rosbag2_transport/recorder.cpp,subscribe_topic,358
+1761123637.7661827,1761123637,763795958,20,rosbag2_recorder,Subscribed to topic '/events/write_split',./src/rosbag2_transport/recorder.cpp,subscribe_topic,358
+1761123637.7661908,1761123637,765102203,20,rosbag2_recorder,Subscribed to topic '/diff_time',./src/rosbag2_transport/recorder.cpp,subscribe_topic,358
+1761123637.766199,1761123637,765240204,20,rosbag2_recorder,Recording...,./src/rosbag2_transport/recorder.cpp,record,200
+1761123637.7705328,1761123636,342687869,20,ST,Dato publicado ST: 11.680920808357083,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/secondarytaskNode.py,start_random_timer,157
+1761123641.0852396,1761123641,83720164,20,ST, Timeout: 5.0,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/secondarytaskNode.py,timer_lectura,169
+1761123648.0811086,1761123648,79412334,20,ST,Dato publicado ST: 5.359914944345476,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/secondarytaskNode.py,start_random_timer,157
+1761123653.0838478,1761123653,82435238,20,ST, Timeout: 5.0,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/secondarytaskNode.py,timer_lectura,169
+1761123653.6603336,1761123653,659252000,20,ST,Dato publicado ST: 8.134045393942255,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/secondarytaskNode.py,start_random_timer,157
+1761123659.0828204,1761123659,82225999,20,ST, Timeout: 5.0,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/secondarytaskNode.py,timer_lectura,169
+1761123662.0391235,1761123662,38496649,20,ST,Dato publicado ST: 12.436884843915184,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/secondarytaskNode.py,start_random_timer,157
+1761123667.0852256,1761123667,84382698,20,ST, Timeout: 5.0,/home/labserver/ros2_ws/install/samuchair/lib/python3.10/site-packages/samuchair/secondarytaskNode.py,timer_lectura,169
