@@ -1,6 +1,0 @@
-source;share/samuchair/hook/pythonpath.ps1
-source;share/samuchair/hook/pythonpath.dsv
-source;share/samuchair/hook/pythonpath.sh
-source;share/samuchair/hook/ament_prefix_path.ps1
-source;share/samuchair/hook/ament_prefix_path.dsv
-source;share/samuchair/hook/ament_prefix_path.sh
