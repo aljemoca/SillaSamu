@@ -97,8 +97,13 @@ void loop() {
         pasoActual = 7;
         break;
       case 7:
-        pasoActual = 0;
+        Serial.println("!!!!!!");
+        pasoActual = 8;
         break;
+      case 8:
+        Serial.println("aldkjfapoiqjefavñpaleroìu20394kfñc<.vadru0234º3nr, !");
+        pasoActual = 0;
+        break; 
     }
   }
 

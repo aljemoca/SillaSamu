@@ -30,8 +30,7 @@
 #define HallC_1 27    
 #define Timer_1 1
 
-//VERIFICAR QUE EL PIN DEL POTENCIÓMETRO EN LA PLACA DE LA SILLA SAMU SE CORRESPONDE CON EL 34 
-#define Pot_pin 34
+#define Pot_pin 36
 
 Hall hall_motor[2];
 Potenciometro pot;
