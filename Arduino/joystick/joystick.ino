@@ -10,8 +10,10 @@
 
 
   Para el manejo o control del Joystick, el Arduino recibe dos comandos
-  Cnx, donde n puede ser 0 para control interno o 1 para control externo
-  Jvalue1,value2x donde value1 y value2 son enteros sin signo de 8 bits
+  
+  - Cnx, donde n puede ser 0 para control interno o 1 para control externo
+  
+  - Jvalue1,value2x donde value1 y value2 son enteros sin signo de 8 bits
   
   Cuando se recibe un comando correcto, el sistema devuelve Okx
   En caso contrario Nokx
@@ -20,6 +22,20 @@
   En ese estado, adquiere las señales del joystick y genera un PWM a las salidas para el controlador. El software
   hace de puente entre el mando físico y el controlador del motor. Si se cambia a control externo, son los valores
   recibios por el arduino los que establecen las salidas para el controlador.
+
+  Hay que tener en cuenta que el micro se pone en modo interno cuando han transcurrido 10s sin actividad 
+  en el puerto serie del Arduino.
+
+  Adicionalmente existen otros comandos:
+
+  - Ix     
+      El comando Ix sirve para determinar identificarse. El Arduino respondería Ax
+  - Rx
+      Se solicita el valor del Joystick. La respuesta tiene el mismo formato que el comando J. Ejemplo R100,200x 
+  - Sx
+      Se solicita el estado del Arduino. Éste tiene dos estados: modo manual (0) o modo remoto (1)
+      La respuesta es similar al comando Cx. Ejemplo: S1x (Arduino está en modo remoto) S0x (Arduino en modo manual)
+
 
   Hay que tener en cuenta que el micro se pone en modo interno cuando han transcurrido 10s sin actividad 
   en el puerto serie del Arduino.
