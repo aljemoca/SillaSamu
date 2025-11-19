@@ -20,7 +20,7 @@ class Hall
 
         uint8_t _value;
 	    uint8_t _old_value;
-	    int8_t _turn;  //Para el sentido del giro Avance 1, Atras -1 y parado 0
+	    int8_t _turn;  //Para el sentido del giro Avance 1, Atras 2 y parado 0
 	    int8_t _turnfiltered;
 	    uint8_t _position; //Izquierda 0 y derecha 1
         uint16_t _step;  //Pasos contados desde la última lectura
