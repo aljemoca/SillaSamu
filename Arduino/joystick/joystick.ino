@@ -73,15 +73,15 @@ void setup()
     State -> Establece modo manual o modo externo
     conversion_time -> Se configura por defecto a 50ms para el convertidor analogico digital
   */
-  State = InternalJoystick;
-  PowerOn =1;
-  conv_time_old=millis();
-  wdt_old=millis();
-  conversion_time = SamplingTime;
-  Output_Analog_Channels[0] = AnalogOutX;
-  Output_Analog_Channels[1] = AnalogOutY;
-  Input_Analog_Channels[0]= A0;
-  Input_Analog_Channels[1]= A1;
+  State = InternalJoystick;   //Estado por defecto del Arduino. En este estado, la silla se gobierna de fomra manual con el Joystick
+  PowerOn =1;     //Este variable determina si el Joystick manual está encendido. Si no lo está, PowerOn se pone a 0, y se desactiva el control remoto
+  conv_time_old=millis();   //Contador de tiempo para la conversión de tiempo.
+  wdt_old=millis();    //Contador de tiempo del perro guardián,para hacer que el Joystick retorne al modo manual.
+  conversion_time = SamplingTime;   
+  Output_Analog_Channels[0] = AnalogOutX;   //Canal analógico de salida que controla el eje X
+  Output_Analog_Channels[1] = AnalogOutY;   //Canal analógico de salida que controla el eje Y
+  Input_Analog_Channels[0]= A0;   //Canales para la lectura del joystick manual
+  Input_Analog_Channels[1]= A1;   
 
   
   Serial.begin(115200);
@@ -93,10 +93,10 @@ void loop()
 {
   int Outputs[2], temp[2];  //These values should be in the range from 0 to 255 for the analogWrite function
                    //The channels X and Y are indexed as 0 and 1 respectively
-  unsigned char temp_buf[2];
-  unsigned char i;
-  int adc[2];
-  
+ unsigned char temp_buf[2];    //Contiene los valores recibidos para los canales X e Y
+  unsigned char i;             
+  int adc[2];       //Canales X e Y del joystick manual
+    
   communication(temp_buf);
 
   //ADConversion
@@ -157,6 +157,7 @@ int parser(char *cadena, unsigned char *joy)
  
    while(cadena[lon]!=0 || lon> 12)
    {
+     //Buscamos la posición de la coma.
       lon++;
       if(cadena[lon]==',')
         poscoma=lon;
@@ -166,15 +167,17 @@ int parser(char *cadena, unsigned char *joy)
    if(poscoma==0 || i >12)
       return 0;
 
-   limites[0][0]=1;
-   limites[0][1]=poscoma-1;
+  
+   limites[0][0]=1; 
+   limites[0][1]=poscoma-1;  //El primer argumento {ejex} se encuentra entre la posición 1 y la anterior de la coma
    limites[1][0]=poscoma+1;
-   limites[1][1]=lon-1;
+   limites[1][1]=lon-1;   //El segundo argumento {ejey} se encuentra después de la coma, y ocupa hasta el final, antes de la x
+
 
    for(j=0;j<2;j++)
    {
-      joy[j]=0;
-      for(i=limites[j][1];i>=limites[j][0];i--)
+      joy[j]=0;    //Para cada argumento, recorremos cada dígito y lo convertimos en entero por codificación decimal posicional
+     for(i=limites[j][1];i>=limites[j][0];i--)
         joy[j]+= (cadena[i]-'0')*pow(10,limites[j][1]-i);
    }
    return 1;
@@ -193,6 +196,9 @@ void communication(unsigned char *joy){
   
   if((millis()-rx_time)> 200 || i>11)
   {
+     /*Cada 200ms que no se haya recibido un carácter en el puerto serie, o si la longitud recibida es mayor de 11,
+    se reinicia la búsqueda de un nuevo paquete de datos.*/
+ 
     i=0;
     rx_time=millis();
   }
@@ -206,7 +212,12 @@ void communication(unsigned char *joy){
         Serial.print(rx_time);
         Serial.print(',');
         Serial.println(byterx);
-     */   if(byterx=='x')
+        
+     */ 
+           /*Hasta que no se reciba un fin de paquete (x), el sistema está guardando 
+        el carácter recibido en el buffer_rx. En este caso habilita un banderín que hace
+        que se proceda a la lectura del paquete de entrada (input_packet=1)*/
+        if(byterx=='x')
         {
           buffer_rx[i]=0;
           
@@ -222,6 +233,11 @@ void communication(unsigned char *joy){
   }
   if(input_packet)
   {
+       /*
+      En general este bloque analiza el primer comando de la cadena, que identifica la oepración a realizar. 
+      Tan solo en el comando J, se invoca a la función parser para extraer el valor que se pondrá en el 
+      PWM de salida para el control de los motores.
+      */
       input_packet=0;
       char cadena[20];
       switch(buffer_rx[0])
