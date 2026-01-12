@@ -16,9 +16,7 @@ import cv2 # Importamos OpenCV
 
 class Webcam:
     def __init__(self):
-        self.initiate()
-
-    def initiate (self):
+        #self.intervalo = º.
         self.camera = cv2.VideoCapture(0,cv2.CAP_V4L2)  # Inicializa la webcam (0 es usualmente la cámara por defecto) 
         if not self.camera.isOpened():
             print("Error: No se pudo acceder a la cámara.")
@@ -37,7 +35,7 @@ class Webcam:
         self.ruta = "./fotos/"
         #elf.stop = 0
         self.n_frame = 1
-        self.name=''
+        self.name=None
 
     def setName(self,name):
         self.name=name

@@ -5,15 +5,19 @@ Spyder Editor
 This is a temporary script file.
 """
 
-#Comunicaciones con el ESP32
+
 
 import serial
 from time import sleep
 
+import rclpy
+from rclpy.node import Node
+from std_msgs.msg import String  
+
 class ComESP32:
     """Comunicación con la STM32"""
     
-    def __init__(self,port="/dev/ttyUSB0"):
+    def __init__(self,port):
         self.data = [0,0,0,0,0,0,0,0]    
         #self.ser = serial.Serial("/dev/ttyS0",baudrate=115200,timeout=0.5)
         self.ser = serial.Serial(port,baudrate=115200,timeout=0.5)
@@ -62,19 +66,21 @@ class ComESP32:
     
     
     def obtenerMedidas(self):
-        error= self.comandoMedidas();
-        pot = 0;
+        error= self.comandoMedidas()
+        pot = 0
         giro = [0,0]
         hall= [0,0]
-
-        pot = int(self.data[1].hex(),16)
-        giro[0] = int(self.data[2].hex(),16)
-        hall[0] = int(self.data[3].hex(),16) <<8 
-        hall[0] += int(self.data[4].hex(),16)  #ver si esto va bien
-        giro[1] = int(self.data[5].hex(),16)
- 
-        hall[1] = int(self.data[6].hex(),16) <<8 
-        hall[1] += int(self.data[7].hex(),16)  #ver si esto va bien
-      
+        if not error:
+            pot = int(self.data[1].hex(),16)
+            giro[0] = int(self.data[2].hex(),16)
+            hall[0] = int(self.data[3].hex(),16) <<8 
+            hall[0] += int(self.data[4].hex(),16)  #ver si esto va bien
+            giro[1] = int(self.data[5].hex(),16)
+    
+            hall[1] = int(self.data[6].hex(),16) <<8 
+            hall[1] += int(self.data[7].hex(),16)  #ver si esto va bien
+        
         res = list([error,pot,giro,hall])
-        return  res
+        print(self.data)
+        return res
+        
