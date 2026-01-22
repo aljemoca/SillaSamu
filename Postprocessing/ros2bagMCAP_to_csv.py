@@ -14,17 +14,17 @@ from mcap.reader import make_reader
 from mcap_ros2_support.decoder import Decoder
 
 
-def flatten_dict(d, parent_key='', sep='.'):
-    items = []
-    for k, v in d.items():
-        new_key = f"{parent_key}{sep}{k}" if parent_key else k
-        if isinstance(v, dict):
-            items.extend(flatten_dict(v, new_key, sep=sep).items())
-        elif isinstance(v, list):
-            items.append((new_key, str(v)))
-        else:
-            items.append((new_key, v))
-    return dict(items)
+#def flatten_dict(d, parent_key='', sep='.'):
+#    items = []
+#    for k, v in d.items():
+#        new_key = f"{parent_key}{sep}{k}" if parent_key else k
+#        if isinstance(v, dict):
+#            items.extend(flatten_dict(v, new_key, sep=sep).items())
+#        elif isinstance(v, list):
+#            items.append((new_key, str(v)))
+#        else:
+#            items.append((new_key, v))
+#    return dict(items)
 
 # def ros2bag_to_csv(db3_path, output_dir=None):
 #     if not os.path.exists(db3_path):
