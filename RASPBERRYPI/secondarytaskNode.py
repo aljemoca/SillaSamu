@@ -150,8 +150,8 @@ class secondarytaskNode(Node):
         self.timeout =0.0
         self.activate=False
         self.subscription = self.create_subscription(String,'tipo_exp',self.sus_function,4)
-        self.publisher_st_nexttime = self.create_publisher(Float32, 'random_time', 10)
-        self.publisher_st_medida = self.create_publisher(Float32,'diff_time',10)
+        self.publisher_st_nexttime = self.create_publisher(Int32, 'random_time', 10)  #Se ha cambiado a enteros en ms
+        self.publisher_st_medida = self.create_publisher(Int32,'diff_time',10)   #Se ha cambiado a tipo entero expresado en ms
         self.publisher_st_atendido = self.create_publisher(Int32,'Attended',10)
         self.interval = self.st.nextTimePoint()
         print(self.interval)
@@ -172,12 +172,13 @@ class secondarytaskNode(Node):
             print("Desactivar tarea secundaria")
 
     def start_random_timer(self):
-        msg = Float32()
+        #msg = Float32()
+        msg = Int32()
         self.interval = self.st.nextTimePoint()
-        msg.data = self.interval
+        msg.data = int(self.interval*1000)  #Se ha cambiado a enteros expresados en ms
         if self.activate:
             self.publisher_st_nexttime.publish(msg)
-            self.get_logger().info(f'Dato publicado ST: {msg.data}')
+            self.get_logger().info(f'Dato publicado ST (ms): {msg.data}')
         #print(self.interval)
         if self.timer:
             self.timer.cancel()
@@ -185,22 +186,23 @@ class secondarytaskNode(Node):
         self.tiempo_inicio = self.get_clock().now()
         
     def timer_lectura(self):
-        msg = Float32()
+        #msg = Float32()
+        msg = Int32()
         if self.timeout == 5.0:
-            msg.data = self.timeout
+            msg.data = int(self.timeout*1000)
             if self.activate:
                 self.publisher_st_medida.publish(msg)
-                self.get_logger().info(f' Timeout: {msg.data}')
+                self.get_logger().info(f' Timeout (ms): {msg.data}')
             self.timeout+=1.0
             self.st.reset()
         elif self.timeout < 5.0:
             self.timeout+=1.0
 
         if self.st.dataReady() and self.timeout < 4.0:
-            msg.data = self.st.readTime()
+            msg.data = int(self.st.readTime()*1000)
             if self.activate:
                 self.publisher_st_medida.publish(msg)
-                self.get_logger().info(f'Dato medido ST: {msg.data}')
+                self.get_logger().info(f'Dato medido ST (ms): {msg.data}')
             self.timeout = 6.0
 
     def timer_callback(self):      
