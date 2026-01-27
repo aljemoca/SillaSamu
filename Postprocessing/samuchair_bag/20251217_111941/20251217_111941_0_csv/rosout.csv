@@ -1,0 +1,592 @@
+log_time_s,publish_time_s,file,function,level,line,msg,name
+1765966789.2035692,1765966789.2035475,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/rosout',rosbag2_recorder
+1765966789.213745,1765966789.2137215,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/right_wheel_steps',rosbag2_recorder
+1765966789.2141263,1765966788.0327303,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966789.214131,1765966789.0318112,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966789.2141347,1765966789.0326705,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966789.2151592,1765966789.2151167,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/pot_esp32',rosbag2_recorder
+1765966789.218342,1765966789.2183177,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/parameter_events',rosbag2_recorder
+1765966789.219636,1765966789.219608,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/left_wheel_steps',rosbag2_recorder
+1765966789.2218208,1765966789.2217991,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/events/write_split',rosbag2_recorder
+1765966789.2220395,1765966789.222008,./src/rosbag2_transport/recorder.cpp,record,20,365,Recording...,rosbag2_recorder
+1765966789.273599,1765966789.1673346,./src/rosbag2_transport/recorder.cpp,RecorderImpl,20,190,Press SPACE for pausing/resuming,rosbag2_recorder
+1765966789.2741435,1765966789.1993067,./src/rosbag2_transport/recorder.cpp,record,20,353,Listening for topics...,rosbag2_recorder
+1765966789.274148,1765966789.1993573,./src/rosbag2_transport/recorder.cpp,event_publisher_thread_main,20,371,Event publisher thread: Starting,rosbag2_recorder
+1765966789.283891,1765966783.6922212,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: -2,JoystickBluetooth
+1765966789.3259866,1765966789.3259602,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/Attended',rosbag2_recorder
+1765966789.3284664,1765966789.32843,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/Ejecucion',rosbag2_recorder
+1765966789.3311813,1765966789.331154,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/diff_time',rosbag2_recorder
+1765966789.33403,1765966789.3339903,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/tipo_exp',rosbag2_recorder
+1765966789.3362055,1765966789.3361695,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/modo_exp',rosbag2_recorder
+1765966789.3379467,1765966789.3379087,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/name_movil',rosbag2_recorder
+1765966789.3396356,1765966789.3396068,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/random_time',rosbag2_recorder
+1765966789.3623347,1765966785.701498,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,secuencia_conexion,20,31,Conectado al Arduino por /dev/Joystick,Joystick
+1765966789.9490952,1765966789.9490657,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/jBnode',rosbag2_recorder
+1765966789.9507725,1765966789.9507346,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/frame',rosbag2_recorder
+1765966789.9534786,1765966789.9534295,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/tactil_der',rosbag2_recorder
+1765966789.955294,1765966789.9552608,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/tactil_izq',rosbag2_recorder
+1765966790.0140486,1765966787.8929403,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966790.0140543,1765966787.8938556,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966790.0140579,1765966788.3929174,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966790.0140622,1765966788.3937697,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966790.0140657,1765966788.8929374,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966790.01407,1765966788.8937898,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966790.0140736,1765966789.3929338,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966790.014078,1765966789.3938777,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966790.0140812,1765966789.8929362,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966790.0140855,1765966789.8938909,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966790.0319948,1765966790.0319111,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966790.033004,1765966790.0329194,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966790.393148,1765966790.3930442,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966790.3942146,1765966790.3941092,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966790.8931348,1765966790.8930397,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966790.8941689,1765966790.894071,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966791.0319636,1765966791.0318675,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966791.0330634,1765966791.0329344,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966791.393115,1765966791.3930037,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966791.3941126,1765966791.3940222,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966791.8931258,1765966791.8930247,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966791.894118,1765966791.8940282,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966792.0319777,1765966792.031876,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966792.0329804,1765966792.0328977,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966792.3938906,1765966792.39305,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966792.3942323,1765966792.3941243,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966792.4818985,1765966792.481774,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 12,JoystickBluetooth
+1765966792.5055912,1765966792.5054142,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 12,mainNode
+1765966792.556855,1765966792.5567212,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765966792.5571947,1765966792.557096,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765966792.8931,1765966792.8929954,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966792.8940434,1765966792.8939471,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966793.0319695,1765966793.0318806,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966793.032968,1765966793.0328815,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966793.3930674,1765966793.3929772,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966793.3939784,1765966793.3939042,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966793.893096,1765966793.8929958,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966793.8940353,1765966793.893937,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966794.031912,1765966794.0318205,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966794.0328643,1765966794.032785,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966794.3193803,1765966794.3192532,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765966794.3198502,1765966794.319741,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765966794.3930995,1765966794.392997,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966794.3940465,1765966794.3939435,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966794.893072,1765966794.8929713,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966794.894042,1765966794.893937,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966795.0319352,1765966795.031844,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966795.0329587,1765966795.032865,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966795.3930347,1765966795.392946,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966795.3939612,1765966795.3938782,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966795.6318727,1765966795.6317399,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765966795.6323283,1765966795.6322224,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765966795.8931053,1765966795.8930013,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966795.8946698,1765966795.8940268,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966795.8947403,1765966795.8944116,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 9,JoystickBluetooth
+1765966795.8953934,1765966795.8952663,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 9,mainNode
+1765966796.031965,1765966796.0318904,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966796.0329468,1765966796.0328734,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966796.2693408,1765966796.2692149,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 10,JoystickBluetooth
+1765966796.269625,1765966796.2695355,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 10,mainNode
+1765966796.3931484,1765966796.3930614,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966796.394146,1765966796.3940651,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966796.8319867,1765966796.831874,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765966796.8328638,1765966796.8327403,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765966796.8330805,1765966796.8329146,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765966796.8342988,1765966796.834202,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765966796.8930986,1765966796.893004,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966796.8940482,1765966796.8939455,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966797.0319452,1765966797.0318513,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966797.0329492,1765966797.0328574,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966797.3930597,1765966797.3929598,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966797.3939836,1765966797.3938963,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966797.8930626,1765966797.8929648,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966797.8939953,1765966797.893886,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966798.031934,1765966798.0318441,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966798.0328941,1765966798.0328155,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966798.3931274,1765966798.3930256,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966798.3940787,1765966798.3939812,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966798.8930728,1765966798.8929815,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966798.8946042,1765966798.8944974,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966799.0319638,1765966799.031882,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966799.033021,1765966799.0329278,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966799.3930726,1765966799.3929825,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966799.3940012,1765966799.393918,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966799.8930748,1765966799.8929749,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966799.894001,1765966799.8939133,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966800.0318482,1765966800.0317602,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966800.032772,1765966800.0326898,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966800.3930724,1765966800.3929727,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966800.394001,1765966800.3939116,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966800.8930645,1765966800.8929713,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966800.894029,1765966800.8939202,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966801.0319047,1765966801.0318143,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966801.0328977,1765966801.0328004,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966801.3930557,1765966801.3929632,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966801.3940086,1765966801.3939047,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966801.8931131,1765966801.8930264,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966801.8940454,1765966801.8939524,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966802.0319643,1765966802.0318854,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966802.0329638,1765966802.0328891,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966802.393061,1765966802.392966,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966802.3940082,1765966802.393919,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966802.8930821,1765966802.8929844,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966802.8940284,1765966802.8939238,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966803.0318978,1765966803.0318112,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966803.0328968,1765966803.0328028,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966803.392976,1765966803.3928952,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966803.3938503,1765966803.3937693,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966803.8930285,1765966803.892923,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966803.8939023,1765966803.893815,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966804.0319452,1765966804.031863,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966804.0329318,1765966804.0328453,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966804.3930824,1765966804.3929799,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966804.3939934,1765966804.3939097,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966804.893068,1765966804.892976,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966804.8940032,1765966804.8939185,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966805.0319517,1765966805.0318766,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966805.0329924,1765966805.0329075,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966805.3930817,1765966805.3930006,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966805.3940256,1765966805.3939397,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966805.8930857,1765966805.8929858,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966805.8940253,1765966805.8939369,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966806.0318933,1765966806.0318081,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966806.0328822,1765966806.0327916,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966806.393088,1765966806.3929896,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966806.3940067,1765966806.39392,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966806.8930895,1765966806.8929925,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966806.8940384,1765966806.8939373,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966807.031921,1765966807.0318341,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966807.0334148,1765966807.0328414,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966807.3930562,1765966807.392964,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966807.3939908,1765966807.3939028,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966807.893088,1765966807.8929923,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966807.894022,1765966807.8939307,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966808.0319705,1765966808.0318918,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966808.0329745,1765966808.032894,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966808.393058,1765966808.3929722,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966808.3939846,1765966808.393911,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966808.8930821,1765966808.892985,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966808.8940196,1765966808.893918,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966809.0319374,1765966809.0318484,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966809.0329359,1765966809.0328417,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966809.3930612,1765966809.3929684,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966809.3939722,1765966809.3938859,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966809.893068,1765966809.892974,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966809.8938951,1765966809.8938177,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966810.03197,1765966810.031876,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966810.0329669,1765966810.0328872,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966810.3931024,1765966810.3929968,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966810.394046,1765966810.3939433,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966810.8930876,1765966810.89299,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966810.8940797,1765966810.8939638,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966811.0319798,1765966811.0319064,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966811.0329883,1765966811.0329077,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966811.3930557,1765966811.3929708,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966811.393971,1765966811.3938954,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966811.8930726,1765966811.892978,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966811.8939874,1765966811.8938992,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966812.031949,1765966812.0318594,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966812.0329356,1765966812.032845,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966812.3930993,1765966812.3929918,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966812.394026,1765966812.3939338,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966812.8930779,1765966812.8929815,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966812.894021,1765966812.8939183,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966813.0319731,1765966813.0318832,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966813.032969,1765966813.032885,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966813.3930342,1765966813.392939,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966813.3939023,1765966813.393828,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966813.893075,1765966813.8929822,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966813.8939848,1765966813.8939056,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966814.031963,1765966814.0318785,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966814.0329323,1765966814.032861,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966814.3930762,1765966814.392988,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966814.3940265,1765966814.3939526,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966814.8930883,1765966814.8929899,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966814.8940291,1765966814.893928,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966815.031944,1765966815.031858,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966815.0329537,1765966815.0328634,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966815.3930786,1765966815.3929813,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966815.393986,1765966815.3939033,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966815.8930671,1765966815.8929708,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966815.8939848,1765966815.8938987,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966816.0319862,1765966816.031874,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966816.0329611,1765966816.0328803,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966816.392989,1765966816.3929052,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966816.3938708,1765966816.3937848,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966816.8930748,1765966816.8929806,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966816.894033,1765966816.8939228,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966817.0319476,1765966817.0318713,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966817.0329723,1765966817.0328953,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966817.3930624,1765966817.3929741,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966817.3939874,1765966817.3939114,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966817.893079,1765966817.8929856,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966817.894004,1765966817.8939123,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966818.0319448,1765966818.0318522,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966818.0329363,1765966818.0328505,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966818.3930736,1765966818.3929722,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966818.3940039,1765966818.393912,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966818.8930812,1765966818.8929853,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966818.8940256,1765966818.8939269,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966819.0318968,1765966819.031801,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966819.032893,1765966819.0327969,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966819.3930583,1765966819.3929648,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966819.393977,1765966819.3938875,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966819.4453013,1765966819.4447465,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subMovilModo,20,122,Comando Movil Modo: Modo:1,mainNode
+1765966819.445349,1765966819.4450042,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: modo,Joystick
+1765966819.4659157,1765966819.465777,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py,timer_callback,20,221,Dato publicado Modo: Modo:1,Movil
+1765966819.647374,1765966819.6472373,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765966819.8930824,1765966819.892989,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966819.8940313,1765966819.8939366,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966820.03196,1765966820.0318825,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966820.0329335,1765966820.0328496,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966820.392865,1765966820.3927495,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966820.3938088,1765966820.3934999,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966820.893143,1765966820.8930528,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966820.8941424,1765966820.8939993,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966821.032297,1765966821.0321748,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966821.0333655,1765966821.033274,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966821.3931487,1765966821.3930416,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966821.394169,1765966821.3940754,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966821.8930914,1765966821.8929992,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966821.8939726,1765966821.8938813,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966821.9449737,1765966821.9441352,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py,timer_callback,20,215,Dato publicado Tipo Experimento: Experimento 1,Movil
+1765966821.9450254,1765966821.9444485,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subMovilTipo,20,95,Comando Movil Tipo: Experimento 1,mainNode
+1765966821.9679158,1765966821.9677546,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,sus_function,20,166,Mensaje recibido: Experimento 1,ST
+1765966822.0325425,1765966822.0321753,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966822.033567,1765966822.03344,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966822.3930604,1765966822.3929641,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966822.3938901,1765966822.393811,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966822.8930204,1765966822.8929229,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966822.8938563,1765966822.8937707,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966823.0320857,1765966823.0319989,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966823.03314,1765966823.0330627,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966823.363934,1765966823.3638253,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,timer_lectura,20,193, Timeout: 5.0,ST
+1765966823.3931005,1765966823.392996,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966823.3939426,1765966823.3938692,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966823.4443574,1765966823.44423,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py,timer_callback,20,239,Dato publicado Fase Ejecucion: 20,Movil
+1765966823.4446447,1765966823.4444637,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subMovilEjecucion,20,137,Comando Movil Ejecucion: 20,mainNode
+1765966823.8930976,1765966823.8929958,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966823.8940408,1765966823.8939476,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966824.0320952,1765966824.031968,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966824.0331538,1765966824.0330663,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966824.1725092,1765966824.172368,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,60,Frame: 0,webcam
+1765966824.3931465,1765966824.3930585,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966824.3941135,1765966824.3939786,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966824.5484548,1765966824.5483565,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,timer_callback,20,220,"Publicado: ""0""",ST
+1765966824.549479,1765966824.5493834,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,start_random_timer,20,180,Dato publicado ST: 11.56667622167227,ST
+1765966824.7321463,1765966824.732023,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765966824.7325337,1765966824.7323964,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765966824.734114,1765966824.7339659,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765966824.893096,1765966824.8929877,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966824.894046,1765966824.893957,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966825.0319798,1765966825.0318804,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966825.033155,1765966825.033041,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966825.0362988,1765966825.0361857,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765966825.3640246,1765966825.363908,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,timer_lectura,20,203,Dato medido ST: 0.04011964797973633,ST
+1765966825.3930566,1765966825.3929718,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966825.393998,1765966825.3939052,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966825.8930902,1765966825.8929935,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966825.8940082,1765966825.8939195,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966826.032056,1765966826.0319688,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 59,sensorHallyPot
+1765966826.0331662,1765966826.0330584,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 77,sensorHallyPot
+1765966826.1498706,1765966826.1497834,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,60,Frame: 0,webcam
+1765966826.3448255,1765966826.3447032,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765966826.3452122,1765966826.345081,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765966826.3468142,1765966826.3466997,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765966826.3931074,1765966826.3929827,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966826.3940456,1765966826.3939507,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966826.6493099,1765966826.6491718,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765966826.682247,1765966826.6821182,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 5,JoystickBluetooth
+1765966826.6826339,1765966826.6825256,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 5,mainNode
+1765966826.6841803,1765966826.684041,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765966826.89309,1765966826.8929904,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966826.8940282,1765966826.893923,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966826.986475,1765966826.9863513,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765966827.0320635,1765966827.0319424,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 196,sensorHallyPot
+1765966827.033226,1765966827.0331118,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 207,sensorHallyPot
+1765966827.393066,1765966827.3929741,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966827.3939953,1765966827.393905,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966827.8930376,1765966827.8929536,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966827.893967,1765966827.8938847,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966828.0320277,1765966828.0319278,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: -91,sensorHallyPot
+1765966828.0331242,1765966828.033033,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: -66,sensorHallyPot
+1765966828.149955,1765966828.149845,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,60,Frame: 0,webcam
+1765966828.3930352,1765966828.3929362,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966828.3939116,1765966828.3938255,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966828.6323154,1765966828.63218,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765966828.632698,1765966828.6325827,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765966828.6343834,1765966828.6342602,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765966828.893079,1765966828.8929784,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966828.8940053,1765966828.8939142,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966828.9367673,1765966828.9366348,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765966829.032091,1765966829.0319946,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: -265,sensorHallyPot
+1765966829.0332,1765966829.0331197,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: -240,sensorHallyPot
+1765966829.393132,1765966829.3930256,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966829.3941631,1765966829.3940797,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966829.8930712,1765966829.8929734,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966829.893982,1765966829.8939023,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966830.0320702,1765966830.0319638,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 38,sensorHallyPot
+1765966830.03316,1765966830.033069,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 40,sensorHallyPot
+1765966830.1499524,1765966830.1498518,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,60,Frame: 0,webcam
+1765966830.393106,1765966830.3929977,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966830.3940587,1765966830.3939621,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966830.5072937,1765966830.5071924,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 5,JoystickBluetooth
+1765966830.5076737,1765966830.507564,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 5,mainNode
+1765966830.5092597,1765966830.5091379,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765966830.8115172,1765966830.8114045,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765966830.8930871,1765966830.892982,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966830.89404,1765966830.893942,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966831.0318978,1765966831.031806,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966831.0328927,1765966831.0327952,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966831.3930945,1765966831.392985,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966831.3940337,1765966831.393897,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966831.8931103,1765966831.8930233,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966831.8940766,1765966831.89397,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966832.0320861,1765966832.0319977,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: -124,sensorHallyPot
+1765966832.0331595,1765966832.0330646,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: -95,sensorHallyPot
+1765966832.149921,1765966832.149827,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,60,Frame: 0,webcam
+1765966832.3073578,1765966832.307216,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 15,JoystickBluetooth
+1765966832.3077598,1765966832.307646,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 15,mainNode
+1765966832.3093302,1765966832.3092103,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765966832.3931394,1765966832.3930442,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966832.3941908,1765966832.3941078,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966832.5323293,1765966832.5321963,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 5,JoystickBluetooth
+1765966832.5326495,1765966832.53257,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 5,mainNode
+1765966832.533293,1765966832.5331724,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765966832.534402,1765966832.5342932,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765966832.6116517,1765966832.6115131,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765966832.611687,1765966832.6115127,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765966832.8931036,1765966832.893009,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966832.8940651,1765966832.8939621,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966832.913844,1765966832.9137185,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765966832.9138763,1765966832.9137614,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765966833.0322175,1765966833.0320876,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: -244,sensorHallyPot
+1765966833.0336857,1765966833.0335538,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: -237,sensorHallyPot
+1765966833.216583,1765966833.21636,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765966833.3930328,1765966833.392923,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966833.3938158,1765966833.393739,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966833.8931217,1765966833.8930273,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966833.894043,1765966833.893955,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966833.9197884,1765966833.9196901,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765966833.9201734,1765966833.9200728,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765966834.004555,1765966834.0044005,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765966834.0319757,1765966834.0318804,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 52,sensorHallyPot
+1765966834.0330317,1765966834.0329375,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: -58,sensorHallyPot
+1765966834.1499157,1765966834.1498187,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,60,Frame: 0,webcam
+1765966834.3069437,1765966834.3068194,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765966834.3930652,1765966834.3929718,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966834.3939333,1765966834.3938544,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966834.8929622,1765966834.892887,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966834.8938031,1765966834.8937256,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966835.0321076,1765966835.032006,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 25,sensorHallyPot
+1765966835.0332417,1765966835.0331423,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 35,sensorHallyPot
+1765966835.3930862,1765966835.392989,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966835.3940177,1765966835.3939357,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966835.4948254,1765966835.494717,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765966835.4952264,1765966835.4951243,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765966835.4968987,1765966835.496782,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765966835.7993112,1765966835.799178,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765966835.8930697,1765966835.8929772,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966835.8939946,1765966835.8939028,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966836.0320966,1765966836.0319822,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 188,sensorHallyPot
+1765966836.033212,1765966836.0331223,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 208,sensorHallyPot
+1765966836.1499057,1765966836.1498287,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,60,Frame: 0,webcam
+1765966836.393137,1765966836.3930457,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966836.394079,1765966836.3939767,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966836.5804515,1765966836.5803542,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,timer_callback,20,220,"Publicado: ""0""",ST
+1765966836.5814886,1765966836.5813863,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,start_random_timer,20,180,Dato publicado ST: 7.022773911333992,ST
+1765966836.893082,1765966836.8929858,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966836.8940396,1765966836.8939407,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966837.0319529,1765966837.031854,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 10,sensorHallyPot
+1765966837.0329878,1765966837.0328963,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 10,sensorHallyPot
+1765966837.364039,1765966837.3639293,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,timer_lectura,20,203,Dato medido ST: 0.04066109657287598,ST
+1765966837.3931048,1765966837.3930094,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966837.3940322,1765966837.3939397,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966837.8930612,1765966837.8929605,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966837.8939726,1765966837.8938873,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966838.032077,1765966838.0319703,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966838.0331967,1765966838.0331156,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966838.1499085,1765966838.149826,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,60,Frame: 0,webcam
+1765966838.3931265,1765966838.3930354,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966838.3941123,1765966838.3939867,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966838.893099,1765966838.8930004,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966838.8940475,1765966838.8939466,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966839.0320766,1765966839.0319571,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966839.0332043,1765966839.0331109,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966839.282393,1765966839.2822888,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765966839.2829838,1765966839.2826777,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765966839.2845047,1765966839.2843766,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765966839.3931427,1765966839.3930233,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966839.3941088,1765966839.394004,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966839.586914,1765966839.5867972,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765966839.8931274,1765966839.8930428,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966839.894037,1765966839.8939497,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966840.0320559,1765966840.0319414,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 2,sensorHallyPot
+1765966840.0331616,1765966840.0330567,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 4,sensorHallyPot
+1765966840.1499045,1765966840.1498082,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,60,Frame: 0,webcam
+1765966840.3930845,1765966840.3929873,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966840.3939993,1765966840.3939226,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966840.8930254,1765966840.8929377,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966840.8939106,1765966840.8938146,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966841.0073915,1765966841.0072982,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765966841.0077643,1765966841.0076618,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765966841.0094438,1765966841.009274,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765966841.0320272,1765966841.031931,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 144,sensorHallyPot
+1765966841.033143,1765966841.0330617,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 170,sensorHallyPot
+1765966841.311871,1765966841.3117132,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765966841.3930538,1765966841.3929584,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966841.3939269,1765966841.393852,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966841.893078,1765966841.892981,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966841.8940086,1765966841.893918,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966842.032113,1765966842.0319984,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 141,sensorHallyPot
+1765966842.0332365,1765966842.0331411,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 144,sensorHallyPot
+1765966842.1499104,1765966842.1498191,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,60,Frame: 0,webcam
+1765966842.3931367,1765966842.3930376,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966842.3941438,1765966842.3939948,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966842.8931234,1765966842.8930259,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966842.894069,1765966842.89397,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966843.031992,1765966843.0318644,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966843.0331335,1765966843.033038,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966843.393091,1765966843.392999,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966843.3940454,1765966843.3939536,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966843.893107,1765966843.893,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966843.894046,1765966843.893961,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966844.032088,1765966844.0319788,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966844.0331995,1765966844.033121,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966844.068391,1765966844.068296,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,timer_callback,20,220,"Publicado: ""0""",ST
+1765966844.0693762,1765966844.069292,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,start_random_timer,20,180,Dato publicado ST: 9.21155982572365,ST
+1765966844.1499104,1765966844.1498258,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,60,Frame: 0,webcam
+1765966844.3640552,1765966844.3639352,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,timer_lectura,20,203,Dato medido ST: 0.1050565242767334,ST
+1765966844.3930917,1765966844.3929908,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966844.3940387,1765966844.393953,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966844.893089,1765966844.8929949,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966844.8940382,1765966844.8939352,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966845.0320263,1765966845.0319202,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966845.0332608,1765966845.0331547,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966845.3931005,1765966845.3930032,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966845.3940742,1765966845.393955,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966845.8930986,1765966845.8929896,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966845.8940334,1765966845.8939364,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966846.0320168,1765966846.031906,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966846.0331678,1765966846.0330791,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966846.149936,1765966846.1498375,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,60,Frame: 0,webcam
+1765966846.393124,1765966846.393027,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966846.3940442,1765966846.3939524,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966846.8930075,1765966846.8929324,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966846.893885,1765966846.893801,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966847.0320613,1765966847.0319557,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966847.033212,1765966847.0331233,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966847.3930228,1765966847.3929389,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966847.3938954,1765966847.3938158,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966847.893094,1765966847.8930054,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966847.8940341,1765966847.8939445,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966848.0320349,1765966848.0319371,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966848.0331366,1765966848.033046,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966848.1499147,1765966848.1498265,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,60,Frame: 0,webcam
+1765966848.3931422,1765966848.39304,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966848.3940651,1765966848.393969,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966848.695051,1765966848.6948752,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765966848.695366,1765966848.6952548,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765966848.697052,1765966848.6969311,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765966848.8930695,1765966848.8929772,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966848.8940272,1765966848.8939192,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966848.9994218,1765966848.9992855,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765966849.0320487,1765966849.031949,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966849.033159,1765966849.0330634,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966849.393079,1765966849.3929856,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966849.3940074,1765966849.3939195,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966849.8930836,1765966849.8929842,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966849.8940084,1765966849.8939211,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966850.0320647,1765966850.0319548,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 63,sensorHallyPot
+1765966850.0331419,1765966850.0330598,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 80,sensorHallyPot
+1765966850.1499004,1765966850.1498194,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,60,Frame: 0,webcam
+1765966850.3931246,1765966850.3930364,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966850.3940976,1765966850.3939762,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966850.607634,1765966850.6074402,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765966850.6078582,1765966850.6077561,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765966850.609448,1765966850.6093302,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765966850.8930964,1765966850.8930013,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966850.894053,1765966850.8939502,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966850.9115944,1765966850.9114833,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765966851.032037,1765966851.031928,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 260,sensorHallyPot
+1765966851.03316,1765966851.0330608,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 274,sensorHallyPot
+1765966851.393138,1765966851.3930247,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966851.3940778,1765966851.3939815,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966851.89309,1765966851.8929937,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966851.8940325,1765966851.89393,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966852.0320098,1765966852.031919,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 40,sensorHallyPot
+1765966852.033123,1765966852.0330286,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 42,sensorHallyPot
+1765966852.1499088,1765966852.1498218,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,60,Frame: 0,webcam
+1765966852.39309,1765966852.3929932,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966852.3940392,1765966852.3939428,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966852.8931022,1765966852.8930056,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966852.8940442,1765966852.8939466,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966853.0320373,1765966853.031944,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966853.0331516,1765966853.0330772,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966853.2700343,1765966853.2699142,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765966853.270379,1765966853.2702754,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765966853.2720592,1765966853.271929,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765966853.3931246,1765966853.393023,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966853.394034,1765966853.393963,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966853.574326,1765966853.5741985,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765966853.7431934,1765966853.7430973,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,timer_callback,20,220,"Publicado: ""1""",ST
+1765966853.7442825,1765966853.7441862,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,start_random_timer,20,180,Dato publicado ST: 13.046291782868158,ST
+1765966853.893095,1765966853.8930004,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966853.8940027,1765966853.8939185,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966854.0320592,1765966854.0319479,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 3,sensorHallyPot
+1765966854.033154,1765966854.0330653,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 3,sensorHallyPot
+1765966854.149876,1765966854.1497903,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,60,Frame: 0,webcam
+1765966854.3640275,1765966854.3639367,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,timer_lectura,20,203,Dato medido ST: 0.030740022659301758,ST
+1765966854.3931906,1765966854.3930926,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966854.3942733,1765966854.3941767,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966854.8930674,1765966854.8929682,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966854.8940222,1765966854.893918,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966855.032603,1765966855.0320563,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 149,sensorHallyPot
+1765966855.032641,1765966855.0324233,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765966855.03354,1765966855.0329635,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765966855.0335681,1765966855.0331998,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 176,sensorHallyPot
+1765966855.0353484,1765966855.0352304,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765966855.3377175,1765966855.3375833,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765966855.3930724,1765966855.392981,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966855.394026,1765966855.3939154,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966855.8930595,1765966855.8929646,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966855.8939838,1765966855.8938935,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966856.0320222,1765966856.0319169,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 152,sensorHallyPot
+1765966856.0330617,1765966856.0329728,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 158,sensorHallyPot
+1765966856.1499195,1765966856.1498237,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,60,Frame: 0,webcam
+1765966856.3931258,1765966856.3930328,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966856.394057,1765966856.3939614,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966856.8930867,1765966856.8929923,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966856.8940403,1765966856.8939333,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966857.0320504,1765966857.0319405,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966857.0332506,1765966857.0331464,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966857.3930736,1765966857.3929815,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966857.3940918,1765966857.393989,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966857.8930855,1765966857.892985,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966857.8940244,1765966857.8939254,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966858.031975,1765966858.0318837,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966858.0330882,1765966858.0329874,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966858.149936,1765966858.1498368,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,60,Frame: 0,webcam
+1765966858.3930955,1765966858.3929942,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966858.3940256,1765966858.3939285,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966858.8931358,1765966858.8930233,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966858.8941343,1765966858.8940408,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966859.032067,1765966859.0319493,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: 0,sensorHallyPot
+1765966859.0331805,1765966859.0331006,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: 0,sensorHallyPot
+1765966859.0825226,1765966859.082424,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 5,JoystickBluetooth
+1765966859.0829005,1765966859.0827885,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 5,mainNode
+1765966859.0844297,1765966859.084317,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765966859.3867273,1765966859.3865721,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765966859.393036,1765966859.392959,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966859.3939795,1765966859.393888,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966859.893009,1765966859.8929274,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966859.8939004,1765966859.893814,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966860.0320692,1765966860.0319536,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,44,Dato publicado LW: -25,sensorHallyPot
+1765966860.0331748,1765966860.0330787,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,47,Dato publicado RW: -15,sensorHallyPot
+1765966860.1499352,1765966860.1498363,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,60,Frame: 0,webcam
+1765966860.2826295,1765966860.2825255,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765966860.282992,1765966860.2828817,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765966860.2846575,1765966860.2845378,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765966860.3931046,1765966860.3930042,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966860.3940291,1765966860.3939426,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles
+1765966860.5869832,1765966860.5868497,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765966860.893093,1765966860.8929834,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,39,Dato publicado Táctil Izquierdo: 0,tactiles
+1765966860.894034,1765966860.893941,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/tactilesNode.py,timer_callback,20,42,Dato publicado Táctil Derecho: 0,tactiles

@@ -1,0 +1,617 @@
+log_time_s,publish_time_s,file,function,level,line,msg,name
+1765972331.5858984,1765972331.5858777,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/rosout',rosbag2_recorder
+1765972331.5859387,1765972331.5739977,./src/rosbag2_transport/recorder.cpp,RecorderImpl,20,190,Press SPACE for pausing/resuming,rosbag2_recorder
+1765972331.5861104,1765972331.5838838,./src/rosbag2_transport/recorder.cpp,record,20,353,Listening for topics...,rosbag2_recorder
+1765972331.5861151,1765972331.5839708,./src/rosbag2_transport/recorder.cpp,event_publisher_thread_main,20,371,Event publisher thread: Starting,rosbag2_recorder
+1765972331.587463,1765972331.587443,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/events/write_split',rosbag2_recorder
+1765972331.5876338,1765972331.587617,./src/rosbag2_transport/recorder.cpp,record,20,365,Recording...,rosbag2_recorder
+1765972331.775446,1765972327.634754,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: -2,JoystickBluetooth
+1765972331.793433,1765972331.7934027,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/Attended',rosbag2_recorder
+1765972331.795395,1765972331.7953646,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/Ejecucion',rosbag2_recorder
+1765972331.7990408,1765972331.7990165,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/parameter_events',rosbag2_recorder
+1765972331.8014524,1765972331.8014219,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/diff_time',rosbag2_recorder
+1765972331.8037333,1765972331.8036973,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/tipo_exp',rosbag2_recorder
+1765972331.8055027,1765972331.8054738,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/frame',rosbag2_recorder
+1765972331.808356,1765972331.8083289,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/modo_exp',rosbag2_recorder
+1765972331.811637,1765972331.8116071,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/tactil_izq',rosbag2_recorder
+1765972331.814613,1765972331.814591,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/name_movil',rosbag2_recorder
+1765972331.8161917,1765972331.8161654,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/random_time',rosbag2_recorder
+1765972331.8874335,1765972328.6398597,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/esp32Node.py,timer_callback,20,41,Dato publicado Pot: 5,sensorHallyPot
+1765972331.9198503,1765972331.9198196,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/right_wheel_steps',rosbag2_recorder
+1765972331.922395,1765972331.9223607,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/left_wheel_steps',rosbag2_recorder
+1765972331.9244077,1765972331.9243724,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/jBnode',rosbag2_recorder
+1765972331.927234,1765972331.9272022,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/pot_esp32',rosbag2_recorder
+1765972331.929442,1765972331.9294114,./src/rosbag2_transport/recorder.cpp,subscribe_topic,20,569,Subscribed to topic '/tactil_der',rosbag2_recorder
+1765972334.835747,1765972334.835629,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,secuencia_conexion,20,31,Conectado al Arduino por /dev/Joystick,Joystick
+1765972457.719877,1765972457.7197258,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 12,JoystickBluetooth
+1765972457.743047,1765972457.7429073,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 12,mainNode
+1765972458.0198011,1765972458.0196593,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 6,JoystickBluetooth
+1765972458.020229,1765972458.0201225,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 6,mainNode
+1765972463.419843,1765972463.4197378,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 9,JoystickBluetooth
+1765972463.4202328,1765972463.420127,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 9,mainNode
+1765972463.644758,1765972463.6446652,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972463.6450722,1765972463.644973,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972474.7450378,1765972474.7449317,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765972474.7453942,1765972474.7452924,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765972475.0825677,1765972475.0824664,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 12,JoystickBluetooth
+1765972475.0829659,1765972475.0828564,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 12,mainNode
+1765972475.1574926,1765972475.1573966,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765972475.1578622,1765972475.1577628,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765972475.60756,1765972475.607453,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972475.6079025,1765972475.6078072,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972478.195033,1765972478.1949248,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765972478.19546,1765972478.1953437,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765972478.4950223,1765972478.4949238,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 12,JoystickBluetooth
+1765972478.4954634,1765972478.4953556,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 12,mainNode
+1765972478.5324616,1765972478.5323708,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 6,JoystickBluetooth
+1765972478.532778,1765972478.5326872,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 6,mainNode
+1765972478.644946,1765972478.6448536,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 17,JoystickBluetooth
+1765972478.6452708,1765972478.6451688,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 17,mainNode
+1765972478.7575185,1765972478.7574203,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 5,JoystickBluetooth
+1765972478.7579043,1765972478.7577894,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 5,mainNode
+1765972478.7949407,1765972478.7948532,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 15,JoystickBluetooth
+1765972478.795287,1765972478.7951798,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 15,mainNode
+1765972478.8326836,1765972478.8324156,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 9,JoystickBluetooth
+1765972478.8329124,1765972478.8327556,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 9,mainNode
+1765972478.9825382,1765972478.982442,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972478.983072,1765972478.9828534,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972482.1160865,1765972482.1159508,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subMovilEjecucion,20,137,Comando Movil Ejecucion: 20,mainNode
+1765972482.1389294,1765972482.1387844,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py,timer_callback,20,239,Dato publicado Fase Ejecucion: 20,Movil
+1765972484.0076776,1765972484.0075686,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765972484.0080729,1765972484.0079637,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765972484.7201154,1765972484.7200143,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 12,JoystickBluetooth
+1765972484.7204428,1765972484.7203445,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 12,mainNode
+1765972484.7950823,1765972484.7949822,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 6,JoystickBluetooth
+1765972484.795476,1765972484.79538,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 6,mainNode
+1765972485.245603,1765972485.2454612,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 2,webcam
+1765972485.2827601,1765972485.2826476,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972485.2830997,1765972485.2829816,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972485.9950883,1765972485.9949846,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 3,webcam
+1765972487.2702096,1765972487.270108,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 5,JoystickBluetooth
+1765972487.27053,1765972487.2704418,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 5,mainNode
+1765972487.7952266,1765972487.7951143,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 15,JoystickBluetooth
+1765972487.7955775,1765972487.7954717,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 15,mainNode
+1765972487.8328621,1765972487.8326879,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 9,JoystickBluetooth
+1765972487.8331401,1765972487.8329823,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 9,mainNode
+1765972487.9827628,1765972487.98265,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 10,JoystickBluetooth
+1765972487.983117,1765972487.9830096,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 10,mainNode
+1765972487.9951165,1765972487.9950254,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 4,webcam
+1765972488.0201898,1765972488.0200841,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765972488.0205822,1765972488.020466,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765972488.2452517,1765972488.245141,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 12,JoystickBluetooth
+1765972488.2455924,1765972488.2454941,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 12,mainNode
+1765972488.2827084,1765972488.2825997,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 6,JoystickBluetooth
+1765972488.283066,1765972488.282934,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 6,mainNode
+1765972488.432756,1765972488.432647,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972488.433085,1765972488.4329824,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972488.8077824,1765972488.807676,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765972488.8080442,1765972488.8079472,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765972489.9950612,1765972489.9949658,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 5,webcam
+1765972490.0827794,1765972490.0826538,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972490.083117,1765972490.0829594,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972490.5702908,1765972490.5701694,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 5,JoystickBluetooth
+1765972490.5706635,1765972490.5705533,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 5,mainNode
+1765972491.995705,1765972491.995603,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 6,webcam
+1765972492.9328563,1765972492.93275,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972492.9331791,1765972492.9330735,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972493.4953349,1765972493.4952166,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765972493.4957585,1765972493.4956114,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765972493.6164236,1765972493.6155784,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py,timer_callback,20,221,Dato publicado Modo: Modo:0,Movil
+1765972493.617866,1765972493.616458,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subMovilModo,20,122,Comando Movil Modo: Modo:0,mainNode
+1765972493.6178946,1765972493.6166444,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: modo,Joystick
+1765972493.718826,1765972493.7186978,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972493.9951992,1765972493.9951124,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 7,webcam
+1765972494.2453737,1765972494.2452598,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972494.245675,1765972494.2455776,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972495.0704236,1765972495.070314,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 5,JoystickBluetooth
+1765972495.0708094,1765972495.0706856,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 5,mainNode
+1765972495.220364,1765972495.2202473,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972495.2206864,1765972495.2205868,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972495.6167512,1765972495.6156268,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py,timer_callback,20,221,Dato publicado Modo: Modo:1,Movil
+1765972495.616785,1765972495.616365,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subMovilModo,20,122,Comando Movil Modo: Modo:1,mainNode
+1765972495.6167946,1765972495.6164758,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: modo,Joystick
+1765972495.8187861,1765972495.8186576,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972495.9964151,1765972495.9963465,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 8,webcam
+1765972497.1158073,1765972497.115684,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py,timer_callback,20,239,Dato publicado Fase Ejecucion: 30,Movil
+1765972497.1161342,1765972497.1159172,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subMovilEjecucion,20,137,Comando Movil Ejecucion: 30,mainNode
+1765972502.4204726,1765972502.420368,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765972502.4208295,1765972502.420727,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765972502.4225795,1765972502.4224596,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972502.7248504,1765972502.7247267,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972503.4330597,1765972503.4329054,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972503.4333723,1765972503.4332428,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972503.435072,1765972503.4349492,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972503.7373855,1765972503.7372408,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972503.8453965,1765972503.8452954,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 6,JoystickBluetooth
+1765972503.8457735,1765972503.845666,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 6,mainNode
+1765972503.847402,1765972503.8472812,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972503.9954724,1765972503.9953704,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972503.9963744,1765972503.9957259,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972503.9965627,1765972503.9963987,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765972503.9975498,1765972503.9974422,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765972504.1497273,1765972504.1495845,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972504.1497638,1765972504.149585,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972504.452111,1765972504.4519687,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972504.4521995,1765972504.4520812,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972504.754546,1765972504.7544181,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972505.0080338,1765972505.007923,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 12,JoystickBluetooth
+1765972505.0083654,1765972505.0082474,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 12,mainNode
+1765972505.010044,1765972505.0099192,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972505.0454674,1765972505.045364,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 6,JoystickBluetooth
+1765972505.0458066,1765972505.0457048,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 6,mainNode
+1765972505.116814,1765972505.1155446,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py,timer_callback,20,215,Dato publicado Tipo Experimento: Experimento 1,Movil
+1765972505.1168516,1765972505.115874,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subMovilTipo,20,95,Comando Movil Tipo: Experimento 1,mainNode
+1765972505.1387303,1765972505.1385794,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,sus_function,20,166,Mensaje recibido: Experimento 1,ST
+1765972505.3125,1765972505.312316,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972505.312535,1765972505.312304,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972505.3829908,1765972505.3828838,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972505.383356,1765972505.3832357,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972505.6150405,1765972505.6147037,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972505.6150725,1765972505.6147277,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972505.6830904,1765972505.6829026,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 6,JoystickBluetooth
+1765972505.6833582,1765972505.6831942,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 6,mainNode
+1765972505.9171796,1765972505.9170117,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972505.917256,1765972505.9170272,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972506.2194538,1765972506.2193186,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972506.6955462,1765972506.695444,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972506.6958513,1765972506.6957545,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972506.6976497,1765972506.6975212,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972506.7705927,1765972506.7704859,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 9,JoystickBluetooth
+1765972506.770888,1765972506.7707818,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 9,mainNode
+1765972506.8454623,1765972506.8453243,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 10,JoystickBluetooth
+1765972506.8458376,1765972506.8456948,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 10,mainNode
+1765972506.9580379,1765972506.9579346,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765972506.9583232,1765972506.9582098,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765972507.000017,1765972506.9997914,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972507.0000477,1765972506.9997911,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972507.1136441,1765972507.1135364,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,timer_callback,20,220,"Publicado: ""0""",ST
+1765972507.1147606,1765972507.1146448,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,start_random_timer,20,180,Dato publicado ST: 7.411647981572061,ST
+1765972507.2205625,1765972507.2204576,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 10,JoystickBluetooth
+1765972507.2209108,1765972507.2208092,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 10,mainNode
+1765972507.3023148,1765972507.3021169,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972507.3023946,1765972507.3021386,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972507.4022148,1765972507.4021084,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,timer_lectura,20,203,Dato medido ST: 0.03226208686828613,ST
+1765972507.5581734,1765972507.5580583,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765972507.5584953,1765972507.558373,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765972507.6045387,1765972507.6044164,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972507.6049016,1765972507.604768,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972507.6154988,1765972507.6154087,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py,timer_callback,20,221,Dato publicado Modo: Modo:1,Movil
+1765972507.6166503,1765972507.6160095,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subMovilModo,20,122,Comando Movil Modo: Modo:1,mainNode
+1765972507.9073777,1765972507.9071758,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972507.9074125,1765972507.9072132,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972508.11579,1765972508.1156847,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py,timer_callback,20,239,Dato publicado Fase Ejecucion: 20,Movil
+1765972508.1160214,1765972508.1159017,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subMovilEjecucion,20,137,Comando Movil Ejecucion: 20,mainNode
+1765972508.209664,1765972508.2095082,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972508.2096994,1765972508.2095375,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972508.5120564,1765972508.5119004,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: modo,Joystick
+1765972508.5120912,1765972508.5119002,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972508.7140784,1765972508.7139528,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972509.995438,1765972509.9953542,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 9,webcam
+1765972510.483142,1765972510.483027,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972510.4834678,1765972510.4833672,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972510.4851484,1765972510.485022,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972510.7080204,1765972510.7079227,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 5,JoystickBluetooth
+1765972510.7083268,1765972510.7082224,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 5,mainNode
+1765972510.7876346,1765972510.7874591,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972510.7876723,1765972510.787458,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972511.0899436,1765972511.0898142,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972511.9962034,1765972511.9960845,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 10,webcam
+1765972512.0206265,1765972512.0205219,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972512.0210254,1765972512.020906,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972512.0226488,1765972512.0224946,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972512.32495,1765972512.324818,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972512.3955748,1765972512.3954668,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765972512.395869,1765972512.395767,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765972512.397498,1765972512.3973727,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972512.6996777,1765972512.69955,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972513.9959254,1765972513.9958208,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 11,webcam
+1765972514.6832058,1765972514.6830914,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 10,JoystickBluetooth
+1765972514.6835027,1765972514.6833975,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 10,mainNode
+1765972514.6851814,1765972514.6850557,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972514.7206113,1765972514.7205048,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 9,JoystickBluetooth
+1765972514.7209253,1765972514.720824,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 9,mainNode
+1765972514.9876065,1765972514.98747,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972514.991027,1765972514.9909244,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,timer_callback,20,220,"Publicado: ""0""",ST
+1765972514.9920304,1765972514.9919386,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,start_random_timer,20,180,Dato publicado ST: 8.17537737545253,ST
+1765972515.1885757,1765972515.1884253,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972515.4020357,1765972515.4019415,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,timer_lectura,20,203,Dato medido ST: 0.09117722511291504,ST
+1765972515.490891,1765972515.490761,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972515.583144,1765972515.5830343,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972515.5835702,1765972515.5833058,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972515.5845277,1765972515.5840437,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765972515.5850127,1765972515.584828,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972515.5850685,1765972515.5849574,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765972515.8872533,1765972515.887126,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972515.8872988,1765972515.8871799,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972515.9956264,1765972515.9955475,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 12,webcam
+1765972516.1895535,1765972516.1894271,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972516.7081866,1765972516.708085,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 10,JoystickBluetooth
+1765972516.708484,1765972516.7083836,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 10,mainNode
+1765972516.7101002,1765972516.7099807,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972517.0125039,1765972517.0123663,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972517.8332987,1765972517.833195,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765972517.8336399,1765972517.8335297,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765972517.8354292,1765972517.8353064,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972517.9951591,1765972517.995071,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 13,webcam
+1765972518.1378694,1765972518.1377366,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972518.2832844,1765972518.2831526,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 12,JoystickBluetooth
+1765972518.2835374,1765972518.2834196,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 12,mainNode
+1765972518.2852154,1765972518.2850938,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972518.320662,1765972518.3205593,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 6,JoystickBluetooth
+1765972518.321,1765972518.320884,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 6,mainNode
+1765972518.583251,1765972518.5831404,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 12,JoystickBluetooth
+1765972518.5835445,1765972518.5834448,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 12,mainNode
+1765972518.5873263,1765972518.5872061,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972518.5876245,1765972518.5873983,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972518.770725,1765972518.770625,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765972518.7710173,1765972518.7708626,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765972518.8898432,1765972518.889688,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972518.8898747,1765972518.8897102,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972519.1924582,1765972519.1921403,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972519.1924925,1765972519.192131,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972519.494676,1765972519.4945402,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972519.9952893,1765972519.9951952,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 14,webcam
+1765972520.9834301,1765972520.9832208,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 10,JoystickBluetooth
+1765972520.9837327,1765972520.9835372,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 10,mainNode
+1765972521.1388493,1765972521.138696,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972521.4411988,1765972521.441067,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972521.920741,1765972521.920637,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765972521.921077,1765972521.920974,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765972521.9227247,1765972521.9226007,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972521.9946218,1765972521.9945266,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 15,webcam
+1765972522.225085,1765972522.2249537,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972522.9709218,1765972522.9707177,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 12,JoystickBluetooth
+1765972522.9712317,1765972522.9709888,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 12,mainNode
+1765972522.973062,1765972522.9729357,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972523.0082786,1765972523.0081336,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 6,JoystickBluetooth
+1765972523.0086446,1765972523.0085342,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 6,mainNode
+1765972523.275706,1765972523.2753553,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972523.2757435,1765972523.2753873,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972523.577917,1765972523.5777779,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972523.6308963,1765972523.630798,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,timer_callback,20,220,"Publicado: ""1""",ST
+1765972523.6318922,1765972523.6318064,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,start_random_timer,20,180,Dato publicado ST: 10.624467276294013,ST
+1765972523.995307,1765972523.9952137,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 16,webcam
+1765972524.3957613,1765972524.395657,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972524.3960757,1765972524.3959777,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972524.397658,1765972524.3975358,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972524.4018419,1765972524.4017622,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,timer_lectura,20,203,Dato medido ST: 0.027795791625976562,ST
+1765972524.6998646,1765972524.6997466,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972524.7707953,1765972524.7706966,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 9,JoystickBluetooth
+1765972524.7711277,1765972524.7709618,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 9,mainNode
+1765972524.7728276,1765972524.7727046,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972525.0751748,1765972525.075048,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972525.633161,1765972525.633067,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972525.6334112,1765972525.633306,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972525.6349964,1765972525.6348772,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972525.937342,1765972525.9371896,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972525.9946284,1765972525.994547,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 17,webcam
+1765972526.833335,1765972526.833225,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 9,JoystickBluetooth
+1765972526.8336768,1765972526.8335836,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 9,mainNode
+1765972526.8353503,1765972526.8352163,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972526.870866,1765972526.8707132,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 10,JoystickBluetooth
+1765972526.8711545,1765972526.871052,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 10,mainNode
+1765972527.058358,1765972527.0582087,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765972527.0588026,1765972527.058591,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765972527.13767,1765972527.137536,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972527.3382864,1765972527.3381822,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972527.6404452,1765972527.640272,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972527.640481,1765972527.640341,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972527.770897,1765972527.7707348,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 12,JoystickBluetooth
+1765972527.7711506,1765972527.7710476,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 12,mainNode
+1765972527.8082204,1765972527.808125,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 6,JoystickBluetooth
+1765972527.8085504,1765972527.8084397,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 6,mainNode
+1765972527.9208102,1765972527.920705,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972527.9211154,1765972527.9210193,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972527.943578,1765972527.9426322,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972527.9436085,1765972527.9427025,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972527.9955695,1765972527.9954884,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 18,webcam
+1765972528.2452874,1765972528.2451036,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972528.245325,1765972528.2451034,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972528.3333433,1765972528.33323,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 6,JoystickBluetooth
+1765972528.3342988,1765972528.3341835,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 6,mainNode
+1765972528.483423,1765972528.4833186,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972528.4838154,1765972528.4836276,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972528.4846213,1765972528.4844048,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765972528.4855852,1765972528.4854834,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765972528.5476172,1765972528.5474808,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972528.5480077,1765972528.547819,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972528.7083614,1765972528.7082486,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972528.7086942,1765972528.7085977,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972528.850283,1765972528.8501332,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972528.8503144,1765972528.850133,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972529.152645,1765972529.1524959,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972529.1526802,1765972529.152522,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972529.1582377,1765972529.1581502,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765972529.1585062,1765972529.158411,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765972529.4548898,1765972529.4547868,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972529.4550016,1765972529.4548464,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972529.7571936,1765972529.7570732,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972529.7572327,1765972529.7571304,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972529.994465,1765972529.9943593,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 19,webcam
+1765972530.0596654,1765972530.0595214,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972530.0600893,1765972530.0597894,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972530.3622293,1765972530.3621156,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972531.9953609,1765972531.9952552,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 20,webcam
+1765972532.1207979,1765972532.120691,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 10,JoystickBluetooth
+1765972532.1211576,1765972532.1210487,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 10,mainNode
+1765972532.12279,1765972532.1226728,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972532.4249153,1765972532.4248219,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972532.9834964,1765972532.9833887,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765972532.9837656,1765972532.9836571,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765972533.1387985,1765972533.1386166,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972533.4410913,1765972533.440967,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972533.9947958,1765972533.9946942,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 21,webcam
+1765972534.2208917,1765972534.2207863,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 12,JoystickBluetooth
+1765972534.2212358,1765972534.2211366,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 12,mainNode
+1765972534.222816,1765972534.2226758,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972534.2584112,1765972534.258314,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 6,JoystickBluetooth
+1765972534.258826,1765972534.2586873,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 6,mainNode
+1765972534.5251074,1765972534.5249634,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972534.5251453,1765972534.525053,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972534.7188776,1765972534.7187822,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,timer_callback,20,220,"Publicado: ""0""",ST
+1765972534.7199147,1765972534.7198226,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,start_random_timer,20,180,Dato publicado ST: 10.990291509296664,ST
+1765972534.8277383,1765972534.8276167,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972535.4020448,1765972535.4019477,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,timer_lectura,20,203,Dato medido ST: 0.07634520530700684,ST
+1765972535.6459086,1765972535.6458075,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972535.6462142,1765972535.646115,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972535.6478603,1765972535.6477401,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972535.9501877,1765972535.950056,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972535.9953613,1765972535.99528,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 22,webcam
+1765972536.0960534,1765972536.0959392,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 9,JoystickBluetooth
+1765972536.0963504,1765972536.0962338,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 9,mainNode
+1765972536.0980203,1765972536.0979006,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972536.4003904,1765972536.40028,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972536.5460188,1765972536.5459077,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972536.5463288,1765972536.5462155,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972536.548113,1765972536.5479906,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972536.850432,1765972536.8503134,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972537.2585242,1765972537.2584147,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765972537.2588727,1765972537.25877,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765972537.2606063,1765972537.260486,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972537.5629563,1765972537.56283,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972537.9951572,1765972537.995069,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 23,webcam
+1765972538.158539,1765972538.158428,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 10,JoystickBluetooth
+1765972538.1588538,1765972538.158751,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 10,mainNode
+1765972538.1605878,1765972538.16047,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972538.19605,1765972538.1959205,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 9,JoystickBluetooth
+1765972538.196315,1765972538.1962013,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 9,mainNode
+1765972538.4628787,1765972538.4627564,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972538.4629123,1765972538.462748,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972538.765144,1765972538.7650242,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972539.3584979,1765972539.3583992,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972539.3589065,1765972539.358801,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972539.3606584,1765972539.3605332,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972539.662914,1765972539.6627924,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972539.8835604,1765972539.883457,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 6,JoystickBluetooth
+1765972539.8838265,1765972539.8837252,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 6,mainNode
+1765972539.8856015,1765972539.8854682,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972539.9952374,1765972539.9951472,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 24,webcam
+1765972540.1879382,1765972540.187808,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972540.6334753,1765972540.6333754,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972540.633646,1765972540.6335485,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972540.6352322,1765972540.6351213,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972540.8211083,1765972540.8209863,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 6,JoystickBluetooth
+1765972540.8214915,1765972540.821346,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 6,mainNode
+1765972540.8223183,1765972540.822133,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 12,JoystickBluetooth
+1765972540.8232055,1765972540.8230932,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 12,mainNode
+1765972540.9376645,1765972540.9374943,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972540.9376998,1765972540.9374864,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972541.2400928,1765972541.2398138,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972541.2401364,1765972541.2398434,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972541.3085916,1765972541.3084896,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765972541.3088412,1765972541.3087387,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765972541.3459558,1765972541.3458538,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972541.3462498,1765972541.3461545,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972541.5422866,1765972541.5420465,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972541.5423162,1765972541.5420518,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972541.7210858,1765972541.7209523,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765972541.7213495,1765972541.7212303,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765972541.8443453,1765972541.8441842,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972541.8444126,1765972541.844183,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972541.9085999,1765972541.9085002,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 10,JoystickBluetooth
+1765972541.9088767,1765972541.908767,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 10,mainNode
+1765972541.9835901,1765972541.9834387,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 9,JoystickBluetooth
+1765972541.9838383,1765972541.9837358,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 9,mainNode
+1765972541.9946802,1765972541.994583,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 25,webcam
+1765972542.1466591,1765972542.146506,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972542.1467688,1765972542.1466498,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972542.449013,1765972542.448867,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972542.4490526,1765972542.4488847,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972542.7513115,1765972542.7511127,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972542.7513793,1765972542.7511125,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972543.0535128,1765972543.0533965,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972543.5587494,1765972543.5585759,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 10,JoystickBluetooth
+1765972543.5590248,1765972543.558871,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 10,mainNode
+1765972543.560649,1765972543.5605266,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972543.6335087,1765972543.633407,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765972543.6337123,1765972543.6335711,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765972543.7461526,1765972543.745954,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972543.7463746,1765972543.7462564,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972543.8628154,1765972543.862701,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972543.8628864,1765972543.862784,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972543.9950492,1765972543.9949474,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 26,webcam
+1765972544.0460768,1765972544.0459635,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 6,JoystickBluetooth
+1765972544.0465636,1765972544.0464387,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 6,mainNode
+1765972544.1650357,1765972544.164904,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972544.1651316,1765972544.1650069,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972544.4672773,1765972544.4671552,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972544.4676132,1765972544.4673233,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972544.7695892,1765972544.7694738,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972545.995061,1765972545.994962,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 27,webcam
+1765972546.1856215,1765972546.1855276,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,timer_callback,20,220,"Publicado: ""1""",ST
+1765972546.1866808,1765972546.1865659,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,start_random_timer,20,180,Dato publicado ST: 12.931430273751312,ST
+1765972546.4020333,1765972546.4019375,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,timer_lectura,20,203,Dato medido ST: 0.0029926300048828125,ST
+1765972547.9960003,1765972547.9959028,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 28,webcam
+1765972548.208607,1765972548.2085023,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972548.2090857,1765972548.2089598,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972548.210713,1765972548.2105923,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972548.5131283,1765972548.512995,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972548.6585422,1765972548.658449,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 9,JoystickBluetooth
+1765972548.658869,1765972548.6587677,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 9,mainNode
+1765972548.6604815,1765972548.6603544,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972548.9628334,1765972548.9627037,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972549.3336601,1765972549.3335588,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972549.3341525,1765972549.3340385,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972549.3357391,1765972549.3356147,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972549.6378596,1765972549.6377492,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972549.9950075,1765972549.9949012,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 29,webcam
+1765972550.0835373,1765972550.0834413,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765972550.0839753,1765972550.0838213,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765972550.08564,1765972550.085483,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972550.196058,1765972550.195956,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972550.1964395,1765972550.1963284,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972550.3877754,1765972550.387647,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972550.3878057,1765972550.3876781,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972550.608641,1765972550.608512,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 6,JoystickBluetooth
+1765972550.6089423,1765972550.6088479,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 6,mainNode
+1765972550.6836553,1765972550.683512,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972550.6840017,1765972550.6838484,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972550.6900516,1765972550.6898856,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972550.6900833,1765972550.6899946,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972550.9924958,1765972550.9923704,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972551.193609,1765972551.193459,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972551.246123,1765972551.2460248,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765972551.2465546,1765972551.2464378,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765972551.4711537,1765972551.4710503,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972551.4715865,1765972551.4714696,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972551.495909,1765972551.495767,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972551.4959438,1765972551.4958186,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972551.7983534,1765972551.7981699,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972551.79839,1765972551.7981627,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972551.9958138,1765972551.9957252,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 30,webcam
+1765972552.1006823,1765972552.1005168,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972552.2961817,1765972552.296068,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 9,JoystickBluetooth
+1765972552.2968218,1765972552.2966342,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 9,mainNode
+1765972552.298369,1765972552.2982447,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972552.4461863,1765972552.4460812,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972552.4466143,1765972552.4464965,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972552.6008499,1765972552.6007066,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972552.6008868,1765972552.60074,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972552.8586407,1765972552.858543,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 9,JoystickBluetooth
+1765972552.8590877,1765972552.8589647,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 9,mainNode
+1765972552.8961186,1765972552.8960197,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 10,JoystickBluetooth
+1765972552.8965652,1765972552.8964498,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 10,mainNode
+1765972552.9029393,1765972552.9027956,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972552.90297,1765972552.902794,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972553.008666,1765972553.0085604,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765972553.009172,1765972553.0090463,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765972553.20515,1765972553.2050202,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972553.2053149,1765972553.2051673,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972553.5074198,1765972553.5073013,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972553.5077598,1765972553.507394,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972553.8097274,1765972553.809601,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972553.9945838,1765972553.9944866,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 31,webcam
+1765972554.3586667,1765972554.3585656,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 10,JoystickBluetooth
+1765972554.3591225,1765972554.3589764,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 10,mainNode
+1765972554.36076,1765972554.360631,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972554.583687,1765972554.5835845,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 9,JoystickBluetooth
+1765972554.5841336,1765972554.5839803,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 9,mainNode
+1765972554.6630654,1765972554.662845,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972554.6630945,1765972554.6628494,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972554.9653018,1765972554.96516,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972555.2587035,1765972555.2585998,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 10,JoystickBluetooth
+1765972555.2590828,1765972555.2589767,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 10,mainNode
+1765972555.2606134,1765972555.2604992,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972555.521196,1765972555.521092,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765972555.5216923,1765972555.5215642,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765972555.5628417,1765972555.5627155,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972555.5628722,1765972555.5627942,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972555.8652234,1765972555.8650925,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972555.9955094,1765972555.9953992,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 32,webcam
+1765972556.5712543,1765972556.571106,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 10,JoystickBluetooth
+1765972556.571622,1765972556.5715165,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 10,mainNode
+1765972556.573095,1765972556.5729804,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972556.875382,1765972556.8752556,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972557.3587441,1765972557.3586485,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765972557.3592062,1765972557.3590918,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765972557.3608139,1765972557.360695,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972557.663046,1765972557.6628938,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972557.9953692,1765972557.9952602,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 33,webcam
+1765972559.5829208,1765972559.582826,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,timer_callback,20,220,"Publicado: ""0""",ST
+1765972559.5839179,1765972559.5838354,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,start_random_timer,20,180,Dato publicado ST: 6.596226916342466,ST
+1765972559.6838124,1765972559.6837058,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 10,JoystickBluetooth
+1765972559.6841426,1765972559.6840346,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 10,mainNode
+1765972559.6858933,1765972559.6857731,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972559.9883914,1765972559.9882195,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972559.9960625,1765972559.9959779,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 34,webcam
+1765972560.358815,1765972560.3586848,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 9,JoystickBluetooth
+1765972560.3593264,1765972560.3591952,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 9,mainNode
+1765972560.3609188,1765972560.360798,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972560.3963315,1765972560.3962145,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 10,JoystickBluetooth
+1765972560.3968463,1765972560.3967276,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 10,mainNode
+1765972560.4017982,1765972560.4017282,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,timer_lectura,20,203,Dato medido ST: 0.04559040069580078,ST
+1765972560.4712903,1765972560.4711788,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 9,JoystickBluetooth
+1765972560.4717653,1765972560.4716396,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 9,mainNode
+1765972560.5461643,1765972560.5460646,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 10,JoystickBluetooth
+1765972560.546588,1765972560.546475,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 10,mainNode
+1765972560.5837178,1765972560.583622,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765972560.5840948,1765972560.5839794,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765972560.6631567,1765972560.6630287,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972560.6631916,1765972560.6630375,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972560.9653993,1765972560.9652748,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972560.9655898,1765972560.9654932,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972561.2676191,1765972561.267477,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972561.2676618,1765972561.2675798,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972561.5699995,1765972561.5698476,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972561.5700343,1765972561.5698426,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972561.8723438,1765972561.8722117,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972561.9952297,1765972561.9950993,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 35,webcam
+1765972563.7713635,1765972563.7712517,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 10,JoystickBluetooth
+1765972563.7718005,1765972563.7716804,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 10,mainNode
+1765972563.773393,1765972563.7732759,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972563.9945996,1765972563.9945056,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 36,webcam
+1765972564.0757458,1765972564.0756235,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972564.633771,1765972564.633677,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765972564.6340516,1765972564.6339612,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765972564.6356225,1765972564.6354992,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972564.938052,1765972564.9379308,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972565.9947393,1765972565.9946444,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 37,webcam
+1765972566.6441815,1765972566.6440978,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,timer_callback,20,220,"Publicado: ""0""",ST
+1765972566.6451492,1765972566.6450639,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,start_random_timer,20,180,Dato publicado ST: 9.014095578600998,ST
+1765972567.4020128,1765972567.4019315,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,timer_lectura,20,203,Dato medido ST: 0.024611234664916992,ST
+1765972567.9957466,1765972567.995646,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 38,webcam
+1765972569.8090162,1765972569.8088646,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 10,JoystickBluetooth
+1765972569.8093402,1765972569.8092291,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 10,mainNode
+1765972569.811063,1765972569.8109393,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972569.9947567,1765972569.994651,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 39,webcam
+1765972570.1135135,1765972570.1133895,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972570.2589767,1765972570.2588685,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 9,JoystickBluetooth
+1765972570.2593155,1765972570.2591956,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 9,mainNode
+1765972570.2609417,1765972570.2608228,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972570.5633051,1765972570.5631678,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972571.2339716,1765972571.2338645,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 10,JoystickBluetooth
+1765972571.2343957,1765972571.2342856,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 10,mainNode
+1765972571.2360382,1765972571.235911,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972571.4214368,1765972571.4213355,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 3,JoystickBluetooth
+1765972571.4218943,1765972571.4217267,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 3,mainNode
+1765972571.5383391,1765972571.5381432,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972571.538397,1765972571.538155,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972571.8405547,1765972571.8404372,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972571.9950662,1765972571.9949696,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 40,webcam
+1765972573.7465339,1765972573.7464335,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 10,JoystickBluetooth
+1765972573.7469194,1765972573.7468069,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 10,mainNode
+1765972573.7486446,1765972573.7485232,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972573.8589764,1765972573.858875,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 9,JoystickBluetooth
+1765972573.8593934,1765972573.859287,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 9,mainNode
+1765972573.9945045,1765972573.99442,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py,timer_callback,20,61,Frame: 41,webcam
+1765972574.0508754,1765972574.0507443,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972574.0509107,1765972574.050785,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972574.353211,1765972574.3530416,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972575.616908,1765972575.6156926,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py,timer_callback,20,239,Dato publicado Fase Ejecucion: 30,Movil
+1765972575.6169631,1765972575.6160545,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subMovilEjecucion,20,137,Comando Movil Ejecucion: 30,mainNode
+1765972576.1216173,1765972576.1215293,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,timer_callback,20,220,"Publicado: ""1""",ST
+1765972576.122639,1765972576.1225443,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,start_random_timer,20,180,Dato publicado ST: 11.379858844790311,ST
+1765972576.221532,1765972576.2214298,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py,jb_callback,20,38,Comando Joystick Bluetooth: 0,JoystickBluetooth
+1765972576.2221227,1765972576.2219899,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_subJoy,20,82,Comando Joystick Bluetooth: 0,mainNode
+1765972576.2236829,1765972576.2235699,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/arduinoNode.py,handle_joystick_silla,20,61,Enviando comando al Arduino: velocidad,Joystick
+1765972576.402044,1765972576.4019518,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,timer_lectura,20,203,Dato medido ST: 0.019671916961669922,ST
+1765972576.5261986,1765972576.526064,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py,callback_handleServiceResponse,20,142,Estoy en el servicio llamado desde mainNode,mainNode
+1765972587.9675586,1765972587.967451,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,timer_callback,20,220,"Publicado: ""0""",ST
+1765972587.9685729,1765972587.968479,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,start_random_timer,20,180,Dato publicado ST: 6.335634248835321,ST
+1765972588.4020553,1765972588.4019644,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,timer_lectura,20,203,Dato medido ST: 0.07835674285888672,ST
+1765972594.768903,1765972594.768765,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,timer_callback,20,220,"Publicado: ""1""",ST
+1765972594.7699733,1765972594.7698815,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,start_random_timer,20,180,Dato publicado ST: 5.812156340143726,ST
+1765972595.402187,1765972595.4020863,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,timer_lectura,20,203,Dato medido ST: 0.06152176856994629,ST
+1765972601.047095,1765972601.0470076,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,timer_callback,20,220,"Publicado: ""0""",ST
+1765972601.0480466,1765972601.0479572,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,start_random_timer,20,180,Dato publicado ST: 12.765165257149338,ST
+1765972601.4020555,1765972601.4019678,/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py,timer_lectura,20,203,Dato medido ST: 0.05553841590881348,ST
