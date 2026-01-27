@@ -1,5 +1,6 @@
 
 import rclpy
+import zlib    #Por defecto parece que está instalada
 from rclpy.node import Node
 from std_msgs.msg import String  # Ajusta el tipo de mensaje según tus necesidades
 from std_msgs.msg import Int32
@@ -168,8 +169,11 @@ class movilNode(Node):
         self.movil = ComMovil()  # Ajusta el puerto según corresponda
         self.movil.establecePuerto(self.port)
         self.publisher_name = self.create_publisher(String, 'name_movil', 2)
+        self.publisher_name_hash = self.create_publisher(Int32,'name_movil_hash',2)   #Habrá que dejar este solo en el futuro
         self.publisher_tipo = self.create_publisher(String,'tipo_exp',2)
+        self.publisher_tipo_int = self.create_publisher(Int32,'tipo_exp_int',2) #Habrá que dejar este solo en el futuro
         self.publisher_modo = self.create_publisher(String,'modo_exp',2)
+        self.publisher_modo_int = self.create_publiser(Int32,'modo_exp_int',2) #Habrá que dejar este solo en el futuro
         self.publisher_ejecucion = self.create_publisher(Int32,'Ejecucion',5)
         self.timer = self.create_timer(0.5, self.timer_callback)  # Llama a la función cada medio segundo
         self.timer_reconexion = self.create_timer(2,self.timer_reconexion_callback)
@@ -207,18 +211,37 @@ class movilNode(Node):
                 self.publisher_name.publish(msg)
                 self.nombre = valor
                 self.get_logger().info(f'Dato publicado Nombre_Sujeto: {msg.data}')
+                #Añado el cálculo del hash
+                msg = Int32()
+                self.hash = zlib.adler32(valor.encode('utf-8')) &0xfffffff 
+                msg.data = self.hash
+                self.publisher_name_hash(msg)
+                self.get_logger().info(f'Dato publicado Nombre_Sujeto_HASH: {msg.data}')
+                
             elif tipo==5:
                 msg = String()
                 msg.data = 'Experimento '+valor
                 self.tipo_experimento=valor
                 self.publisher_tipo.publish(msg)
                 self.get_logger().info(f'Dato publicado Tipo Experimento: {msg.data}')
+                #Añado los otros flujos
+                msg=Int32()
+                msg.data = int(valor)
+                self.publisher_tipo_int(msg)
+                self.get_logger().info(f'Dato publicado Tipo Experimento Int: {msg.data}')
+                
             elif tipo==7:
                 msg =String()
                 msg.data = 'Modo:'+valor
                 self.modo = valor
                 self.publisher_modo.publish(msg)
                 self.get_logger().info(f'Dato publicado Modo: {msg.data}')
+                #Añado el último flujo
+                msg = Int32()
+                msg.data = int(valor)
+                self.publisher_modo_int.publish(msg)
+                self.get_logger().info(f'Dato publicado Modo Int: {msg.data}')
+                
             else:
                 msg = Int32()
                 if tipo==2:

@@ -28,7 +28,9 @@ class webcamNode(Node):
 #            self.get_logger().info('Esperando al servicio para el nombre del sujeto...')
 #        self.req = Movil.Request()
 #        self.request_subject_name_and_setup()
-        self.subscription1 = self.create_subscription(String,'name_movil',self.sus_name_movil,4)
+        
+        #self.subscription1 = self.create_subscription(String,'name_movil',self.sus_name_movil,4)  
+        self.subscription1 = self.create_subscription(Int32,'name_movil_hash',self.sus_name_movil,4) #Se recibe el hash como referencia para el directorio
         self.subscription2 = self.create_subscription(Int32,'Ejecucion',self.sus_ejecucion,4)
         self.name = ''
 
@@ -41,7 +43,8 @@ class webcamNode(Node):
         super().destroy_node()
 
     def sus_name_movil(self,msg):
-        self.name = msg.data
+        #self.name = msg.data
+        self.name = str(msg.data)   #Añadido para guardar el hash del usuario
         self.webcam.setName(self.name)
 
     def sus_ejecucion(self,msg):
