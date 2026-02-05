@@ -57,32 +57,34 @@ class opasistidaNode(Node):
         # 1. Variables para almacenar el último dato de cada tópico
         self.tactil_izq = None
         self.tactil_der =None
-        self.pot = None
+        self.pot = 5
         self.pot_3 = None
         self.nav = 0   # Parado por defecto 
         self.nav_old=-1
 
         # 2. Suscriptores
-        self.create_subscription(String, 'tactil_izq', self.update_tactil_izq, 10)
-        self.create_subscription(String, 'tactil_der', self.update_tactil_der, 10)
-        self.create_subscription(String, 'pot_esp32', self.update_pot, 10)
+        self.create_subscription(Int32, 'tactil_izq', self.update_tactil_izq, 10)
+        self.create_subscription(Int32, 'tactil_der', self.update_tactil_der, 10)
+        self.create_subscription(Int32, 'pot_esp32', self.update_pot, 10)
 
         # 3. Publicador
         self.timer = self.create_timer(0.5,self.timer_callback)
-        self.pub = self.create_publisher(String, 'op_manual_asistida', 10)
+        self.pub = self.create_publisher(Int32, 'op_manual_asistida', 10)
 
     def update_tactil_izq(self, msg):
         self.tactil_izq = msg.data
-        
+        #self.get_logger().info(f'Dato publicado tactil izquierda: {msg.data}')
     def update_tactil_der(self, msg):
         self.tactil_der = msg.data
+        #self.get_logger().info(f'Dato publicado tactil derecha: {msg.data}')
         
     def timer_callback(self):
+        msg = Int32()
+        self.navegacion()
+        msg.data = self.nav
         if self.nav != self.nav_old:
-            msg = Int32()
-            msg.data = self.nav
-            self.navegacion()
             self.pub.publish(msg)
+            #self.get_logger().info(f'Dato publicado Navegación Táctil: {msg.data}')
             self.nav_old = self.nav
         
     def navegacion(self):
@@ -102,20 +104,20 @@ class opasistidaNode(Node):
             if self.tactil_izq == 0 and self.tactil_der==1 and self.pot_3 == 2:
                 self.nav = 12  #Izquierda avance
             if self.tactil_izq == 0 and self.tactil_der==1 and self.pot_3 == 0:
-                self.nav =  15 #Izquierda atrás
+                self.nav =  17 #Izquierda atrás
             if self.tactil_izq == 0 and self.tactil_der==1 and self.pot_3 == 1:
                 self.nav =  6 #Izquierda quieta
                 
   
     def update_pot(self, msg):
         self.pot = msg.data
-        if self.pot <3: 
+        if self.pot < 2: 
             self.pot_3 = 0
-        elif self.pot >6:
+        elif self.pot > 7:
             self.pot_3 = 2
         else:
             self.pot_3 = 1
-    
+        #self.get_logger().info(f'Dato publicado potenciometro: {self.pot_3}')
 def main(args=None):
     rclpy.init(args=args)
     node = opasistidaNode()

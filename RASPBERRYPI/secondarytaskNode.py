@@ -66,7 +66,7 @@ class SecondaryTask:
         N = int(duration*self.Fs)
         n = np.arange(N)
         f = F/self.Fs
-        wave = 2*np.sin(2*np.pi*f*n)
+        wave = 0.2*np.sin(2*np.pi*f*n)
         return wave.astype('float32')
         
     def playTone(self,prob=0.3):
@@ -103,7 +103,7 @@ class SecondaryTask:
         #print(data)
   
         if self.flanco==0:
-            if  data >0.005:
+            if  data >0.05:
                 self.t1 = ti.time() 
                 self.semaforo=True
                 pos = np.where(indata[:,0] == data)[0]

@@ -173,7 +173,7 @@ class movilNode(Node):
         self.publisher_tipo = self.create_publisher(String,'tipo_exp',2)
         self.publisher_tipo_int = self.create_publisher(Int32,'tipo_exp_int',2) #Habrá que dejar este solo en el futuro
         self.publisher_modo = self.create_publisher(String,'modo_exp',2)
-        self.publisher_modo_int = self.create_publiser(Int32,'modo_exp_int',2) #Habrá que dejar este solo en el futuro
+        self.publisher_modo_int = self.create_publisher(Int32,'modo_exp_int',2) #Habrá que dejar este solo en el futuro
         self.publisher_ejecucion = self.create_publisher(Int32,'Ejecucion',5)
         self.timer = self.create_timer(0.5, self.timer_callback)  # Llama a la función cada medio segundo
         self.timer_reconexion = self.create_timer(2,self.timer_reconexion_callback)
@@ -215,7 +215,7 @@ class movilNode(Node):
                 msg = Int32()
                 self.hash = zlib.adler32(valor.encode('utf-8')) &0xfffffff 
                 msg.data = self.hash
-                self.publisher_name_hash(msg)
+                self.publisher_name_hash.publish(msg)
                 self.get_logger().info(f'Dato publicado Nombre_Sujeto_HASH: {msg.data}')
                 
             elif tipo==5:
@@ -227,7 +227,7 @@ class movilNode(Node):
                 #Añado los otros flujos
                 msg=Int32()
                 msg.data = int(valor)
-                self.publisher_tipo_int(msg)
+                self.publisher_tipo_int.publish(msg)
                 self.get_logger().info(f'Dato publicado Tipo Experimento Int: {msg.data}')
                 
             elif tipo==7:
