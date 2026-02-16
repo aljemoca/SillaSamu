@@ -68,15 +68,17 @@ class opasistidaNode(Node):
         self.create_subscription(Int32, 'pot_esp32', self.update_pot, 10)
 
         # 3. Publicador
-        self.timer = self.create_timer(0.5,self.timer_callback)
+        # self.timer = self.create_timer(0.5,self.timer_callback)
         self.pub = self.create_publisher(Int32, 'op_manual_asistida', 10)
 
     def update_tactil_izq(self, msg):
         self.tactil_izq = msg.data
+        self.timer_callback()
         #self.get_logger().info(f'Dato publicado tactil izquierda: {msg.data}')
     def update_tactil_der(self, msg):
         self.tactil_der = msg.data
         #self.get_logger().info(f'Dato publicado tactil derecha: {msg.data}')
+        self.timer_callback()
         
     def timer_callback(self):
         msg = Int32()
@@ -118,6 +120,7 @@ class opasistidaNode(Node):
         else:
             self.pot_3 = 1
         #self.get_logger().info(f'Dato publicado potenciometro: {self.pot_3}')
+        self.timer_callback()
 def main(args=None):
     rclpy.init(args=args)
     node = opasistidaNode()
