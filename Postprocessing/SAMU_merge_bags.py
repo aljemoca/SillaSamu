@@ -80,7 +80,7 @@ def main():
     folder_path = filedialog.askdirectory(title="Selecciona la carpeta raíz para buscar MCAPs")
 
     if folder_path:
-        merge_mcap_files(folder_path, "merged.mcap")
+        merge_mcap_files(folder_path, folder_path+"\merged.mcap")
     else:
         print("Operación cancelada.")
 
