@@ -3,6 +3,8 @@ import argparse
 from mcap.reader import make_reader
 from mcap.writer import Writer
 from mcap_ros2_support.reader import read_ros2_messages
+import tkinter as tk
+from tkinter import filedialog
 
 
 def merge_mcap_files(input_folder, output_file):
