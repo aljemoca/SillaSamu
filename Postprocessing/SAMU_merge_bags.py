@@ -4,6 +4,7 @@ from mcap.reader import make_reader
 from mcap.writer import Writer
 from mcap_ros2_support.reader import read_ros2_messages
 
+
 def merge_mcap_files(input_folder, output_file):
     # 1. Obtener y ordenar todos los ficheros .mcap de la carpeta
     bag_files = sorted([
@@ -61,11 +62,25 @@ def merge_mcap_files(input_folder, output_file):
         writer.finish()
     print(f"\nÉxito. Archivo fusionado guardado en: {output_file}")
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Fusionar segmentos MCAP de ROS2")
-    parser.add_argument("folder", help="Carpeta que contiene los segmentos .mcap")
-    parser.add_argument("-o", "--output", default="merged_session.mcap", help="Nombre del archivo de salida")
+#if __name__ == "__main__":
+#    parser = argparse.ArgumentParser(description="Fusionar segmentos MCAP de ROS2")
+#    parser.add_argument("folder", help="Carpeta que contiene los segmentos .mcap")
+#    parser.add_argument("-o", "--output", default="merged_session.mcap", help="Nombre del archivo de salida")
     
-    args = parser.parse_args()
-    merge_mcap_files(args.folder, args.output)  
+#    args = parser.parse_args()
+#    merge_mcap_files(args.folder, args.output)  
   
+def main():
+    root = tk.Tk()
+    root.withdraw()
+    root.attributes("-topmost", True)
+
+    folder_path = filedialog.askdirectory(title="Selecciona la carpeta raíz para buscar MCAPs")
+
+    if folder_path:
+        merge_mcap_files(folder_path, "merged.mcap")
+    else:
+        print("Operación cancelada.")
+
+if __name__ == '__main__':
+    main()
