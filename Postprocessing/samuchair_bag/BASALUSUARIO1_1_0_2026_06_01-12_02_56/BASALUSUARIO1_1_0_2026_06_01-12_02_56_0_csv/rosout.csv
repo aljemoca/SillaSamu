@@ -1,0 +1,121 @@
+﻿1780308179.9676366;1780308179.96762;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/rosout';rosbag2_recorder
+1780308179.9690003;1780308179.9689772;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/events/write_split';rosbag2_recorder
+1780308179.9691927;1780308179.9691725;./src/rosbag2_transport/recorder.cpp;record;20;365;Recording...;rosbag2_recorder
+1780308180.0373545;1780308179.957227;./src/rosbag2_transport/recorder.cpp;RecorderImpl;20;190;Press SPACE for pausing/resuming;rosbag2_recorder
+1780308180.037449;1780308179.9658744;./src/rosbag2_transport/recorder.cpp;record;20;353;Listening for topics...;rosbag2_recorder
+1780308180.0374548;1780308179.9659185;./src/rosbag2_transport/recorder.cpp;event_publisher_thread_main;20;371;Event publisher thread: Starting;rosbag2_recorder
+1780308180.1322012;1780308173.9555035;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilTipo;20;251;Comando Movil Tipo: Experimento 1;mainNode
+1780308180.132223;1780308176.9552417;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilModo;20;299;Comando Movil Modo: Modo:0;mainNode
+1780308180.132228;1780308178.9547849;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 20;mainNode
+1780308180.1429713;1780308173.9541812;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;264;Dato publicado Tipo Experimento: Experimento 1;Movil
+1780308180.1430287;1780308173.9553742;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;269;Dato publicado Tipo Experimento Int: 1;Movil
+1780308180.1430333;1780308176.95435;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;276;Dato publicado Modo: Modo:0;Movil
+1780308180.1430383;1780308176.9572175;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;281;Dato publicado Modo Int: 0;Movil
+1780308180.1430423;1780308178.9544873;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 20;Movil
+1780308180.144982;1780308173.9588056;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/BagControlNode.py;nombre_callback;20;39;Nombre seleccionado: ./samuchair_bag/BASAL_USUARIO1_1_2_2026_06_01-12_02_53;BagControlNode
+1780308180.1450188;1780308176.9550176;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/BagControlNode.py;nombre_callback;20;39;Nombre seleccionado: ./samuchair_bag/BASAL_USUARIO1_1_0_2026_06_01-12_02_56;BagControlNode
+1780308180.145036;1780308178.9663413;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/BagControlNode.py;start_bag;20;58;Iniciando grabación: ./samuchair_bag/BASAL_USUARIO1_1_0_2026_06_01-12_02_56;BagControlNode
+1780308180.1746755;1780308180.1746476;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/name_movil';rosbag2_recorder
+1780308180.1777313;1780308180.1777027;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/name_movil_hash';rosbag2_recorder
+1780308180.1807015;1780308180.1806707;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/directorio_grabacion';rosbag2_recorder
+1780308180.1871095;1780308180.1870804;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/tipo_exp';rosbag2_recorder
+1780308180.1902986;1780308180.1902554;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/right_wheel_steps';rosbag2_recorder
+1780308180.1937802;1780308180.1937423;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/pot_esp32';rosbag2_recorder
+1780308180.1970088;1780308180.1969664;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/Ejecucion';rosbag2_recorder
+1780308180.2003052;1780308180.2002676;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/parameter_events';rosbag2_recorder
+1780308180.2018576;1780308180.2018251;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/tipo_exp_int';rosbag2_recorder
+1780308180.204842;1780308180.2048075;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/Movil_status';rosbag2_recorder
+1780308180.206767;1780308180.2067358;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/modo_exp';rosbag2_recorder
+1780308180.2092307;1780308180.2091937;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/modo_exp_int';rosbag2_recorder
+1780308180.211887;1780308180.2118518;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/arduino_status';rosbag2_recorder
+1780308180.213943;1780308180.2139142;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/control_grabacion';rosbag2_recorder
+1780308180.2160337;1780308180.2160048;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/esp32_status';rosbag2_recorder
+1780308180.2181315;1780308180.2180946;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/left_wheel_steps';rosbag2_recorder
+1780308181.0210657;1780308181.0210443;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/frame';rosbag2_recorder
+1780308181.0238473;1780308181.023814;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/webcam_status';rosbag2_recorder
+1780308181.1276348;1780308181.127604;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/op_manual_asistida';rosbag2_recorder
+1780308181.2320015;1780308181.2319624;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/jBnode';rosbag2_recorder
+1780308181.2352755;1780308181.2352433;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/Headphones_status';rosbag2_recorder
+1780308181.2377954;1780308181.2377617;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/Attended';rosbag2_recorder
+1780308181.240141;1780308181.2401085;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/diff_time';rosbag2_recorder
+1780308181.2432146;1780308181.2431655;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/tactil_izq';rosbag2_recorder
+1780308181.2457726;1780308181.2457373;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/tactil_der';rosbag2_recorder
+1780308181.2486162;1780308181.248581;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/random_time';rosbag2_recorder
+1780308181.2912576;1780308173.9544816;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;sus_function;20;192;Mensaje recibido: Experimento 1;ST
+1780308181.2912703;1780308179.9424565;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_callback;20;248;Publicado: "0";ST
+1780308181.291276;1780308179.9435563;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;start_random_timer;20;207;Dato publicado ST (ms): 7050;ST
+1780308184.8944888;1780308184.8943877;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_lectura;20;221; Timeout (ms): 5000;ST
+1780308187.4565084;1780308187.4564233;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_callback;20;248;Publicado: "0";ST
+1780308187.457394;1780308187.4573016;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;start_random_timer;20;207;Dato publicado ST (ms): 10469;ST
+1780308192.8944747;1780308192.8943768;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_lectura;20;221; Timeout (ms): 5000;ST
+1780308198.390209;1780308198.3901188;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_callback;20;248;Publicado: "0";ST
+1780308198.391105;1780308198.3910236;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;start_random_timer;20;207;Dato publicado ST (ms): 11439;ST
+1780308203.894446;1780308203.8943481;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_lectura;20;221; Timeout (ms): 5000;ST
+1780308210.2946553;1780308210.2945642;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_callback;20;248;Publicado: "0";ST
+1780308210.2956274;1780308210.2955403;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;start_random_timer;20;207;Dato publicado ST (ms): 7533;ST
+1780308214.8944185;1780308214.894314;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_lectura;20;221; Timeout (ms): 5000;ST
+1780308218.3003147;1780308218.3002121;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_callback;20;248;Publicado: "0";ST
+1780308218.3012676;1780308218.3011763;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;start_random_timer;20;207;Dato publicado ST (ms): 9851;ST
+1780308222.8944845;1780308222.8943894;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_lectura;20;221; Timeout (ms): 5000;ST
+1780308228.6206532;1780308228.6205504;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_callback;20;248;Publicado: "1";ST
+1780308228.6223645;1780308228.621525;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;start_random_timer;20;207;Dato publicado ST (ms): 8197;ST
+1780308230.8945735;1780308230.894489;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_lectura;20;231;Dato medido ST (ms): 1878;ST
+1780308237.287649;1780308237.2875378;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_callback;20;248;Publicado: "0";ST
+1780308237.288618;1780308237.2885249;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;start_random_timer;20;207;Dato publicado ST (ms): 14560;ST
+1780308241.894368;1780308241.894273;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_lectura;20;221; Timeout (ms): 5000;ST
+1780308252.3173647;1780308252.3172495;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_callback;20;248;Publicado: "0";ST
+1780308252.3184636;1780308252.3183315;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;start_random_timer;20;207;Dato publicado ST (ms): 14794;ST
+1780308256.8945382;1780308256.8944328;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_lectura;20;221; Timeout (ms): 5000;ST
+1780308267.5819728;1780308267.5818791;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_callback;20;248;Publicado: "1";ST
+1780308267.583364;1780308267.5828478;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;start_random_timer;20;207;Dato publicado ST (ms): 14803;ST
+1780308268.8944876;1780308268.8943753;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_lectura;20;231;Dato medido ST (ms): 806;ST
+1780308282.8517675;1780308282.8516564;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_callback;20;248;Publicado: "0";ST
+1780308282.8529508;1780308282.8528433;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;start_random_timer;20;207;Dato publicado ST (ms): 9017;ST
+1780308287.8943717;1780308287.8942761;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_lectura;20;221; Timeout (ms): 5000;ST
+1780308292.3400536;1780308292.3399508;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_callback;20;248;Publicado: "1";ST
+1780308292.340959;1780308292.3408728;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;start_random_timer;20;207;Dato publicado ST (ms): 10405;ST
+1780308293.894641;1780308293.8945518;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_lectura;20;231;Dato medido ST (ms): 753;ST
+1780308303.2150633;1780308303.2149742;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_callback;20;248;Publicado: "0";ST
+1780308303.2159696;1780308303.215882;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;start_random_timer;20;207;Dato publicado ST (ms): 14676;ST
+1780308307.894389;1780308307.8943026;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_lectura;20;221; Timeout (ms): 5000;ST
+1780308318.3622084;1780308318.3621097;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_callback;20;248;Publicado: "1";ST
+1780308318.36335;1780308318.363026;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;start_random_timer;20;207;Dato publicado ST (ms): 8172;ST
+1780308322.8944542;1780308322.894344;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_lectura;20;221; Timeout (ms): 5000;ST
+1780308327.0007646;1780308327.0006616;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_callback;20;248;Publicado: "1";ST
+1780308327.0017207;1780308327.0016303;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;start_random_timer;20;207;Dato publicado ST (ms): 8309;ST
+1780308327.8945763;1780308327.8944836;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_lectura;20;231;Dato medido ST (ms): 525;ST
+1780308335.7815123;1780308335.7814202;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_callback;20;248;Publicado: "0";ST
+1780308335.7824535;1780308335.7823706;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;start_random_timer;20;207;Dato publicado ST (ms): 13841;ST
+1780308340.8944123;1780308340.8943217;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_lectura;20;221; Timeout (ms): 5000;ST
+1780308350.0911725;1780308350.0910742;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_callback;20;248;Publicado: "0";ST
+1780308350.0920663;1780308350.0919847;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;start_random_timer;20;207;Dato publicado ST (ms): 7319;ST
+1780308354.894345;1780308354.8942597;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_lectura;20;221; Timeout (ms): 5000;ST
+1780308357.876351;1780308357.8762474;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_callback;20;248;Publicado: "0";ST
+1780308357.8773053;1780308357.8772125;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;start_random_timer;20;207;Dato publicado ST (ms): 13954;ST
+1780308362.894571;1780308362.8944705;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_lectura;20;221; Timeout (ms): 5000;ST
+1780308372.299918;1780308372.2998195;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_callback;20;248;Publicado: "0";ST
+1780308372.3014078;1780308372.300777;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;start_random_timer;20;207;Dato publicado ST (ms): 12585;ST
+1780308376.8944697;1780308376.8943577;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_lectura;20;221; Timeout (ms): 5000;ST
+1780308385.3563912;1780308385.3562806;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_callback;20;248;Publicado: "0";ST
+1780308385.3573492;1780308385.3572485;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;start_random_timer;20;207;Dato publicado ST (ms): 11342;ST
+1780308389.894416;1780308389.894325;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_lectura;20;221; Timeout (ms): 5000;ST
+1780308397.170032;1780308397.1699357;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_callback;20;248;Publicado: "1";ST
+1780308397.1709545;1780308397.1708584;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;start_random_timer;20;207;Dato publicado ST (ms): 10329;ST
+1780308397.8946042;1780308397.8944914;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_lectura;20;231;Dato medido ST (ms): 502;ST
+1780308407.970307;1780308407.9702082;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_callback;20;248;Publicado: "0";ST
+1780308407.9712076;1780308407.9711196;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;start_random_timer;20;207;Dato publicado ST (ms): 13346;ST
+1780308412.8944602;1780308412.894359;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_lectura;20;221; Timeout (ms): 5000;ST
+1780308421.7842112;1780308421.7840974;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_callback;20;248;Publicado: "0";ST
+1780308421.7852259;1780308421.7851338;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;start_random_timer;20;207;Dato publicado ST (ms): 12567;ST
+1780308426.8944757;1780308426.8943746;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_lectura;20;221; Timeout (ms): 5000;ST
+1780308434.81748;1780308434.817381;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_callback;20;248;Publicado: "0";ST
+1780308434.8184502;1780308434.8183532;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;start_random_timer;20;207;Dato publicado ST (ms): 8038;ST
+1780308439.8944628;1780308439.8943644;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_lectura;20;221; Timeout (ms): 5000;ST
+1780308443.3261757;1780308443.326059;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_callback;20;248;Publicado: "0";ST
+1780308443.3272195;1780308443.3271217;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;start_random_timer;20;207;Dato publicado ST (ms): 9395;ST
+1780308447.8944685;1780308447.8943636;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_lectura;20;221; Timeout (ms): 5000;ST
+1780308453.1932263;1780308453.1931236;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_callback;20;248;Publicado: "1";ST
+1780308453.1941605;1780308453.194076;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;start_random_timer;20;207;Dato publicado ST (ms): 13436;ST
+1780308453.8945749;1780308453.894497;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_lectura;20;231;Dato medido ST (ms): 673;ST
+1780308456.954696;1780308456.9543555;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 30;Movil
+1780308456.9548373;1780308456.9547474;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 30;mainNode

@@ -1,0 +1,746 @@
+﻿1780308503.2789547;1780308503.2789268;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/rosout';rosbag2_recorder
+1780308503.2817414;1780308503.28172;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/random_time';rosbag2_recorder
+1780308503.2841516;1780308503.284127;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/parameter_events';rosbag2_recorder
+1780308503.2856612;1780308503.2856379;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/op_manual_asistida';rosbag2_recorder
+1780308503.287472;1780308503.2874346;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/events/write_split';rosbag2_recorder
+1780308503.289131;1780308503.289106;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/diff_time';rosbag2_recorder
+1780308503.2910736;1780308503.291053;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/Headphones_status';rosbag2_recorder
+1780308503.2918634;1780308501.9666119;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/BagControlNode.py;start_bag;20;58;Iniciando grabación: ./samuchair_bag/USUARIO1_0_1_2026_06_01-12_08_02;BagControlNode
+1780308503.2925367;1780308503.292514;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/Attended';rosbag2_recorder
+1780308503.2927096;1780308503.2926972;./src/rosbag2_transport/recorder.cpp;record;20;365;Recording...;rosbag2_recorder
+1780308503.3484216;1780308503.2758746;./src/rosbag2_transport/recorder.cpp;event_publisher_thread_main;20;371;Event publisher thread: Starting;rosbag2_recorder
+1780308503.3977487;1780308503.3977165;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/name_movil';rosbag2_recorder
+1780308503.4003775;1780308503.4003456;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/arduino_status';rosbag2_recorder
+1780308503.4035242;1780308494.4544344;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 0;Movil
+1780308503.4035437;1780308501.9543934;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 20;Movil
+1780308503.4039311;1780308503.4039109;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/left_wheel_steps';rosbag2_recorder
+1780308503.4069734;1780308503.4069448;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/esp32_status';rosbag2_recorder
+1780308503.4099038;1780308503.4098752;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/name_movil_hash';rosbag2_recorder
+1780308503.4126246;1780308503.4125843;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/modo_exp_int';rosbag2_recorder
+1780308503.4150717;1780308503.4150374;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/modo_exp';rosbag2_recorder
+1780308503.417895;1780308503.4178634;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/Movil_status';rosbag2_recorder
+1780308503.4207542;1780308503.4207206;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/tipo_exp_int';rosbag2_recorder
+1780308503.4233928;1780308503.4233618;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/Ejecucion';rosbag2_recorder
+1780308503.4254813;1780308503.4254565;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/pot_esp32';rosbag2_recorder
+1780308503.4290555;1780308503.4290195;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/right_wheel_steps';rosbag2_recorder
+1780308503.4318814;1780308503.4318464;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/tipo_exp';rosbag2_recorder
+1780308503.8431919;1780308503.842797;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/jBnode';rosbag2_recorder
+1780308503.8457556;1780308503.845722;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/directorio_grabacion';rosbag2_recorder
+1780308503.8486767;1780308503.848638;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/control_grabacion';rosbag2_recorder
+1780308503.9168077;1780308494.454567;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 0;mainNode
+1780308503.9168303;1780308501.9546485;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 20;mainNode
+1780308504.0317414;1780308502.8251417;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 1;webcam
+1780308504.031772;1780308502.8258705;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308504.0583448;1780308504.0583127;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/frame';rosbag2_recorder
+1780308504.0625048;1780308504.06247;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/tactil_der';rosbag2_recorder
+1780308504.0660176;1780308504.0659811;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/tactil_izq';rosbag2_recorder
+1780308504.0684166;1780308504.0683737;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/webcam_status';rosbag2_recorder
+1780308504.8262162;1780308504.8261232;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 2;webcam
+1780308504.82698;1780308504.8268929;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308506.826528;1780308506.8264005;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 3;webcam
+1780308506.8273387;1780308506.8272316;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308508.826248;1780308508.8261607;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 4;webcam
+1780308508.826992;1780308508.8269076;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308510.8262966;1780308510.8262095;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 5;webcam
+1780308510.827232;1780308510.8270605;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308512.826306;1780308512.8261995;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 6;webcam
+1780308512.8270917;1780308512.827005;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308514.8268197;1780308514.8266745;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 7;webcam
+1780308514.8277164;1780308514.8276196;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308516.8253393;1780308516.8252528;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 8;webcam
+1780308516.8261034;1780308516.8260326;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308518.8267498;1780308518.8266525;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 9;webcam
+1780308518.827633;1780308518.8275454;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308520.7482402;1780308520.747992;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: -2;JoystickBluetooth
+1780308520.825019;1780308520.8248885;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 10;webcam
+1780308520.8258271;1780308520.8257303;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308521.3624609;1780308521.3621135;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 5;JoystickBluetooth
+1780308521.3633735;1780308521.3632343;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 5;JoystickBluetooth
+1780308521.3645234;1780308521.3644145;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 5;JoystickBluetooth
+1780308521.3655503;1780308521.3654315;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 5;JoystickBluetooth
+1780308521.3667202;1780308521.3665934;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 5;JoystickBluetooth
+1780308522.8266852;1780308522.826588;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 11;webcam
+1780308522.8275692;1780308522.8274927;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308523.1467128;1780308523.145829;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308523.8836298;1780308523.883496;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 5;JoystickBluetooth
+1780308524.8253756;1780308524.825297;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 12;webcam
+1780308524.826086;1780308524.8259819;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308525.7416964;1780308525.740877;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 15;JoystickBluetooth
+1780308526.8264797;1780308526.8263786;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 13;webcam
+1780308526.8274517;1780308526.8273337;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308527.781241;1780308527.7809515;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 5;JoystickBluetooth
+1780308527.904679;1780308527.904568;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 17;JoystickBluetooth
+1780308528.5004308;1780308528.4996052;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 5;JoystickBluetooth
+1780308528.618506;1780308528.6182396;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 15;JoystickBluetooth
+1780308528.825718;1780308528.825645;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 14;webcam
+1780308528.8265395;1780308528.8264532;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308529.9410844;1780308529.9408598;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 5;JoystickBluetooth
+1780308530.8254082;1780308530.8252752;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 15;webcam
+1780308530.826263;1780308530.8261516;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308532.4018898;1780308532.400814;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308532.8246255;1780308532.8245196;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 16;webcam
+1780308532.8253632;1780308532.825264;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308532.9546688;1780308532.9545372;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 50;Movil
+1780308532.954974;1780308532.9546585;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 50;mainNode
+1780308534.8241904;1780308534.8241029;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 17;webcam
+1780308534.824995;1780308534.8249102;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308536.8235343;1780308536.8234448;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 18;webcam
+1780308536.8242714;1780308536.8241808;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308536.8997052;1780308536.8996184;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308536.9006698;1780308536.9005888;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308536.9027474;1780308536.9026573;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308536.9620206;1780308536.9619184;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308536.9633348;1780308536.963226;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308536.964393;1780308536.964275;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308538.8243327;1780308538.8242254;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 19;webcam
+1780308538.8251626;1780308538.8250751;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308540.825164;1780308540.8250742;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 20;webcam
+1780308540.8259008;1780308540.8258183;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308541.4545739;1780308541.454436;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 1;Movil
+1780308541.4546132;1780308541.454463;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 1;mainNode
+1780308542.2396865;1780308542.2395003;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308542.7198627;1780308542.7194006;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308542.825855;1780308542.825778;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 21;webcam
+1780308542.8266354;1780308542.8265579;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308543.5158472;1780308543.515727;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308544.8252754;1780308544.8251848;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 22;webcam
+1780308544.8260052;1780308544.8259203;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308545.0608985;1780308545.0607152;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 10;JoystickBluetooth
+1780308545.1196816;1780308545.1195753;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308545.3009393;1780308545.3008318;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 10;JoystickBluetooth
+1780308545.9004972;1780308545.8995788;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308545.9596233;1780308545.9595182;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 10;JoystickBluetooth
+1780308546.1420848;1780308546.1419795;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308546.439615;1780308546.4395056;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 10;JoystickBluetooth
+1780308546.619706;1780308546.619595;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308546.8242276;1780308546.8241537;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 23;webcam
+1780308546.8250072;1780308546.8249333;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308548.8249626;1780308548.8248732;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 24;webcam
+1780308548.8257072;1780308548.8256102;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308549.7428682;1780308549.7420564;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 10;JoystickBluetooth
+1780308550.5816715;1780308550.5807714;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308550.70081;1780308550.7007008;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 12;JoystickBluetooth
+1780308550.8243327;1780308550.8242414;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 25;webcam
+1780308550.825101;1780308550.8250248;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308551.6059597;1780308551.6058137;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308552.2007923;1780308552.200683;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 10;JoystickBluetooth
+1780308552.8247597;1780308552.8246882;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 26;webcam
+1780308552.8254218;1780308552.8253508;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308553.041065;1780308553.040737;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308553.0996482;1780308553.0995433;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 12;JoystickBluetooth
+1780308553.2196991;1780308553.2195983;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308554.0625696;1780308554.0621402;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 10;JoystickBluetooth
+1780308554.8253736;1780308554.825252;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 27;webcam
+1780308554.826165;1780308554.8260827;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308554.9009314;1780308554.9006119;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308555.2627733;1780308555.2624784;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 12;JoystickBluetooth
+1780308555.6197882;1780308555.6195595;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308555.8642185;1780308555.8633342;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 12;JoystickBluetooth
+1780308555.9807968;1780308555.980687;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308556.824669;1780308556.8245647;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 28;webcam
+1780308556.825488;1780308556.8254008;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308558.8240616;1780308558.8239744;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 29;webcam
+1780308558.824916;1780308558.8248272;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308559.221592;1780308559.2207499;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 12;JoystickBluetooth
+1780308559.5522325;1780308559.5519753;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308559.7007883;1780308559.7006872;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 12;JoystickBluetooth
+1780308559.9457746;1780308559.9456697;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308560.720359;1780308560.7194602;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308560.8249831;1780308560.824882;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 30;webcam
+1780308560.82574;1780308560.8256564;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308561.2022934;1780308561.2019246;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308562.0433729;1780308562.0431201;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 10;JoystickBluetooth
+1780308562.5816984;1780308562.58075;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308562.7007062;1780308562.7006102;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 10;JoystickBluetooth
+1780308562.824379;1780308562.8242767;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 31;webcam
+1780308562.82514;1780308562.825066;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308562.879468;1780308562.8792763;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308564.5010462;1780308564.5007353;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308564.8245425;1780308564.824448;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 32;webcam
+1780308564.8253703;1780308564.8252947;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308565.95468;1780308565.9545424;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 50;Movil
+1780308565.955032;1780308565.954649;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 50;mainNode
+1780308566.8242478;1780308566.8241618;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 33;webcam
+1780308566.8250425;1780308566.824962;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308568.8252015;1780308568.8251169;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 34;webcam
+1780308568.8259258;1780308568.8258343;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308570.8238015;1780308570.8237162;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 35;webcam
+1780308570.8246415;1780308570.8245597;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308572.824865;1780308572.8247757;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 36;webcam
+1780308572.8255968;1780308572.8255043;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308574.8248587;1780308574.8247695;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 37;webcam
+1780308574.8256557;1780308574.8255699;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308576.8260267;1780308576.8259666;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 38;webcam
+1780308576.8267019;1780308576.8266146;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308578.8248663;1780308578.824771;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 39;webcam
+1780308578.8256536;1780308578.825575;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308580.8260574;1780308580.825975;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 40;webcam
+1780308580.8267517;1780308580.8266652;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308582.825627;1780308582.8255613;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 41;webcam
+1780308582.8263798;1780308582.8263044;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308584.825991;1780308584.8259122;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 42;webcam
+1780308584.8266428;1780308584.826565;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308586.8256478;1780308586.8255527;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 43;webcam
+1780308586.8264549;1780308586.8263686;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308588.826311;1780308588.826238;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 44;webcam
+1780308588.8269496;1780308588.8268783;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308590.8256533;1780308590.825574;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 45;webcam
+1780308590.826377;1780308590.8262804;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308592.8262098;1780308592.8261356;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 46;webcam
+1780308592.8268597;1780308592.8267856;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308594.825305;1780308594.8252218;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 47;webcam
+1780308594.8259978;1780308594.8259277;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308596.8261657;1780308596.8260903;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 48;webcam
+1780308596.8268054;1780308596.8267336;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308598.8258796;1780308598.8257954;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 49;webcam
+1780308598.8266468;1780308598.8265605;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308600.825736;1780308600.8256729;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 50;webcam
+1780308600.8263447;1780308600.8262622;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308602.8258386;1780308602.825754;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 51;webcam
+1780308602.8265922;1780308602.826514;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308604.8254542;1780308604.8253796;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 52;webcam
+1780308604.8260965;1780308604.82602;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308606.8257186;1780308606.8256497;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 53;webcam
+1780308606.8264635;1780308606.8263881;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308608.6311352;1780308608.6310127;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 1;opasistidaNode
+1780308608.6330574;1780308608.63293;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:12;opasistidaNode
+1780308608.8256881;1780308608.825622;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 54;webcam
+1780308608.8262815;1780308608.826205;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308610.8253107;1780308610.8252099;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 55;webcam
+1780308610.8260632;1780308610.8259768;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308612.6309233;1780308612.6307971;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 0;opasistidaNode
+1780308612.6328957;1780308612.632778;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:0;opasistidaNode
+1780308612.8254037;1780308612.8253336;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 56;webcam
+1780308612.8260975;1780308612.8260221;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308614.8242328;1780308614.8241382;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 57;webcam
+1780308614.8250012;1780308614.8249142;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308616.8259485;1780308616.8258495;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 58;webcam
+1780308616.8267224;1780308616.8265743;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308617.3314464;1780308617.3313377;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 1;opasistidaNode
+1780308617.3327367;1780308617.3326137;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:12;opasistidaNode
+1780308617.4206314;1780308617.4204288;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308617.4220192;1780308617.4218147;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 23;JoystickBluetooth
+1780308617.4232056;1780308617.4230883;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308617.4243398;1780308617.4242117;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308617.4253082;1780308617.425216;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308617.4819198;1780308617.481675;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308617.482855;1780308617.4827328;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308617.484644;1780308617.4840398;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308617.485234;1780308617.4851236;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308617.4863474;1780308617.4862356;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308617.487436;1780308617.4873295;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308617.5391984;1780308617.5390615;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308617.540258;1780308617.5401797;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308617.5415735;1780308617.5414689;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308617.6042073;1780308617.6041057;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308617.6590426;1780308617.6589608;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 24;JoystickBluetooth
+1780308617.723118;1780308617.7230036;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 23;JoystickBluetooth
+1780308617.780257;1780308617.7791936;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308617.7803538;1780308617.78026;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308617.84118;1780308617.840416;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308617.8424234;1780308617.84232;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308617.8446643;1780308617.8445265;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 24;JoystickBluetooth
+1780308617.8459885;1780308617.8458405;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 23;JoystickBluetooth
+1780308617.8468273;1780308617.8467638;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308618.199241;1780308618.199136;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308618.2003205;1780308618.2001915;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 24;JoystickBluetooth
+1780308618.2593117;1780308618.259188;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308618.3192148;1780308618.319115;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 23;JoystickBluetooth
+1780308618.380492;1780308618.3803513;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 24;JoystickBluetooth
+1780308618.382445;1780308618.3823428;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308618.3835318;1780308618.3834224;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308618.4428544;1780308618.442756;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 23;JoystickBluetooth
+1780308618.4453723;1780308618.4445555;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308618.445562;1780308618.4454796;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 24;JoystickBluetooth
+1780308618.4991434;1780308618.4990017;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308618.5005138;1780308618.5004177;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 23;JoystickBluetooth
+1780308618.561639;1780308618.5615306;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 24;JoystickBluetooth
+1780308618.5635066;1780308618.5634072;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308618.5645168;1780308618.5644197;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308618.5655096;1780308618.5653644;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 23;JoystickBluetooth
+1780308618.619168;1780308618.6190302;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308618.6201022;1780308618.6199777;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 24;JoystickBluetooth
+1780308618.621136;1780308618.621004;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308618.6804793;1780308618.6803815;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308618.7409945;1780308618.7402525;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308618.825063;1780308618.8249931;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 59;webcam
+1780308618.8257096;1780308618.8256555;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308619.0990906;1780308619.0989828;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308619.1000926;1780308619.10001;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308619.2198255;1780308619.219024;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308619.2804174;1780308619.2803142;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308619.5811074;1780308619.5803154;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308619.5822802;1780308619.5821953;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308619.6392386;1780308619.6390758;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308619.6409044;1780308619.6408105;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308619.7016454;1780308619.701547;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308619.7030945;1780308619.7028792;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308619.7048397;1780308619.704743;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308619.7065692;1780308619.7058098;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308619.7071393;1780308619.7068574;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308619.7592509;1780308619.7590356;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308619.7611458;1780308619.7602034;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308619.8004215;1780308619.8002431;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308619.8016047;1780308619.8014464;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308619.8228035;1780308619.8227105;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308619.8238978;1780308619.823808;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308619.824773;1780308619.8246782;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308619.877683;1780308619.8775983;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308619.87845;1780308619.8783722;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308619.8810694;1780308619.8802521;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308619.940483;1780308619.940215;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308620.2416472;1780308620.24154;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308620.361678;1780308620.3615327;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308620.3635468;1780308620.3634555;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308620.3645623;1780308620.3644512;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308620.36572;1780308620.3655977;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308620.3668156;1780308620.366609;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308620.4203463;1780308620.420222;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308620.4223435;1780308620.4218824;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308620.4791672;1780308620.4790015;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308620.4807131;1780308620.4806144;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308620.5402207;1780308620.5401313;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308620.6617882;1780308620.6614842;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308620.8257482;1780308620.825638;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 60;webcam
+1780308620.8265395;1780308620.8264546;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308621.3312976;1780308621.3311586;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 0;opasistidaNode
+1780308621.3323655;1780308621.3322527;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:0;opasistidaNode
+1780308622.8261707;1780308622.826079;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 61;webcam
+1780308622.8269477;1780308622.8268633;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308624.3795547;1780308624.3790295;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 9;JoystickBluetooth
+1780308624.825101;1780308624.8250105;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 62;webcam
+1780308624.8259492;1780308624.8258736;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308624.9547153;1780308624.954525;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 2;mainNode
+1780308624.9551785;1780308624.955066;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 2;Movil
+1780308625.2193623;1780308625.2191;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308625.7598722;1780308625.7590396;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 9;JoystickBluetooth
+1780308626.8238597;1780308626.8237793;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 63;webcam
+1780308626.8246484;1780308626.8245225;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308626.9614832;1780308626.9603906;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308627.6220438;1780308627.62147;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 9;JoystickBluetooth
+1780308628.0407429;1780308628.0402353;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308628.582376;1780308628.581458;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 6;JoystickBluetooth
+1780308628.8254323;1780308628.8253386;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 64;webcam
+1780308628.826302;1780308628.826209;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308630.8256354;1780308630.8255584;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 65;webcam
+1780308630.826384;1780308630.8262715;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308630.9191756;1780308630.9189818;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308631.3397598;1780308631.3389637;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 9;JoystickBluetooth
+1780308632.0591874;1780308632.0590203;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308632.78017;1780308632.7800817;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 6;JoystickBluetooth
+1780308632.8259642;1780308632.825873;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 66;webcam
+1780308632.8266797;1780308632.8266044;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308632.899059;1780308632.8989537;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308633.0790224;1780308633.078926;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 6;JoystickBluetooth
+1780308633.3203423;1780308633.320191;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308633.7989557;1780308633.7988613;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 6;JoystickBluetooth
+1780308633.9545343;1780308633.9544253;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 40;Movil
+1780308633.9548278;1780308633.954681;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 40;mainNode
+1780308634.1602986;1780308634.160202;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308634.459089;1780308634.4589422;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 6;JoystickBluetooth
+1780308634.760277;1780308634.7601876;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308634.8244557;1780308634.8243704;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 67;webcam
+1780308634.8251529;1780308634.8250754;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308634.940273;1780308634.9401782;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 6;JoystickBluetooth
+1780308635.3002367;1780308635.300139;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308635.6991327;1780308635.6990175;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 6;JoystickBluetooth
+1780308635.9603114;1780308635.9601896;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308636.2002196;1780308636.200128;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 6;JoystickBluetooth
+1780308636.440353;1780308636.4402337;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308636.8262339;1780308636.8261487;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 68;webcam
+1780308636.8268983;1780308636.8268163;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308638.8243568;1780308638.8242662;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 69;webcam
+1780308638.8250732;1780308638.8249972;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308640.8261223;1780308640.826019;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 70;webcam
+1780308640.8268535;1780308640.8267763;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308642.8251183;1780308642.8250303;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 71;webcam
+1780308642.8258283;1780308642.82575;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308644.8261356;1780308644.8260345;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 72;webcam
+1780308644.826955;1780308644.8268852;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308646.8255672;1780308646.8254614;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 73;webcam
+1780308646.826265;1780308646.8261824;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308648.8259397;1780308648.825851;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 74;webcam
+1780308648.8268123;1780308648.8267224;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308650.825993;1780308650.8259153;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 75;webcam
+1780308650.8267152;1780308650.8266332;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308652.826921;1780308652.8268354;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 76;webcam
+1780308652.8278031;1780308652.8277102;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308654.2004902;1780308654.2000802;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308654.201959;1780308654.2015128;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 10;JoystickBluetooth
+1780308654.825592;1780308654.8255227;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 77;webcam
+1780308654.8263025;1780308654.8262174;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308655.461689;1780308655.4613109;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308655.5195324;1780308655.518863;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 10;JoystickBluetooth
+1780308656.826869;1780308656.8267682;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 78;webcam
+1780308656.8277357;1780308656.8276474;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308658.8260195;1780308658.8259392;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 79;webcam
+1780308658.8267405;1780308658.8266644;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308660.3192194;1780308660.3185465;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308660.4389293;1780308660.4388237;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308660.8267171;1780308660.8266366;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 80;webcam
+1780308660.8274484;1780308660.827272;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308660.954754;1780308660.9545865;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 50;Movil
+1780308660.9547818;1780308660.9545865;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 50;mainNode
+1780308662.82515;1780308662.8250618;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 81;webcam
+1780308662.8259127;1780308662.8258252;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308664.8249462;1780308664.8248498;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 82;webcam
+1780308664.8258452;1780308664.8257482;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308666.8250027;1780308666.8247926;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 83;webcam
+1780308666.8260117;1780308666.8259099;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308668.8238823;1780308668.8237672;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 84;webcam
+1780308668.8246627;1780308668.8245597;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308670.8262782;1780308670.826179;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 85;webcam
+1780308670.8269908;1780308670.8269203;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308672.8251617;1780308672.8250892;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 86;webcam
+1780308672.8258586;1780308672.8257842;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308674.825931;1780308674.8258307;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 87;webcam
+1780308674.826793;1780308674.8266943;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308676.8252683;1780308676.8251894;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 88;webcam
+1780308676.8259842;1780308676.8258953;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308678.8261716;1780308678.826072;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 89;webcam
+1780308678.82694;1780308678.8268616;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308680.8252199;1780308680.8251226;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 90;webcam
+1780308680.8260083;1780308680.825905;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308682.826262;1780308682.8261726;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 91;webcam
+1780308682.8270593;1780308682.8269675;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308684.8256638;1780308684.8255897;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 92;webcam
+1780308684.8263354;1780308684.8262527;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308686.8270397;1780308686.8265162;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 93;webcam
+1780308686.8275216;1780308686.8274179;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308687.4811363;1780308687.4810233;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 1;opasistidaNode
+1780308687.4821756;1780308687.4820726;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:12;opasistidaNode
+1780308688.826078;1780308688.8259907;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 94;webcam
+1780308688.826827;1780308688.8267298;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308690.825761;1780308690.8256788;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 95;webcam
+1780308690.8266108;1780308690.8265247;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308692.4310577;1780308692.4309456;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 0;opasistidaNode
+1780308692.4320745;1780308692.4319737;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:0;opasistidaNode
+1780308692.8259888;1780308692.8258977;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 96;webcam
+1780308692.826738;1780308692.826653;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308694.8256662;1780308694.8255696;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 97;webcam
+1780308694.8265038;1780308694.8263958;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308696.825051;1780308696.824946;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 98;webcam
+1780308696.825818;1780308696.8257308;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308698.8248737;1780308698.8247826;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 99;webcam
+1780308698.8257036;1780308698.825587;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308700.8255396;1780308700.8254611;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 100;webcam
+1780308700.8261752;1780308700.8260975;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308702.825868;1780308702.8257887;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 101;webcam
+1780308702.8266408;1780308702.8265612;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308704.2413094;1780308704.2412019;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 5;JoystickBluetooth
+1780308704.280193;1780308704.280073;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 17;JoystickBluetooth
+1780308704.8262777;1780308704.8261924;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 102;webcam
+1780308704.826931;1780308704.826858;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308706.4018624;1780308706.4014142;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 6;JoystickBluetooth
+1780308706.4037502;1780308706.40366;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308706.762669;1780308706.7625768;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 9;JoystickBluetooth
+1780308706.8259885;1780308706.8259068;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 103;webcam
+1780308706.8267865;1780308706.8266935;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308706.9490504;1780308706.948902;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 10;JoystickBluetooth
+1780308707.7202144;1780308707.7201123;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308707.8415563;1780308707.8413975;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308708.8270662;1780308708.8262603;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 104;webcam
+1780308708.8270926;1780308708.82694;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308710.431308;1780308710.4311943;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 1;opasistidaNode
+1780308710.4323626;1780308710.4322395;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:12;opasistidaNode
+1780308710.8259063;1780308710.8258214;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 105;webcam
+1780308710.826616;1780308710.826542;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308711.031281;1780308711.031159;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 0;opasistidaNode
+1780308711.0322995;1780308711.0322082;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:0;opasistidaNode
+1780308712.1310828;1780308712.130964;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 1;opasistidaNode
+1780308712.1321635;1780308712.1320703;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:12;opasistidaNode
+1780308712.8258007;1780308712.8257284;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 106;webcam
+1780308712.8264248;1780308712.8263404;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308714.7810445;1780308714.7809265;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 0;opasistidaNode
+1780308714.7821436;1780308714.7819738;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:0;opasistidaNode
+1780308714.824629;1780308714.824542;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 107;webcam
+1780308714.825391;1780308714.825305;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308716.8257003;1780308716.8255844;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 108;webcam
+1780308716.8264015;1780308716.8263218;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308716.954556;1780308716.9544353;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 3;Movil
+1780308716.9553561;1780308716.9546986;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 3;mainNode
+1780308718.8243904;1780308718.824275;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 109;webcam
+1780308718.825226;1780308718.825129;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308720.083569;1780308720.0830562;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 6;JoystickBluetooth
+1780308720.2469258;1780308720.2468092;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 17;JoystickBluetooth
+1780308720.4418995;1780308720.4417996;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 6;JoystickBluetooth
+1780308720.8245575;1780308720.824469;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 110;webcam
+1780308720.8253026;1780308720.825172;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308721.4657624;1780308721.465638;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 17;JoystickBluetooth
+1780308721.7645872;1780308721.7644734;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 5;JoystickBluetooth
+1780308721.7655714;1780308721.765463;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308722.3632612;1780308722.3631642;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 6;JoystickBluetooth
+1780308722.3643377;1780308722.3641374;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 17;JoystickBluetooth
+1780308722.8250482;1780308722.824931;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 111;webcam
+1780308722.8259447;1780308722.8258512;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308724.8248997;1780308724.8248034;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 112;webcam
+1780308724.8256347;1780308724.8255541;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308726.8250794;1780308726.8249576;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 113;webcam
+1780308726.8260665;1780308726.8259485;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308728.824574;1780308728.8244739;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 114;webcam
+1780308728.8253775;1780308728.8252733;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308730.3434873;1780308730.3433893;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 6;JoystickBluetooth
+1780308730.4609926;1780308730.4608998;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 17;JoystickBluetooth
+1780308730.6410356;1780308730.640934;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 5;JoystickBluetooth
+1780308730.6479883;1780308730.647164;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308730.8250601;1780308730.8249507;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 115;webcam
+1780308730.8259747;1780308730.8258832;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308731.9545166;1780308731.9544106;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 50;Movil
+1780308731.9547017;1780308731.9545019;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 50;mainNode
+1780308732.8242626;1780308732.824143;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 116;webcam
+1780308732.8250332;1780308732.824933;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308734.5311103;1780308734.5309937;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 1;opasistidaNode
+1780308734.5325148;1780308734.532205;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:12;opasistidaNode
+1780308734.8242114;1780308734.824089;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 117;webcam
+1780308734.8251488;1780308734.8250432;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308736.1020672;1780308736.1011796;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308736.1030872;1780308736.1029718;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308736.162574;1780308736.162441;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308736.1637092;1780308736.1635847;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308736.165445;1780308736.1653583;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308736.238153;1780308736.2372737;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308736.2900512;1780308736.2898858;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308736.2910264;1780308736.2909336;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308736.292648;1780308736.2924888;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308736.3361695;1780308736.3360827;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308736.3380153;1780308736.3379233;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308736.4013581;1780308736.401054;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308736.8240635;1780308736.8239799;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 118;webcam
+1780308736.8247766;1780308736.8246987;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308738.8249652;1780308738.8248425;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 119;webcam
+1780308738.8259342;1780308738.825829;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308738.830705;1780308738.8306153;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 0;opasistidaNode
+1780308738.831928;1780308738.831601;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:0;opasistidaNode
+1780308740.8248632;1780308740.82478;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 120;webcam
+1780308740.8255844;1780308740.8254986;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308742.824247;1780308742.8241594;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 121;webcam
+1780308742.8249984;1780308742.824915;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308744.8245924;1780308744.8245177;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 122;webcam
+1780308744.8252654;1780308744.8251905;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308746.8246436;1780308746.8245518;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 123;webcam
+1780308746.8254297;1780308746.8253446;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308748.454526;1780308748.4544058;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 4;Movil
+1780308748.4546545;1780308748.4545507;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 4;mainNode
+1780308748.8258107;1780308748.8256881;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 124;webcam
+1780308748.8266313;1780308748.8265402;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308749.0016932;1780308749.0015852;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 6;JoystickBluetooth
+1780308749.0028205;1780308749.0027046;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 12;JoystickBluetooth
+1780308750.265576;1780308750.2654753;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308750.324108;1780308750.324011;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 12;JoystickBluetooth
+1780308750.6243062;1780308750.6241815;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308750.8017452;1780308750.8016403;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 12;JoystickBluetooth
+1780308750.8255758;1780308750.8254364;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 125;webcam
+1780308750.826492;1780308750.826395;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308751.8830206;1780308751.882903;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308751.8866997;1780308751.886601;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 12;JoystickBluetooth
+1780308752.005562;1780308752.0054574;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308752.541749;1780308752.5416517;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 12;JoystickBluetooth
+1780308752.8257499;1780308752.825663;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 126;webcam
+1780308752.8264756;1780308752.8263967;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308754.282268;1780308754.2817767;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 12;JoystickBluetooth
+1780308754.2873287;1780308754.286622;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 12;JoystickBluetooth
+1780308754.8258972;1780308754.8257987;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 127;webcam
+1780308754.826733;1780308754.8266463;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308756.2035906;1780308756.2030528;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308756.2630963;1780308756.2629943;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308756.826383;1780308756.8263009;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 128;webcam
+1780308756.8270946;1780308756.827018;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308756.9544852;1780308756.9543607;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 50;Movil
+1780308756.9547732;1780308756.9544544;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 50;mainNode
+1780308758.825596;1780308758.825481;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 129;webcam
+1780308758.826494;1780308758.826374;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308760.825543;1780308760.8254566;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 130;webcam
+1780308760.8261988;1780308760.8261187;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308762.8245506;1780308762.8244538;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 131;webcam
+1780308762.8253083;1780308762.8252285;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308764.8250985;1780308764.8250098;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 132;webcam
+1780308764.8258023;1780308764.8257241;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308766.8251953;1780308766.8250892;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 133;webcam
+1780308766.8260756;1780308766.8259716;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308768.8251407;1780308768.825002;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 134;webcam
+1780308768.825871;1780308768.825792;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308770.8263204;1780308770.8261847;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 135;webcam
+1780308770.82719;1780308770.8270717;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308772.8260028;1780308772.825906;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 136;webcam
+1780308772.8267071;1780308772.8266268;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308773.9650466;1780308773.9648647;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 5;JoystickBluetooth
+1780308773.9685884;1780308773.968459;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 17;JoystickBluetooth
+1780308774.5037236;1780308774.5036244;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 5;JoystickBluetooth
+1780308774.5061445;1780308774.5060115;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308774.825984;1780308774.8258932;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 137;webcam
+1780308774.8267815;1780308774.8266892;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308775.4546716;1780308775.4545403;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 5;Movil
+1780308775.4547057;1780308775.4545405;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 5;mainNode
+1780308776.4278784;1780308776.427501;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 6;JoystickBluetooth
+1780308776.4292464;1780308776.4285038;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 17;JoystickBluetooth
+1780308776.8252268;1780308776.8251472;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 138;webcam
+1780308776.8258827;1780308776.8257973;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308778.8259838;1780308778.8258932;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 139;webcam
+1780308778.8267832;1780308778.8267055;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308780.825201;1780308780.8250976;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 140;webcam
+1780308780.8259146;1780308780.8258257;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308782.8252337;1780308782.825142;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 141;webcam
+1780308782.8259873;1780308782.8259034;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308783.2639492;1780308783.2638292;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 6;JoystickBluetooth
+1780308783.2659667;1780308783.2658625;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308784.4559476;1780308784.4544146;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 50;Movil
+1780308784.4559774;1780308784.4544377;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 50;mainNode
+1780308784.8260093;1780308784.8259172;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 142;webcam
+1780308784.8266692;1780308784.8265996;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308786.8244677;1780308786.8243735;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 143;webcam
+1780308786.8251715;1780308786.8250923;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308788.8249567;1780308788.8248134;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 144;webcam
+1780308788.8259645;1780308788.8258362;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308788.8307972;1780308788.8306868;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 1;opasistidaNode
+1780308788.8323033;1780308788.8316274;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:12;opasistidaNode
+1780308790.8244598;1780308790.8243697;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 145;webcam
+1780308790.8251612;1780308790.8250859;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308792.4310267;1780308792.4309103;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 0;opasistidaNode
+1780308792.4323137;1780308792.4321842;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:0;opasistidaNode
+1780308792.8265982;1780308792.8265312;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 146;webcam
+1780308792.827211;1780308792.8271282;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308794.8258827;1780308794.8258002;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 147;webcam
+1780308794.826658;1780308794.8265648;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308794.9557142;1780308794.9546225;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 6;Movil
+1780308794.9557412;1780308794.954718;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 6;mainNode
+1780308795.9849608;1780308795.9841404;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308796.82621;1780308796.8246129;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 10;JoystickBluetooth
+1780308796.8262298;1780308796.8251796;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 148;webcam
+1780308796.826235;1780308796.8258605;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308796.8867779;1780308796.886667;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308798.8242552;1780308798.8241634;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 149;webcam
+1780308798.8250628;1780308798.8249495;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308799.76471;1780308799.7643564;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 12;JoystickBluetooth
+1780308800.544604;1780308800.5443983;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308800.8252609;1780308800.8251548;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 150;webcam
+1780308800.8262696;1780308800.8261602;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308800.8519838;1780308800.8518338;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 10;JoystickBluetooth
+1780308801.3847702;1780308801.3844998;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308801.5045066;1780308801.504407;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 10;JoystickBluetooth
+1780308801.6833384;1780308801.6831505;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308802.8259299;1780308802.8258457;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 151;webcam
+1780308802.8266568;1780308802.826577;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308804.504811;1780308804.5045776;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308804.8250165;1780308804.824911;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 152;webcam
+1780308804.8259254;1780308804.8258185;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308805.4548614;1780308805.4546864;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 50;Movil
+1780308805.4549344;1780308805.4547136;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 50;mainNode
+1780308806.8245306;1780308806.8243966;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 153;webcam
+1780308806.8252962;1780308806.825188;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308808.8215616;1780308808.8214848;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 154;webcam
+1780308808.8221607;1780308808.8220623;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308810.8244734;1780308810.8243458;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 155;webcam
+1780308810.825268;1780308810.8251693;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308812.825095;1780308812.824969;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 156;webcam
+1780308812.8259583;1780308812.8258755;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308813.9547484;1780308813.9546316;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 7;Movil
+1780308813.9547765;1780308813.954631;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 7;mainNode
+1780308814.4712474;1780308814.4709299;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308814.64474;1780308814.6446397;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308814.825772;1780308814.8256962;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 157;webcam
+1780308814.8265042;1780308814.8264256;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308815.3099449;1780308815.3098388;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308816.8266156;1780308816.8265119;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 158;webcam
+1780308816.8275692;1780308816.8274643;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308817.4650784;1780308817.4647899;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 12;JoystickBluetooth
+1780308817.744971;1780308817.744818;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308818.42357;1780308818.4234793;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308818.8259554;1780308818.8258674;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 159;webcam
+1780308818.826671;1780308818.8266017;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308818.9548898;1780308818.9546378;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 50;mainNode
+1780308818.9550295;1780308818.9546402;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 50;Movil
+1780308820.8266068;1780308820.826508;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 160;webcam
+1780308820.8274846;1780308820.8274038;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308822.8257055;1780308822.8256018;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 161;webcam
+1780308822.8264832;1780308822.8263998;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308824.82505;1780308824.824946;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 162;webcam
+1780308824.826026;1780308824.8259165;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308824.955828;1780308824.9547398;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 9;Movil
+1780308824.955858;1780308824.9547753;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 9;mainNode
+1780308826.8248203;1780308826.8247237;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 163;webcam
+1780308826.8256185;1780308826.8255255;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308828.8261335;1780308828.8260398;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 164;webcam
+1780308828.8269663;1780308828.8268766;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308830.8251889;1780308830.8250933;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 165;webcam
+1780308830.8259485;1780308830.8258371;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308832.826398;1780308832.8263028;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 166;webcam
+1780308832.8272173;1780308832.8271265;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308833.9548216;1780308833.9546669;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 8;mainNode
+1780308833.9548528;1780308833.954741;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 8;Movil
+1780308834.8255272;1780308834.825441;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 167;webcam
+1780308834.8262646;1780308834.8261673;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308836.1305318;1780308836.1304123;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 5;JoystickBluetooth
+1780308836.8268697;1780308836.826775;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 168;webcam
+1780308836.8277586;1780308836.8276658;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308838.2293472;1780308838.2291543;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 15;JoystickBluetooth
+1780308838.8259387;1780308838.825861;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 169;webcam
+1780308838.8266935;1780308838.8266058;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308839.486727;1780308839.4865415;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 5;JoystickBluetooth
+1780308840.8261607;1780308840.8260255;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 170;webcam
+1780308840.8270361;1780308840.8268976;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308841.2267096;1780308841.2266047;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 15;JoystickBluetooth
+1780308841.6443238;1780308841.6440923;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 15;JoystickBluetooth
+1780308841.6456957;1780308841.6456008;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 15;JoystickBluetooth
+1780308841.646966;1780308841.6467817;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 15;JoystickBluetooth
+1780308841.8830037;1780308841.8828928;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 15;JoystickBluetooth
+1780308842.185926;1780308842.1852565;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 5;JoystickBluetooth
+1780308842.3073628;1780308842.3066645;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308842.8262107;1780308842.826131;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 171;webcam
+1780308842.8269274;1780308842.826845;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308842.954859;1780308842.9547217;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 50;Movil
+1780308842.95499;1780308842.954696;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 50;mainNode
+1780308844.8246636;1780308844.824574;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 172;webcam
+1780308844.8255007;1780308844.8254156;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308845.9551644;1780308845.9546235;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 9;Movil
+1780308845.9551969;1780308845.9546313;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 9;mainNode
+1780308846.8229935;1780308846.8229046;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 173;webcam
+1780308846.8237114;1780308846.8236282;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308848.0094867;1780308848.0092542;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 6;JoystickBluetooth
+1780308848.8252282;1780308848.824806;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 174;webcam
+1780308848.8259192;1780308848.8257754;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308850.824759;1780308850.8246636;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 175;webcam
+1780308850.8255181;1780308850.825424;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308852.8253672;1780308852.825265;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 176;webcam
+1780308852.8261569;1780308852.826072;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308853.6457422;1780308853.645557;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308854.455855;1780308854.4544961;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 50;Movil
+1780308854.455884;1780308854.454496;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 50;mainNode
+1780308854.825787;1780308854.825714;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 177;webcam
+1780308854.8264782;1780308854.8263965;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308855.084424;1780308855.0842814;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 9;JoystickBluetooth
+1780308855.506954;1780308855.5057557;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308856.824382;1780308856.8242989;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 178;webcam
+1780308856.8251414;1780308856.8250673;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308858.8247027;1780308858.8246188;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 179;webcam
+1780308858.8253973;1780308858.8253148;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308859.955037;1780308859.9541078;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;251;Dato publicado Nombre_Sujeto: F10;Movil
+1780308859.9565837;1780308859.9551444;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;257;Dato publicado Nombre_Sujeto_HASH: 23527592;Movil
+1780308859.9566114;1780308859.9553182;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/BagControlNode.py;nombre_callback;20;39;Nombre seleccionado: ./samuchair_bag/F10_0_1_2026_06_01-12_14_19;BagControlNode
+1780308860.8245397;1780308860.824427;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 180;webcam
+1780308860.8253899;1780308860.8252962;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308861.9858258;1780308861.9857109;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308862.8262153;1780308862.8261273;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 181;webcam
+1780308862.8269565;1780308862.826863;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308863.9660425;1780308863.9658585;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 10;JoystickBluetooth
+1780308864.4486222;1780308864.448426;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308864.825329;1780308864.8252146;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 182;webcam
+1780308864.826179;1780308864.826082;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308864.8729126;1780308864.8720634;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 12;JoystickBluetooth
+1780308865.287946;1780308865.2870772;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308865.4085107;1780308865.4083848;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 12;JoystickBluetooth
+1780308865.5258768;1780308865.5257769;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308865.9458714;1780308865.9457695;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 10;JoystickBluetooth
+1780308866.0072176;1780308866.0071073;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308866.2466006;1780308866.2457526;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 10;JoystickBluetooth
+1780308866.604803;1780308866.6046999;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308866.784784;1780308866.7846763;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 10;JoystickBluetooth
+1780308866.8265133;1780308866.8264184;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 183;webcam
+1780308866.8272064;1780308866.8271265;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308866.9047163;1780308866.9045842;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 3;JoystickBluetooth
+1780308866.9545605;1780308866.9544475;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 50;Movil
+1780308866.954871;1780308866.954703;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 50;mainNode
+1780308868.8274584;1780308868.8257453;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;112;Frame: 184;webcam
+1780308868.8274882;1780308868.8258944;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/jBNode.py;jb_callback;20;40;Comando Joystick Bluetooth: 0;JoystickBluetooth
+1780308868.8274949;1780308868.826622;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;121;Webcam : CONNECTED;webcam
+1780308868.9547222;1780308868.9545228;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 30;Movil
+1780308868.955502;1780308868.9553647;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 30;mainNode
