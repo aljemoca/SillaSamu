@@ -97,6 +97,13 @@ class comfort:
             plt.grid(visible=True)
             plt.legend()
             plt.show()
+
+            plt.plot(angulo)
+            plt.ylabel('Angulo')
+            plt.xlabel('Samples')
+            plt.grid(visible=True)
+            plt.legend()
+            plt.show()
             
         return x,y,rt
 
@@ -154,11 +161,14 @@ class comfort:
                     self.jerk_list.append(np.mean(self.jerk_value))
                     self.rt_list.append(self.rt)
                 except:
+                    print(f"La fase: {f} no se ha podido ejecutar")
+                    self.jerk_list.append(-1)
+                    self.rt_list.append(0)
                     pass
 
             if len(fases)>1:
-                pos_r=df_r[df_r.iloc[:,0].between(fases[0][1],fases[-1][1])]
-                pos_l=df_l[df_l.iloc[:,0].between(fases[0][1],fases[-1][1])]
+                pos_r=df_r[df_r.iloc[:,0].between(fases[0][1],fases[-1][2])]   # cambiar 1 por 2 si se quieren visualizar todos los datos del Hall
+                pos_l=df_l[df_l.iloc[:,0].between(fases[0][1],fases[-1][2])]
                 self.jerk_value,self.rt=self.calcula_jerk(pos_l.iloc[:,2],pos_r.iloc[:,2],pos_l.iloc[:,0],pos_r.iloc[:,0],dibujar=dibujar)
             if dibujar:
                 plt.plot(np.abs(self.jerk_value))

@@ -23,7 +23,7 @@ import pandas as pd
 
 
 def post():
-    logger = False      #Indicar si usamos el logger o mcap cuando ponemos a False
+    logger = True     #Indicar si usamos el logger o mcap cuando ponemos a False
     fichero_salida = 'Resultados.csv'  #Nombre del fichero donde se van acumulando los resultados de los ficheros seleccionados
     sf = SeleccionFichero.SeleccionDirectorio()
     folder_name = sf.main()  # Lee los ficheros de ROS2BAG y LOGGER y los convierte a los csv correspondientes
@@ -65,8 +65,11 @@ def post():
 
     #información para guardar en el archivo Resultados.csv
     fases=np.array(fases)
+    print(jerk)
     datos=[]
     for n in np.arange(len(fases)):
+        #print(f"{fases[n,0]},{jerk[n]},{traj[n][1]}")
+        print(f"{n},{jerk[n]}")
         if Exp==0:
             datos.append([Sujeto, Exp, Modo, logger, fases[n,0], fases[n,1], fases[n,2], fases[n,3], jerk[n], distancia[n], traj[n][1][0], traj[n][1][1], traj[n][1][2] ,0,0,0])
         else:    

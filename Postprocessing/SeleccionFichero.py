@@ -70,11 +70,11 @@ class SeleccionDirectorio:
                         self.pos = res.iloc[n,0]
                         pri= df[ (df['topic']=='Ejecucion') & (df['value']=='20') ]
                         
-                        pri= df[ (df['value']=='20') ]
-                        #print(f"Resultado de pri: {pri}")
+                        #pri= df[ (df['value']=='20') ]
+                        print(f"Resultado de pri: {pri}")
                         if len(pri):
                             #if res.iloc[n,0] < pri.iloc[0,0]:
-                            self.pos = pri.iloc[0,0]
+                            self.pos = pri.iloc[-1,0]
                         
    
 #            if (len(res)>0) & (control==False) :

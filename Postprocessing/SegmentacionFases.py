@@ -65,7 +65,7 @@ class SegmentacionFases:
 #                        self.listaFases.append([self.fase, t1, t2, t2-t1])
 
                 elif self.estado == 1:  #Estado inicio de fase
-                    if ent==20:
+                    if ent==20:  #Estaba solo igual, pero quiero que cambie de fase por si no se le da al fin
                         self.estado=2
                         t1=t
                     elif ent==30:
