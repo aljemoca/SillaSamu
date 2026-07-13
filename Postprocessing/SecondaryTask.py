@@ -19,13 +19,12 @@ class SecondaryTask:
         else:
             return [0, self.ErroresComision, self.ErroresOmision]
 
-    def  encuentra_impulsos(self,df_a,df_t,busca=0):
-        #Poner busca 1 para buscar atendidos y 0 para los no atendidos
-        pos = np.where(df_a.iloc[:,2]==busca)
-        #print(pos)
-        t =  np.array(df_a.iloc[:,0])
-        t = t[pos]
-        #print( t )
+    def encuentra_impulsos_old(self,df_a,df_t,busca=0):
+        pos = np.where(df_a.iloc[:,2]==busca)[0]
+        print(pos)
+        t =  np.array(df_a.iloc[pos,0])
+        #t = t[pos]
+        print( t )
         #print( np.array(df_a['data']))
 
         tiempos = []
@@ -33,11 +32,29 @@ class SecondaryTask:
             indice = np.abs(np.array(df_t.iloc[:,0]) - tt).argmin()
         #   print(indice)
             tiempos = np.append(tiempos, np.array(df_t.iloc[:,2])[indice])
-        
+            tiempos = np.append(tt)
         self.data=np.array(tiempos)/1000
         return (self.data)
 
-    def main(self, folder_path, display=False):
+
+    def  encuentra_impulsos(self,df_a,df_t,busca=0):
+        #Poner busca 1 para buscar atendidos y 0 para los no atendidos
+        pos = np.where(df_a.iloc[:,2]==busca)[0]
+        print(pos)
+
+        tiempos = []
+        for n in np.arange(len(pos)):
+            if pos[n] < len(df_t.iloc[:,2]):
+                tt = df_t.iloc[pos[n],2]
+                tiempos=np.append(tiempos,tt)
+        #t = t[pos]
+        print( tiempos )
+        #print( np.array(df_a['data']))
+
+        self.data=np.array(tiempos)/1000
+        return (self.data)
+
+    def main(self, folder_path, fases, display=False):
 
         if folder_path:
             file_a = folder_path +'/Attended.csv'
@@ -48,6 +65,11 @@ class SecondaryTask:
 #            else:
             df_a = pd.read_csv(file_a,encoding='utf-8-sig',header=None, sep=';',quotechar='"')
             df_t = pd.read_csv(file_t,encoding='utf-8-sig',header=None, sep=';',quotechar='"')
+            ent = fases[0][1:3]
+            print(ent)
+            df_a=df_a[df_a.iloc[:, 0].between(ent[0], ent[1])]
+            df_t=df_t[df_t.iloc[:, 0].between(ent[0], ent[1])]
+            
             print(df_a.head())
             print(df_t.head())
             #if 'logger' not in folder_path:
@@ -67,10 +89,12 @@ class SecondaryTask:
             
             self.tr_at=self.encuentra_impulsos(df_a,df_t,1)  #Todos los pulsos clasificados como 1 son los atendidos
             self.tr_nat= self.encuentra_impulsos(df_a,df_t,0)  #Los pulsos clasificados como 0 son los no atendidos
+            print(self.tr_at)
+            print(self.tr_nat)
 
             self.ErroresComision = np.sum(self.tr_nat<3)
             self.ErroresOmision = np.sum(self.tr_at>3)
-            self.tr = self.tr_nat[np.where(self.tr_at<3)]
+            self.tr = self.tr_at[np.where(self.tr_at<3)]
 
             print(f"Errores de comisión: {self.ErroresComision}" )
             print(f"Errores de omision: {self.ErroresOmision}"   )

@@ -101,7 +101,7 @@ class SegmentacionFases:
             ent = self.df.iloc[n,2]
             t = self.df.iloc[n,0]
  #           if (t>=self.t_inicial) & (t<=self.t_final):
-            print(f'*****Ent:{ent},Tiempo:{t},EStado:{self.estado}')
+            print(f'*****Ent:{ent},Tiempo:{t},Estado:{self.estado}')
             if t>=self.pos:
                 if self.estado == 0:   #Estado Espera Start
                     if ent==20:
@@ -115,6 +115,7 @@ class SegmentacionFases:
                         self.estado=0
                         t2=t
                         self.listaFases.append([self.fase, t1, t2, t2-t1])
+                        break
                     if ent==20:  #Esto no es posible, peeeeero
                         t1=t
 

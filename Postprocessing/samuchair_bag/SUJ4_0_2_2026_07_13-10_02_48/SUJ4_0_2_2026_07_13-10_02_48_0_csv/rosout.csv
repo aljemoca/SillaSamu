@@ -1,0 +1,393 @@
+﻿1783929782.363979;1783929782.3639565;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/rosout';rosbag2_recorder
+1783929782.36595;1783929782.3659222;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/tactil_der';rosbag2_recorder
+1783929782.3676004;1783929782.3675632;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/random_time';rosbag2_recorder
+1783929782.372155;1783929782.3721197;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/parameter_events';rosbag2_recorder
+1783929782.37514;1783929782.375101;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/events/write_split';rosbag2_recorder
+1783929782.3774767;1783929782.3774493;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/diff_time';rosbag2_recorder
+1783929782.380592;1783929782.3805559;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/Headphones_status';rosbag2_recorder
+1783929782.3831952;1783929782.3831553;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/Attended';rosbag2_recorder
+1783929782.3834023;1783929782.3833818;./src/rosbag2_transport/recorder.cpp;record;20;365;Recording...;rosbag2_recorder
+1783929782.4332821;1783929782.3608706;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/tactil_izq';rosbag2_recorder
+1783929782.464143;1783929781.360325;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 20;mainNode
+1783929782.4666119;1783929781.3586578;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 20;Movil
+1783929782.4891965;1783929782.489079;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/frame';rosbag2_recorder
+1783929782.4913776;1783929782.49134;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/name_movil_hash';rosbag2_recorder
+1783929782.4965937;1783929782.4965513;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/directorio_grabacion';rosbag2_recorder
+1783929782.4993582;1783929782.4993007;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/tipo_exp';rosbag2_recorder
+1783929782.5030675;1783929782.5030043;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/right_wheel_steps';rosbag2_recorder
+1783929782.5050511;1783929782.50501;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/webcam_status';rosbag2_recorder
+1783929782.509311;1783929782.5092583;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/pot_esp32';rosbag2_recorder
+1783929782.5122728;1783929782.5122266;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/op_manual_asistida';rosbag2_recorder
+1783929782.515274;1783929782.5152185;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/name_movil';rosbag2_recorder
+1783929782.5187943;1783929781.3699193;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/BagControlNode.py;start_bag;20;58;Iniciando grabación: ./samuchair_bag/SUJ4_0_2_2026_07_13-10_02_48;BagControlNode
+1783929782.5196176;1783929782.5195825;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/Ejecucion';rosbag2_recorder
+1783929782.5227451;1783929782.5226986;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/tipo_exp_int';rosbag2_recorder
+1783929782.5247936;1783929782.5247586;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/Movil_status';rosbag2_recorder
+1783929782.5294168;1783929782.5293808;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/modo_exp';rosbag2_recorder
+1783929782.5313168;1783929782.5312734;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/modo_exp_int';rosbag2_recorder
+1783929782.5354736;1783929782.5354211;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/control_grabacion';rosbag2_recorder
+1783929782.5377018;1783929782.5376644;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/left_wheel_steps';rosbag2_recorder
+1783929782.538392;1783929782.380451;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 1;webcam
+1783929782.5384083;1783929782.3812976;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929782.5416331;1783929774.5503495;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:0;opasistidaNode
+1783929782.5416365;1783929775.1993525;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 1;opasistidaNode
+1783929782.5416384;1783929775.2004042;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:12;opasistidaNode
+1783929782.541641;1783929775.49938;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 0;opasistidaNode
+1783929782.5416436;1783929775.5011318;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:0;opasistidaNode
+1783929782.5416462;1783929777.3934956;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_pot;20;147;Dato publicado potenciometro: 0;opasistidaNode
+1783929782.5416486;1783929782.049795;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_izq;20;85;Dato publicado tactil izquierda: 1;opasistidaNode
+1783929782.541655;1783929782.051763;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:15;opasistidaNode
+1783929782.5416577;1783929782.0531065;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 1;opasistidaNode
+1783929782.54166;1783929782.0552897;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:5;opasistidaNode
+1783929782.5422313;1783929782.5422046;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/esp32_status';rosbag2_recorder
+1783929783.158519;1783929783.158477;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/jBnode';rosbag2_recorder
+1783929783.1622066;1783929783.1621711;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/arduino_status';rosbag2_recorder
+1783929784.3790615;1783929784.378927;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 2;webcam
+1783929784.3803406;1783929784.3796985;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929786.3794274;1783929786.3792927;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 3;webcam
+1783929786.380335;1783929786.38021;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929788.3788066;1783929788.378695;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 4;webcam
+1783929788.3795683;1783929788.3794832;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929790.3795815;1783929790.3793447;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 5;webcam
+1783929790.38037;1783929790.38026;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929790.9998505;1783929790.9994502;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_izq;20;85;Dato publicado tactil izquierda: 0;opasistidaNode
+1783929791.0007823;1783929791.0005279;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:17;opasistidaNode
+1783929791.1005406;1783929791.1004002;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 0;opasistidaNode
+1783929791.1017268;1783929791.101606;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:0;opasistidaNode
+1783929792.3788931;1783929792.3778284;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 6;webcam
+1783929792.3789322;1783929792.378651;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929793.3588552;1783929793.3578477;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 50;Movil
+1783929793.3588917;1783929793.3581378;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 50;mainNode
+1783929794.3795187;1783929794.3787334;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 7;webcam
+1783929794.3798766;1783929794.3796;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929795.8579469;1783929795.857726;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 1;Movil
+1783929795.8579795;1783929795.8578718;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 1;mainNode
+1783929796.3783007;1783929796.378175;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 8;webcam
+1783929796.3796566;1783929796.3789852;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929798.3777206;1783929798.3775847;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 9;webcam
+1783929798.3786404;1783929798.3785286;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929798.3932586;1783929798.393115;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_pot;20;147;Dato publicado potenciometro: 1;opasistidaNode
+1783929799.0494816;1783929799.0492644;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_izq;20;85;Dato publicado tactil izquierda: 1;opasistidaNode
+1783929799.0515308;1783929799.0504413;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:9;opasistidaNode
+1783929799.15046;1783929799.1503377;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 1;opasistidaNode
+1783929799.1515105;1783929799.1513805;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:0;opasistidaNode
+1783929799.3942845;1783929799.3941617;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:3;opasistidaNode
+1783929799.395133;1783929799.395038;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_pot;20;147;Dato publicado potenciometro: 2;opasistidaNode
+1783929800.3790789;1783929800.378972;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 10;webcam
+1783929800.3798475;1783929800.3797581;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929802.3793898;1783929802.3792713;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 11;webcam
+1783929802.3803058;1783929802.3801856;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929804.3792424;1783929804.3791327;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 12;webcam
+1783929804.3800678;1783929804.3798912;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929806.378947;1783929806.3788223;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 13;webcam
+1783929806.3796594;1783929806.3795807;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929807.7496789;1783929807.749547;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_izq;20;85;Dato publicado tactil izquierda: 0;opasistidaNode
+1783929807.7509654;1783929807.7508392;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:12;opasistidaNode
+1783929807.7530599;1783929807.751974;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 0;opasistidaNode
+1783929807.7536137;1783929807.7533972;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:0;opasistidaNode
+1783929808.3778384;1783929808.3777163;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 14;webcam
+1783929808.3786194;1783929808.3785229;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929809.8588767;1783929809.857842;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 50;Movil
+1783929809.8589113;1783929809.8581893;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 50;mainNode
+1783929810.3778884;1783929810.3777516;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 15;webcam
+1783929810.3788776;1783929810.378746;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929811.8591375;1783929811.85763;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 2;Movil
+1783929811.859168;1783929811.8578405;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 2;mainNode
+1783929812.3774068;1783929812.3772979;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 16;webcam
+1783929812.3781602;1783929812.3780584;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929812.7997847;1783929812.7996578;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_izq;20;85;Dato publicado tactil izquierda: 1;opasistidaNode
+1783929812.8018608;1783929812.8017197;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:10;opasistidaNode
+1783929814.3781536;1783929814.3780363;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 17;webcam
+1783929814.3790646;1783929814.3789551;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929816.377552;1783929816.3774328;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 18;webcam
+1783929816.3783243;1783929816.3782094;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929818.149808;1783929818.149676;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_izq;20;85;Dato publicado tactil izquierda: 0;opasistidaNode
+1783929818.1518338;1783929818.1516833;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:0;opasistidaNode
+1783929818.3787136;1783929818.3785934;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 19;webcam
+1783929818.3795679;1783929818.3794708;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929820.3792093;1783929820.379103;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 20;webcam
+1783929820.380165;1783929820.3798215;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929820.858397;1783929820.8577716;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 50;Movil
+1783929820.8588133;1783929820.8583717;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 50;mainNode
+1783929822.3778548;1783929822.3777127;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 21;webcam
+1783929822.378642;1783929822.378553;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929823.3580537;1783929823.3577292;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 50;Movil
+1783929823.3580813;1783929823.357988;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 50;mainNode
+1783929824.3779793;1783929824.3778594;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 22;webcam
+1783929824.3787544;1783929824.3786533;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929825.0999568;1783929825.0998366;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 1;opasistidaNode
+1783929825.1009433;1783929825.100843;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:12;opasistidaNode
+1783929825.4996293;1783929825.4994895;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 0;opasistidaNode
+1783929825.5007117;1783929825.5005789;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:0;opasistidaNode
+1783929826.3779402;1783929826.377747;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 23;webcam
+1783929826.3790162;1783929826.3785913;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929826.3932157;1783929826.3930922;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_pot;20;147;Dato publicado potenciometro: 1;opasistidaNode
+1783929827.3942063;1783929827.393175;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_pot;20;147;Dato publicado potenciometro: 2;opasistidaNode
+1783929828.3787112;1783929828.3785954;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 24;webcam
+1783929828.3797097;1783929828.3793628;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929830.3794048;1783929830.3792825;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 25;webcam
+1783929830.380522;1783929830.380102;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929832.3791785;1783929832.3790677;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 26;webcam
+1783929832.380261;1783929832.3797932;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929833.3583014;1783929833.3578253;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 3;Movil
+1783929833.3583288;1783929833.3579643;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 3;mainNode
+1783929834.3791676;1783929834.3790529;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 27;webcam
+1783929834.3800333;1783929834.379922;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929834.3941617;1783929834.3930926;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_pot;20;147;Dato publicado potenciometro: 0;opasistidaNode
+1783929834.9498343;1783929834.9497075;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_izq;20;85;Dato publicado tactil izquierda: 1;opasistidaNode
+1783929834.9509685;1783929834.9508402;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:15;opasistidaNode
+1783929836.3793583;1783929836.3792267;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 28;webcam
+1783929836.3801363;1783929836.3800511;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929838.3791525;1783929838.3790362;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 29;webcam
+1783929838.3801346;1783929838.3799489;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929840.379032;1783929840.3789055;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 30;webcam
+1783929840.3799202;1783929840.3797958;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929840.9999418;1783929840.9998155;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_izq;20;85;Dato publicado tactil izquierda: 0;opasistidaNode
+1783929841.0015798;1783929841.0009048;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:0;opasistidaNode
+1783929842.379833;1783929842.3791995;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 31;webcam
+1783929842.3802564;1783929842.3801308;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929843.3578298;1783929843.3577096;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 50;Movil
+1783929843.3590512;1783929843.3589463;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 50;mainNode
+1783929844.3790517;1783929844.3778682;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 32;webcam
+1783929844.3790874;1783929844.3785813;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929846.379058;1783929846.3779323;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 33;webcam
+1783929846.3790908;1783929846.378812;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929846.8597362;1783929846.8578937;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 4;Movil
+1783929846.8597682;1783929846.8586633;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 4;mainNode
+1783929848.377989;1783929848.3778641;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 34;webcam
+1783929848.3788059;1783929848.378642;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929849.3503742;1783929849.3494382;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 1;opasistidaNode
+1783929849.351135;1783929849.3510146;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:17;opasistidaNode
+1783929849.3943605;1783929849.3934717;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:12;opasistidaNode
+1783929849.394961;1783929849.3948355;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_pot;20;147;Dato publicado potenciometro: 2;opasistidaNode
+1783929850.3796747;1783929850.3795533;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 35;webcam
+1783929850.3805888;1783929850.3804812;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929852.379265;1783929852.3791173;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 36;webcam
+1783929852.3800547;1783929852.3799438;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929854.3792043;1783929854.3790848;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 37;webcam
+1783929854.3801475;1783929854.3799634;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929856.3791287;1783929856.3790047;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 38;webcam
+1783929856.3799257;1783929856.3798165;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929857.7497504;1783929857.749567;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 0;opasistidaNode
+1783929857.7515225;1783929857.7513394;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:0;opasistidaNode
+1783929858.377967;1783929858.3778243;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 39;webcam
+1783929858.3788605;1783929858.3787518;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929859.8592064;1783929859.857802;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 50;Movil
+1783929859.8592355;1783929859.8580923;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 50;mainNode
+1783929860.3779259;1783929860.3777826;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 40;webcam
+1783929860.3787613;1783929860.3786428;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929862.3771613;1783929862.3770285;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 41;webcam
+1783929862.3780632;1783929862.3779526;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929863.8599124;1783929863.8578248;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 50;Movil
+1783929863.859944;1783929863.8587978;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 50;mainNode
+1783929864.3777874;1783929864.3776424;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 42;webcam
+1783929864.3786073;1783929864.3784854;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929866.3774023;1783929866.3772717;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 43;webcam
+1783929866.3784137;1783929866.3781848;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929867.8592224;1783929867.857758;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 5;Movil
+1783929867.8592687;1783929867.8579743;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 5;mainNode
+1783929868.3787448;1783929868.3786266;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 44;webcam
+1783929868.3795502;1783929868.3793967;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929868.393102;1783929868.3929832;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_pot;20;147;Dato publicado potenciometro: 1;opasistidaNode
+1783929869.1999683;1783929869.199841;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 1;opasistidaNode
+1783929869.2011783;1783929869.2010462;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:6;opasistidaNode
+1783929869.3935952;1783929869.393467;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:17;opasistidaNode
+1783929869.3954468;1783929869.394488;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_pot;20;147;Dato publicado potenciometro: 0;opasistidaNode
+1783929870.3796315;1783929870.3795059;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 45;webcam
+1783929870.3805141;1783929870.3803995;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929872.0000827;1783929871.9993396;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 0;opasistidaNode
+1783929872.000467;1783929872.0003622;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:0;opasistidaNode
+1783929872.3810353;1783929872.380936;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 46;webcam
+1783929872.3817847;1783929872.381691;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929872.9998922;1783929872.9997537;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 1;opasistidaNode
+1783929873.0010462;1783929873.0009208;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:17;opasistidaNode
+1783929874.3792145;1783929874.3790867;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 47;webcam
+1783929874.3800664;1783929874.3799598;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929876.3790965;1783929876.378985;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 48;webcam
+1783929876.3798027;1783929876.379721;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929878.378073;1783929878.377933;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 49;webcam
+1783929878.3789518;1783929878.3788471;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929879.1505487;1783929879.1504009;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 0;opasistidaNode
+1783929879.1527607;1783929879.1514888;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:0;opasistidaNode
+1783929880.3781087;1783929880.3780007;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 50;webcam
+1783929880.3788958;1783929880.3787494;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929882.3584716;1783929882.3577104;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 50;Movil
+1783929882.3584836;1783929882.3578985;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 50;mainNode
+1783929882.3767269;1783929882.3765993;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 51;webcam
+1783929882.3778918;1783929882.3773422;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929884.3581178;1783929884.3578558;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 6;Movil
+1783929884.3582265;1783929884.358111;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 6;mainNode
+1783929884.3772995;1783929884.3764262;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 52;webcam
+1783929884.3773284;1783929884.3771539;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929885.3939571;1783929885.393199;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_pot;20;147;Dato publicado potenciometro: 1;opasistidaNode
+1783929886.1995294;1783929886.1993976;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_izq;20;85;Dato publicado tactil izquierda: 1;opasistidaNode
+1783929886.2013657;1783929886.201231;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:9;opasistidaNode
+1783929886.249651;1783929886.2495294;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 1;opasistidaNode
+1783929886.2511678;1783929886.2505789;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:0;opasistidaNode
+1783929886.3779247;1783929886.377793;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 53;webcam
+1783929886.378847;1783929886.3787003;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929886.3943067;1783929886.3935301;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:3;opasistidaNode
+1783929886.3943422;1783929886.3941913;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_pot;20;147;Dato publicado potenciometro: 2;opasistidaNode
+1783929888.379161;1783929888.3790429;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 54;webcam
+1783929888.3799088;1783929888.3797927;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929890.3796103;1783929890.3794844;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 55;webcam
+1783929890.3804927;1783929890.3803895;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929890.4499426;1783929890.449818;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_izq;20;85;Dato publicado tactil izquierda: 0;opasistidaNode
+1783929890.4514725;1783929890.4507012;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:12;opasistidaNode
+1783929890.5501733;1783929890.5499222;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 0;opasistidaNode
+1783929890.5521703;1783929890.5512686;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:0;opasistidaNode
+1783929892.3791203;1783929892.3790262;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 56;webcam
+1783929892.3798351;1783929892.3797462;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929894.378804;1783929894.3786795;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 57;webcam
+1783929894.379886;1783929894.3795424;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929894.8588312;1783929894.8578045;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 50;Movil
+1783929894.8592184;1783929894.858761;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 50;mainNode
+1783929896.3780086;1783929896.3778713;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 58;webcam
+1783929896.378754;1783929896.3786676;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929896.8578632;1783929896.8577366;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 7;Movil
+1783929896.8579922;1783929896.8578784;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 7;mainNode
+1783929897.6001916;1783929897.6000059;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_izq;20;85;Dato publicado tactil izquierda: 1;opasistidaNode
+1783929897.6016831;1783929897.6013756;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:10;opasistidaNode
+1783929897.6995552;1783929897.699415;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 1;opasistidaNode
+1783929897.7010992;1783929897.700972;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:3;opasistidaNode
+1783929898.382497;1783929898.3823838;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 59;webcam
+1783929898.38332;1783929898.3831983;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929900.3775146;1783929900.377383;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 60;webcam
+1783929900.3784592;1783929900.3781757;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929901.6513696;1783929901.6501849;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_izq;20;85;Dato publicado tactil izquierda: 0;opasistidaNode
+1783929901.6525323;1783929901.6514683;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:12;opasistidaNode
+1783929901.75139;1783929901.7503078;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 0;opasistidaNode
+1783929901.7534845;1783929901.751945;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:0;opasistidaNode
+1783929902.3875744;1783929902.3870573;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 61;webcam
+1783929902.3936691;1783929902.3918667;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929903.8588216;1783929903.857611;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 50;Movil
+1783929903.858857;1783929903.858588;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 50;mainNode
+1783929904.3788035;1783929904.3786783;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 62;webcam
+1783929904.3796618;1783929904.3794496;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929906.3583822;1783929906.3578057;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 8;Movil
+1783929906.3583934;1783929906.3579235;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 8;mainNode
+1783929906.377795;1783929906.377674;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 63;webcam
+1783929906.378616;1783929906.3785188;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929906.9005022;1783929906.9003847;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_izq;20;85;Dato publicado tactil izquierda: 1;opasistidaNode
+1783929906.9029307;1783929906.9014783;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:10;opasistidaNode
+1783929906.9029634;1783929906.9025872;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 1;opasistidaNode
+1783929906.9053128;1783929906.9036138;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:3;opasistidaNode
+1783929908.2996745;1783929908.2995322;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_izq;20;85;Dato publicado tactil izquierda: 0;opasistidaNode
+1783929908.3015254;1783929908.301354;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:12;opasistidaNode
+1783929908.3779392;1783929908.3778205;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 64;webcam
+1783929908.3786337;1783929908.3785553;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929908.549609;1783929908.549476;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 0;opasistidaNode
+1783929908.5506356;1783929908.5505333;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:0;opasistidaNode
+1783929910.1495812;1783929910.1494448;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_izq;20;85;Dato publicado tactil izquierda: 1;opasistidaNode
+1783929910.1507401;1783929910.1505542;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:10;opasistidaNode
+1783929910.3495421;1783929910.3494003;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 1;opasistidaNode
+1783929910.3506482;1783929910.350499;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:3;opasistidaNode
+1783929910.3773918;1783929910.3772733;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 65;webcam
+1783929910.3782234;1783929910.3781226;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929910.3941517;1783929910.3935337;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:5;opasistidaNode
+1783929910.3949218;1783929910.3948145;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_pot;20;147;Dato publicado potenciometro: 0;opasistidaNode
+1783929912.3793247;1783929912.3791974;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 66;webcam
+1783929912.3800507;1783929912.3799539;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929914.379224;1783929914.3791091;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 67;webcam
+1783929914.3801236;1783929914.3800154;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929916.3778222;1783929916.3776984;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 68;webcam
+1783929916.3785856;1783929916.3784769;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929917.9995954;1783929917.999458;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_izq;20;85;Dato publicado tactil izquierda: 0;opasistidaNode
+1783929918.0006626;1783929918.0005465;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:17;opasistidaNode
+1783929918.0995297;1783929918.099414;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 0;opasistidaNode
+1783929918.1019313;1783929918.1010864;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:0;opasistidaNode
+1783929918.3790925;1783929918.3789675;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 69;webcam
+1783929918.379962;1783929918.3798454;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929919.8582003;1783929919.8577068;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 50;Movil
+1783929919.85821;1783929919.8580253;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 50;mainNode
+1783929920.3780217;1783929920.3778825;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 70;webcam
+1783929920.3788166;1783929920.3787117;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929921.857857;1783929921.85767;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 9;Movil
+1783929921.858963;1783929921.8578591;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 9;mainNode
+1783929922.3780367;1783929922.3778994;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 71;webcam
+1783929922.3791237;1783929922.3789942;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929924.3781812;1783929924.378048;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 72;webcam
+1783929924.3791122;1783929924.378999;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929924.3933842;1783929924.3932576;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_pot;20;147;Dato publicado potenciometro: 1;opasistidaNode
+1783929925.0495968;1783929925.04946;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_izq;20;85;Dato publicado tactil izquierda: 1;opasistidaNode
+1783929925.0508032;1783929925.0506678;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:9;opasistidaNode
+1783929925.394356;1783929925.3935719;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:15;opasistidaNode
+1783929925.3952255;1783929925.394946;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_pot;20;147;Dato publicado potenciometro: 0;opasistidaNode
+1783929926.3783445;1783929926.3782094;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 73;webcam
+1783929926.3793323;1783929926.379204;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929926.7496138;1783929926.7494714;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_izq;20;85;Dato publicado tactil izquierda: 0;opasistidaNode
+1783929926.7507591;1783929926.750637;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:0;opasistidaNode
+1783929928.1502929;1783929928.1494167;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_izq;20;85;Dato publicado tactil izquierda: 1;opasistidaNode
+1783929928.1519008;1783929928.1508596;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:15;opasistidaNode
+1783929928.3782613;1783929928.3781228;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 74;webcam
+1783929928.379085;1783929928.378974;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929928.399658;1783929928.3995407;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_izq;20;85;Dato publicado tactil izquierda: 0;opasistidaNode
+1783929928.40071;1783929928.400599;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:0;opasistidaNode
+1783929929.3955748;1783929929.3953528;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_pot;20;147;Dato publicado potenciometro: 1;opasistidaNode
+1783929930.3810313;1783929930.3809059;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 75;webcam
+1783929930.3818848;1783929930.381772;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929930.3931513;1783929930.3929868;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_pot;20;147;Dato publicado potenciometro: 0;opasistidaNode
+1783929931.393413;1783929931.3932898;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_pot;20;147;Dato publicado potenciometro: 1;opasistidaNode
+1783929932.3495488;1783929932.3494158;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_izq;20;85;Dato publicado tactil izquierda: 1;opasistidaNode
+1783929932.3525114;1783929932.3505375;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:9;opasistidaNode
+1783929932.3801792;1783929932.3793733;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 76;webcam
+1783929932.380908;1783929932.3802605;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929932.394055;1783929932.3935685;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:15;opasistidaNode
+1783929932.3943079;1783929932.394208;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_pot;20;147;Dato publicado potenciometro: 0;opasistidaNode
+1783929934.3781385;1783929934.3780193;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 77;webcam
+1783929934.3797038;1783929934.3789198;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929934.5997941;1783929934.5996616;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_izq;20;85;Dato publicado tactil izquierda: 0;opasistidaNode
+1783929934.601894;1783929934.601758;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:0;opasistidaNode
+1783929935.3933253;1783929935.3931696;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_pot;20;147;Dato publicado potenciometro: 1;opasistidaNode
+1783929936.3794775;1783929936.3793306;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 78;webcam
+1783929936.380394;1783929936.3802779;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929936.393376;1783929936.392886;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_pot;20;147;Dato publicado potenciometro: 1;opasistidaNode
+1783929937.0496798;1783929937.049566;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_izq;20;85;Dato publicado tactil izquierda: 1;opasistidaNode
+1783929937.051373;1783929937.0505013;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:9;opasistidaNode
+1783929937.393643;1783929937.3935122;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_pot;20;147;Dato publicado potenciometro: 1;opasistidaNode
+1783929938.3795722;1783929938.3794475;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 79;webcam
+1783929938.3803513;1783929938.3802729;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929940.379575;1783929940.37944;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 80;webcam
+1783929940.3804047;1783929940.3802965;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929941.8495078;1783929941.84939;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_izq;20;85;Dato publicado tactil izquierda: 0;opasistidaNode
+1783929941.850859;1783929941.8504527;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:0;opasistidaNode
+1783929942.378026;1783929942.3778958;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 81;webcam
+1783929942.378925;1783929942.3788095;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929943.3578298;1783929943.3577037;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 50;Movil
+1783929943.358019;1783929943.357853;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 50;mainNode
+1783929944.3793225;1783929944.3791962;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 82;webcam
+1783929944.380201;1783929944.3800046;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929946.3786342;1783929946.3785014;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 83;webcam
+1783929946.3796177;1783929946.3794606;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929948.3589633;1783929948.3577325;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 10;Movil
+1783929948.3589945;1783929948.3578708;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 10;mainNode
+1783929948.3777263;1783929948.3776097;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 84;webcam
+1783929948.3784137;1783929948.3783424;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929949.6996174;1783929949.6994772;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_izq;20;85;Dato publicado tactil izquierda: 1;opasistidaNode
+1783929949.7013123;1783929949.700581;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:9;opasistidaNode
+1783929950.049772;1783929950.0495474;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 1;opasistidaNode
+1783929950.052573;1783929950.0505993;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:0;opasistidaNode
+1783929950.3793118;1783929950.3791578;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 85;webcam
+1783929950.380345;1783929950.3800695;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929950.3943698;1783929950.393617;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:3;opasistidaNode
+1783929950.3944345;1783929950.3943505;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_pot;20;147;Dato publicado potenciometro: 2;opasistidaNode
+1783929952.3795674;1783929952.3794425;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 86;webcam
+1783929952.380359;1783929952.3802404;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929953.7997026;1783929953.799578;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_izq;20;85;Dato publicado tactil izquierda: 0;opasistidaNode
+1783929953.8006926;1783929953.8006084;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:12;opasistidaNode
+1783929954.0997326;1783929954.099566;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_izq;20;85;Dato publicado tactil izquierda: 1;opasistidaNode
+1783929954.1017146;1783929954.1005855;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:3;opasistidaNode
+1783929954.3793352;1783929954.3791816;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 87;webcam
+1783929954.3802805;1783929954.3801703;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929955.4996386;1783929955.4993105;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_der;20;90;Dato publicado tactil derecha: 0;opasistidaNode
+1783929955.5003157;1783929955.5002422;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:10;opasistidaNode
+1783929956.3795605;1783929956.379431;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 88;webcam
+1783929956.3803365;1783929956.3802142;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929956.6012938;1783929956.5993676;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;update_tactil_izq;20;85;Dato publicado tactil izquierda: 0;opasistidaNode
+1783929956.601425;1783929956.6004515;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/opasistidaNode.py;timer_callback;20;109;Dato publicado Navegación Táctil:0;opasistidaNode
+1783929958.358773;1783929958.357794;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 50;Movil
+1783929958.35947;1783929958.3591743;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 50;mainNode
+1783929958.3780482;1783929958.377929;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;113;Frame: 89;webcam
+1783929958.3789942;1783929958.378866;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/webcamNode.py;timer_callback;20;122;Webcam : CONNECTED;webcam
+1783929959.3584046;1783929959.357776;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 30;Movil
+1783929959.3584142;1783929959.3581007;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 30;mainNode

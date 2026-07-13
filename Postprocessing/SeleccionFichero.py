@@ -61,21 +61,29 @@ class SeleccionDirectorio:
             print(archivo)  # Imprime la ruta completa limpia
             df = pd.read_csv(archivo,sep=';',encoding='utf-8-sig')
             res = df[(df['topic']=='directorio_grabacion') & (df['value']==self.dir_bus)   ]
-            print(f"resultados encontrados {str(res['timestamp_s']),res['value']}, subcadena {self.Cadena}")
+            print(f"Resultados encontrados {str(res['timestamp_s']),res['value']}, subcadena {self.Cadena}")
 
             if (len(res)>0):
                 for n in np.arange(len(res)):
                     if self.Cadena in res.iloc[n,2]:
                         control = True
                         self.pos = res.iloc[n,0]
-                        pri= df[ (df['topic']=='Ejecucion') & (df['value']=='20') ]
+                        pri= df[ (df['topic']=='Ejecucion') & (df['value']=='20')   ]
                         
                         #pri= df[ (df['value']=='20') ]
                         print(f"Resultado de pri: {pri}")
+
                         if len(pri):
+                            #fin = df[ (df['topic']=='Ejecucion') & (df['value']=='30') ]
                             #if res.iloc[n,0] < pri.iloc[0,0]:
-                            self.pos = pri.iloc[-1,0]
-                        
+                            #self.pos = pri.iloc[-1,0] #No recuerdo bien por qué puse esto, pero no funciona siempre
+                            for npri in np.arange(len(pri)):
+                                if self.pos < pri.iloc[npri,0]:
+                                    self.pos = pri.iloc[npri,0]
+                                    break
+                            #self.pos = pri.iloc[0,0] #Algunas veces hay que usar -1,0, como está en el renglón de arriba
+
+
    
 #            if (len(res)>0) & (control==False) :
 #                if self.Cadena in str(res['value']):
@@ -101,10 +109,12 @@ class SeleccionDirectorio:
 #            if (len(res)>0) and (control==True):
 #                if self.Cadena not in str(res['value']):
 #                    control=False
-            res = df[(df['topic']=='Ejecucion') & (df['value']==30) ]
+            res = df[(df['topic']=='Ejecucion') & (df['value']=='30') ]
+            print(f"Res:{res}")
             if (len(res)>0) and (control==True):
                 if self.pos is not None:
-                    if res['timestamp_s']>self.pos:
+                    res = res[res['timestamp_s']>self.pos ]
+                    if len(res):
                         control = False
  
 

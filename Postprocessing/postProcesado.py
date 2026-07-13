@@ -23,7 +23,7 @@ import pandas as pd
 
 
 def post():
-    logger = True     #Indicar si usamos el logger o mcap cuando ponemos a False
+    logger = True  #Indicar si usamos el logger o mcap cuando ponemos a False
     fichero_salida = 'Resultados.csv'  #Nombre del fichero donde se van acumulando los resultados de los ficheros seleccionados
     sf = SeleccionFichero.SeleccionDirectorio()
     folder_name = sf.main()  # Lee los ficheros de ROS2BAG y LOGGER y los convierte a los csv correspondientes
@@ -57,7 +57,8 @@ def post():
         print('--------------------------------')
     else:
         st = SecondaryTask.SecondaryTask()
-        out_st = st.main(folder_path=csv_folder_name,display=True)
+        print(f'Fases:{fases}')
+        out_st = st.main(folder_path=csv_folder_name,fases=fases,display=True)
         print('--------------------------------')                
         print("Secondary Task")
         print(out_st)
