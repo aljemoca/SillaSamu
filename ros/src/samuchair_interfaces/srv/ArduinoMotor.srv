@@ -1,0 +1,8 @@
+string  command
+uint8  x
+uint8  y
+---
+bool status
+string out
+uint8 x
+uint8 y

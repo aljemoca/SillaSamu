@@ -1,0 +1,53 @@
+﻿1784187583.5251732;1784187583.5251577;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/rosout';rosbag2_recorder
+1784187583.5267296;1784187583.5267038;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/events/write_split';rosbag2_recorder
+1784187583.5268953;1784187583.5268805;./src/rosbag2_transport/recorder.cpp;record;20;365;Recording...;rosbag2_recorder
+1784187583.5948272;1784187583.5123215;./src/rosbag2_transport/recorder.cpp;RecorderImpl;20;190;Press SPACE for pausing/resuming;rosbag2_recorder
+1784187583.5949528;1784187583.523082;./src/rosbag2_transport/recorder.cpp;record;20;353;Listening for topics...;rosbag2_recorder
+1784187583.5949588;1784187583.5231287;./src/rosbag2_transport/recorder.cpp;event_publisher_thread_main;20;371;Event publisher thread: Starting;rosbag2_recorder
+1784187584.0345757;1784187575.704923;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilModo;20;299;Comando Movil Modo: Modo:3;mainNode
+1784187584.0345979;1784187582.204664;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 20;mainNode
+1784187584.038901;1784187584.038872;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/control_grabacion';rosbag2_recorder
+1784187584.0423102;1784187584.0422752;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/jBnode';rosbag2_recorder
+1784187584.0445402;1784187584.0445116;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/op_manual_asistida';rosbag2_recorder
+1784187584.0480046;1784187584.0479507;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/tactil_der';rosbag2_recorder
+1784187584.0504043;1784187584.05037;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/tactil_izq';rosbag2_recorder
+1784187584.1539774;1784187584.1539454;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/arduino_status';rosbag2_recorder
+1784187584.1574042;1784187584.157347;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/directorio_grabacion';rosbag2_recorder
+1784187584.1623201;1784187584.162283;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/parameter_events';rosbag2_recorder
+1784187585.620321;1784187575.7064905;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/BagControlNode.py;nombre_callback;20;39;Nombre seleccionado: ./samuchair_bag/SUJ5_1_3_2026_07_16-09_39_35;BagControlNode
+1784187585.6203346;1784187582.216251;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/BagControlNode.py;start_bag;20;58;Iniciando grabación: ./samuchair_bag/SUJ5_1_3_2026_07_16-09_39_35;BagControlNode
+1784187585.6846297;1784187585.6845918;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/right_wheel_steps';rosbag2_recorder
+1784187585.6881948;1784187585.688145;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/pot_esp32';rosbag2_recorder
+1784187585.6920724;1784187585.69202;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/webcam_status';rosbag2_recorder
+1784187585.6948662;1784187575.7040002;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;276;Dato publicado Modo: Modo:3;Movil
+1784187585.6948953;1784187575.7053185;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;281;Dato publicado Modo Int: 3;Movil
+1784187585.6948998;1784187582.2060966;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 20;Movil
+1784187585.6960776;1784187585.6960297;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/frame';rosbag2_recorder
+1784187585.6991003;1784187585.699068;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/left_wheel_steps';rosbag2_recorder
+1784187585.7023222;1784187585.702278;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/esp32_status';rosbag2_recorder
+1784187585.8067899;1784187585.8067572;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/name_movil';rosbag2_recorder
+1784187585.8098733;1784187585.8098366;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/name_movil_hash';rosbag2_recorder
+1784187585.8141608;1784187585.8141286;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/modo_exp_int';rosbag2_recorder
+1784187585.817393;1784187585.8173487;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/modo_exp';rosbag2_recorder
+1784187585.8205707;1784187585.8205292;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/Movil_status';rosbag2_recorder
+1784187585.8236616;1784187585.823629;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/tipo_exp_int';rosbag2_recorder
+1784187585.8255198;1784187585.8254867;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/Ejecucion';rosbag2_recorder
+1784187585.8294795;1784187585.8294373;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/tipo_exp';rosbag2_recorder
+1784187586.01879;1784187579.3803802;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_callback;20;282;Publicado: "0";ST
+1784187586.0188272;1784187579.3814054;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;start_random_timer;20;235;Dato publicado ST (ms): 14074;ST
+1784187586.018832;1784187584.2760742;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_lectura;20;250; Timeout (ms): 5000;ST
+1784187586.0362399;1784187586.0362022;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/Headphones_status';rosbag2_recorder
+1784187586.0392547;1784187586.0392163;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/Attended';rosbag2_recorder
+1784187586.0434139;1784187586.0433297;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/diff_time';rosbag2_recorder
+1784187586.0456958;1784187586.0456543;./src/rosbag2_transport/recorder.cpp;subscribe_topic;20;569;Subscribed to topic '/random_time';rosbag2_recorder
+1784187593.917975;1784187593.9178421;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_callback;20;282;Publicado: "1";ST
+1784187593.9190392;1784187593.918932;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;start_random_timer;20;235;Dato publicado ST (ms): 8663;ST
+1784187595.2764254;1784187595.2763073;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_lectura;20;260;Dato medido ST (ms): 481;ST
+1784187603.0456412;1784187603.0455263;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_callback;20;282;Publicado: "1";ST
+1784187603.0468385;1784187603.0467248;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;start_random_timer;20;235;Dato publicado ST (ms): 13811;ST
+1784187604.2765317;1784187604.2764184;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_lectura;20;260;Dato medido ST (ms): 486;ST
+1784187617.321002;1784187617.320883;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_callback;20;282;Publicado: "0";ST
+1784187617.3222702;1784187617.3221269;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;start_random_timer;20;235;Dato publicado ST (ms): 9565;ST
+1784187622.2764063;1784187622.2762878;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/secondarytaskNode.py;timer_lectura;20;250; Timeout (ms): 5000;ST
+1784187622.7052424;1784187622.7043798;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/movilNode.py;timer_callback;20;300;Dato publicado Fase Ejecucion: 30;Movil
+1784187622.7052534;1784187622.7045436;/home/samuchair/ros2_ws/install/samuchair/lib/python3.12/site-packages/samuchair/mainNode.py;callback_subMovilEjecucion;20;324;Comando Movil Ejecucion: 30;mainNode
